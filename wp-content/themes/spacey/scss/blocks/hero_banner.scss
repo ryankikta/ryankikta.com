@@ -1,0 +1,20 @@
+.acf-block-body {
+    .header_graphic_bg .header_graphic, .container {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+
+        h2 {
+            color: #fff;
+        }
+    }
+    .header_graphic_bg .header_graphic {
+        z-index: 1 !important;
+    }
+
+    .container {
+        z-index: 2;
+    }
+
+}

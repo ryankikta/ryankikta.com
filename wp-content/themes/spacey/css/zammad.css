@@ -1,0 +1,107 @@
+.zammad-form {
+  width: 100%;
+}
+
+.zammad-form h1, .zammad-form h2 {
+  margin-top: 0;
+}
+
+.zammad-form .btn {
+  min-width: 0;
+  padding-left: 45px;
+  padding-right: 45px;
+  display: inline-block;
+  width: auto;
+  font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #361181;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    padding: 16px 20px;
+    min-width: 250px;
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    transition: all 0.2s;
+    display: block;
+    background: #0B42D8;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.zammad-form .form-group {
+  margin-bottom: 15px;
+}
+
+.zammad-form .form-control {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.zammad-form .has-error .form-control {
+  border-color: #a94442;
+}
+.zammad-form .has-error label {
+  color: #a94442;
+}
+
+.zammad-form label {
+  color: white;
+}
+
+.zammad-form .js-thankyou {
+  text-align: center;
+  min-height: 120px;
+}
+
+.zammad-form-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 99999;
+}
+
+.zammad-form-modal:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+.zammad-form-modal-backdrop {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-color: black;
+}
+
+.zammad-form-modal-body {
+    text-align: left;
+    background: white;
+    border-radius: 5px;
+    padding: 24px 24px 22px;
+    width: 99.5%;
+    max-width: 60em;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 0 0 50px rgba(0,0,0,.7);
+    color: #949494;
+    background-image: url(https://storage.googleapis.com/pa-assets/uploads/solutions/plan-overview-banner.svg);
+    background-size: cover;
+    border: 10px solid white;
+}

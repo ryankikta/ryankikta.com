@@ -1,0 +1,137 @@
+/* mixins
+-------------------------------------------------------------------*/
+
+
+/* styles
+-------------------------------------------------------------------*/
+.sidebar {
+    font-family: 'Fira Sans', sans-serif;
+    width: 100vw;
+    position: relative;
+    background: url('/wp-content/themes/ryankikta/images/sidebar_mobile.svg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 0 -2vw;
+    padding: 20px 2vw;
+
+    @include lg {
+        background: transparent;
+        margin: 0;
+        padding: 0;
+        width: 260px;
+        height: 700px;
+        flex-grow: 0;
+        padding-top: 40px;
+    }
+
+    @include xl {
+        width: 300px;
+        height: 720px;
+    }
+
+    &_bg {
+        display: none;
+        @include lg {
+            display: block;
+        }
+
+        z-index: -1;
+        top: 0;
+        left: -2vw;
+        @include lg {
+            left: -9vw;
+        }
+        @include xl {
+            left: -5vw;
+        }
+    }
+    &_name {
+        font-size: 35px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $white;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        &:hover {
+            color: $white;
+            text-decoration: none;
+        }
+
+        &_icon {
+            margin-right: 15px;
+        }
+    }
+    &_menu {
+        list-style-type: none;
+        padding: 0 0 0 15px;
+        margin: 0;
+
+        display: none;
+        @include lg {
+            display: block !important;
+        }
+
+        &_link {
+            font-family: 'Fira Sans', sans-serif;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: rgba($white, 0.8);
+            font-weight: 400;
+            font-size: 18px;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+
+            &:hover {
+                color: $white;
+                text-decoration: none;
+            }
+            &_icon {
+                margin-right: 10px;
+                .icon_blue {
+                    transition: all 0.25s;
+                }
+            }
+
+            &.active {
+                font-weight: 500;
+
+                .sidebar_menu_link_icon .icon_blue {
+                    fill: $blueFont !important;
+                }
+            }
+
+            &_dropdown_arrow {
+                display: inline-block;
+                margin-left: 10px;
+            }
+        }
+    }
+    &_submenu {
+        list-style-type: none;
+        display: none;
+        &_link {
+            font-family: 'Fira Sans', sans-serif;
+            text-decoration: none;
+            text-transform: none;
+            font-size: 16px;
+            margin-top: 10px;
+            display: inline-block;
+            color: $white;
+            &:hover {
+                color: $white;
+                text-decoration: none;
+            }
+
+            &.active {
+                font-weight: 500;
+            }
+        }
+    }
+}

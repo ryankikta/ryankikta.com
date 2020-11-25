@@ -1,0 +1,256 @@
+# Translation of Plugins - TreePress - Development Readme (trunk) in Turkish
+# This file is distributed under the same license as the Plugins - TreePress - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: tr\n"
+"Project-Id-Version: Plugins - TreePress - Development Readme (trunk)\n"
+
+#. Found in description list item.
+msgid "Include any field data in the family tree display"
+msgstr "Soy ağacı ekranına herhangi bir alan verisini dahil etme"
+
+#. Found in description list item.
+msgid "Style your family tree to suit your site"
+msgstr "Soy ağacınızı sitenize uyacak şekilde stillendirin"
+
+#. Screenshot description.
+msgid "Export data (Premium version)"
+msgstr "Verileri dışa aktar (Premium sürüm)"
+
+#. Screenshot description.
+msgid "Import data (Premium version)"
+msgstr "Verileri içe aktar (Premium sürüm)"
+
+#. Screenshot description.
+msgid "Family Groups allow you to control multiple trees (Premium version)"
+msgstr "Aile Grupları, birden fazla ağacı kontrol etmenizi sağlar (Premium sürüm)"
+
+#. Screenshot description.
+msgid "Options Tab 3 - Control the colours and appearance of the tree"
+msgstr "Seçenekler Sekmesi 3 - Ağacın renklerini ve görünümünü kontrol etme"
+
+#. Screenshot description.
+msgid "Options Tab 2 - Control the information displayed"
+msgstr "Seçenekler Sekmesi 2 - Görüntülenen bilgileri kontrol eder"
+
+#. Screenshot description.
+msgid "Options Tab 1 - Shortcodes"
+msgstr "Seçenekler Sekmesi 1 - Kısa kodlar"
+
+#. Screenshot description.
+msgid "Add Family Member page"
+msgstr "Aile Üyesi sayfası Ekle"
+
+#. Screenshot description.
+msgid "Sample Ancestor profile"
+msgstr "Örnek Ata profili"
+
+#. Screenshot description.
+msgid "Sample family page"
+msgstr "Örnek Aile Sayfası"
+
+#. Screenshot description.
+msgid "Front end view - zoomed in to show detail"
+msgstr " Ekran görüntüsü - ayrıntı göstermek için yakınlaştırılmış"
+
+#. Screenshot description.
+msgid "Front end view - zoomed out to show whole tree"
+msgstr "Ekran görüntüsü - ayrıntı göstermek için uzaklaştırılmış"
+
+#. Found in changelog list item.
+msgid "Bug fix on import"
+msgstr "İçe aktarımda hata düzeltmesi"
+
+#. Found in changelog list item.
+msgid "First Release"
+msgstr "İlk Sürüm"
+
+#. Found in faq paragraph.
+msgid "Yes! You can earn 20% on sales of our Premium version by linking to our website or WordPress page - check out the Affiliation link in the plugin sidebar after installing."
+msgstr "Evet! Web sitemize veya WordPress sayfamıza bağlanarak Premium sürümümüzün satışlarında % 20 kazanabilirsiniz - yükledikten sonra eklenti kenar çubuğundaki Ortaklık bağlantısını kontrol edin."
+
+#. Found in faq paragraph.
+msgid "Make sure the free version is disabled or removed to avoid this error message."
+msgstr "Bu hata iletisini önlemek için ücretsiz sürümün devre dışı bırakıldığından veya kaldırıldığından emin olun."
+
+#. Found in faq paragraph.
+msgid "Yes, with the Pro version"
+msgstr "Evet, Pro sürümüyle"
+
+#. Found in faq paragraph.
+msgid "Yes."
+msgstr "Evet."
+
+#. Found in faq header.
+msgid "Do you have an affiliate program?"
+msgstr "Bir ortaklık programınız var mı?"
+
+#. Found in faq header.
+msgid "I get an error 'Cannot redeclare...etc' when adding the Premium version.  How can I stop this?"
+msgstr "Premium sürümde ekleme yaparken  'Cannot redeclare...etc' hatası alıyorum. Bunu nasıl engelleyebilirim?"
+
+#. Found in faq header.
+msgid "Can I import/export Gedcom?"
+msgstr "Gedcom'u içe / dışa aktarabilir miyim?"
+
+#. Found in faq header.
+msgid "Does TreePress support WordPress multisite installation?"
+msgstr "TreePress, WordPress çoklu site kurulumunu destekliyor mu?"
+
+#. Found in installation paragraph.
+msgid "If you are unable to use any of the methods due to internet connectivity and file permission issues, then you can use this method-"
+msgstr "İnternet bağlantısı ve dosya izni sorunları nedeniyle herhangi bir yöntemi kullanamıyorsanız, bu yöntemi kullanabilirsiniz."
+
+#. Found in installation paragraph.
+msgid "If your server is not connected to the Internet, then you can use this method-"
+msgstr "Sunucunuz İnternet’e bağlı değilse, bu yöntemi kullanabilirsiniz."
+
+#. Found in installation list item.
+msgid "Activate the plugin."
+msgstr "Eklentiyi etkinleştirin."
+
+#. Found in installation list item.
+msgid "Navigate to Plugins -&gt; Installed"
+msgstr "Eklentilere Git -&gt; Kurulmuş"
+
+#. Found in installation list item.
+msgid "Log in to your WordPress dashboard."
+msgstr "WordPress yönetici panelinize giriş yapın."
+
+#. Found in installation list item.
+msgid "Upload the folder to wp-content/plugins/"
+msgstr "Klasörü wp-content / plugins / konumuna yükle"
+
+#. Found in installation list item.
+msgid "Launch your favourite FTP client. Such as FileZilla, FireFTP, CyberDuck etc. If you are a more advanced user, then you can use SSH too."
+msgstr "En sevdiğiniz FTP istemcisini başlatın. FileZilla, FireFTP, CyberDuck vb. Gibi daha gelişmiş bir kullanıcıysanız, SSH'yi de kullanabilirsiniz."
+
+#. Found in installation list item.
+msgid "Unzip the file."
+msgstr "Dosyayı açın."
+
+#. Found in installation list item.
+msgid "Click 'Choose File', select the plugin file and click install."
+msgstr "'Dosya Seç'i tıklayın, eklenti dosyasını seçin ve yükle'yi tıklayın."
+
+#. Found in installation list item.
+msgid "Login to your site’s admin panel and navigate to Plugins -&gt; Add New -&gt; Upload."
+msgstr "Sitenizin yönetici paneline giriş yapın ve Eklentiler'e gidin -&gt; Yeni Ekle -&gt; Yükleyin."
+
+#. Found in installation list item.
+msgid "Download the plugin by clicking on the blue 'Download' button above. A ZIP file will be downloaded."
+msgstr "Eklentiyi yukarıdaki mavi 'İndir' düğmesine tıklayarak indirin. Bir ZIP dosyası indirilecektir."
+
+#. Found in installation header.
+msgid "Install Using FTP"
+msgstr "FTP Kullanarak Kurun"
+
+#. Found in installation header.
+msgid "Manual Install From WordPress Dashboard"
+msgstr "WordPress Yönetici Panelinden Manuel Yükleme"
+
+#. Found in description paragraph.
+msgid "This plugin includes -"
+msgstr "Eklenti içeriği"
+
+#. Found in description paragraph.
+msgid "A new, fully supported, plugin for family history enthusiasts and genealogists enabling you to display a family tree and family informaton on your website."
+msgstr "Web sitenizde bir aile ağacı ve aile bilgisi görüntülemenizi sağlayan yeni (2019) tam aile destekli aile öyküsü meraklıları ve şecere uzmanları için bir eklenti."
+
+#. Found in description paragraph.
+msgid "<strong>Easily display your family tree on your blog</strong>"
+msgstr "<strong>Aile ağacınızı kolayca blogunuzda görüntüleyin</strong>"
+
+#. Found in description list item.
+msgid "<a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=A896PF8TLT654&amp;source=wordpresspluginpage\">Donate to support plugin development</a>"
+msgstr "<a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=A896PF8TLT654&amp;source=wordpresspluginpage\">Eklentinin geliştirilmesi için bağış yapınız</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://www.treepress.net/shop/\">Pro Version</a>"
+msgstr "<a href=\"https://www.treepress.net/shop/\">Premium Versiyon</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://www.treepress.net\">Project Site</a>"
+msgstr "<a href=\"https://www.treepress.net\">Proje Sitesi</a>"
+
+#. Found in description list item.
+msgid "<a href=\"https://www.treepress.net/docs/\">Documentation</a>"
+msgstr "<a href=\"https://www.treepress.net/docs/\">Dökümantasyon </a>"
+
+#. Found in description list item.
+msgid "Add your own fields to the family member page to track any information you wish"
+msgstr "İstediğiniz bilgileri takip etmek için kendi alanlarınızı aile üyesi sayfasına ekleyin"
+
+#. Found in description list item.
+msgid "Multiple additional fields for recording different facts"
+msgstr "Farklı unsurları kaydetmek için birden fazla ek alan"
+
+#. Found in description list item.
+msgid "Add photos to tree view"
+msgstr "Ağaç görünümüne fotoğraf ekle"
+
+#. Found in description list item.
+msgid "Display an unlimited number of generations in a single tree "
+msgstr "Tek bir ağaçta sınırsız sayıda nesneyi görüntüleme"
+
+#. Found in description list item.
+msgid "Create multiple trees – ideal for separate families or to record alternative possible genealogies"
+msgstr "Birden fazla ağaç oluşturun - ayrı aileler için ideal veya alternatif soy kütüklerini kaydetmek"
+
+#. Found in description list item.
+msgid "Import and export Gedcom format files"
+msgstr "Gedcom formatındaki dosyaları içe ve dışa aktarma"
+
+#. Found in description list item.
+msgid "Zoom in/out of larger trees &amp; drag tree on screen for better viewing"
+msgstr "Daha büyük aile ağaçlarını yakınlaştırın ve uzaklaştırın. daha iyi görüntüleme için ağacı ekranda sürükleyin"
+
+#. Found in description list item.
+msgid "Display a list of all family members in the family listing page"
+msgstr "Aile listeleme sayfasında, tüm aile üyelerinin listesini görüntüleyin."
+
+#. Found in description list item.
+msgid "Display each family member’s information on an individual page"
+msgstr "Her aile üyesinin bilgilerini ayrı bir sayfada görüntüleyin"
+
+#. Found in description list item.
+msgid "Display a family tree with links to further information"
+msgstr "Daha fazla bilgi için bağlantıları olan bir soy ağacı görüntüleyin"
+
+#. Found in description list item.
+msgid "Specify any person as the tree ‘root’ with shortcode"
+msgstr "Herhangi bir kişiyi kısa kodlu bir soyağacında \"root\" olarak belirleyin"
+
+#. Found in description list item.
+msgid "Add unlimited family members, including data such as gender, DOB, DOD, image"
+msgstr "Cinsiyet, Doğum Günü, Vefat günü, resim gibi veriler dahil olmak üzere sınırsız aile üyesi ekleyin"
+
+#. Found in description list item.
+msgid "Display a family tree with up to 200 family members in WordPress"
+msgstr "WordPress'te 200 aile üyesine kadar soy ağacını görüntüleyin"
+
+#. Found in description header.
+msgid "Links"
+msgstr "Linkler"
+
+#. Found in description header.
+msgid "TreePress Premium"
+msgstr "TreePress Premiyum"
+
+#. Found in description header.
+msgid "TreePress Features"
+msgstr "TreePress Özellikleri"
+
+#. Short description.
+msgid "TreePress is a simple solution for creating and displaying family trees on WordPress."
+msgstr "TreePress, WordPress'teki aile ağaçlarını oluşturmak ve görüntülemek için basit bir çözüm"
+
+#. Plugin name.
+msgid "TreePress"
+msgstr "Treeress"

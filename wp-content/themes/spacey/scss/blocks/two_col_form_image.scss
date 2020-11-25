@@ -1,0 +1,30 @@
+@import '../variables.scss';
+
+.two-col-form-image {
+	margin-bottom: 60px;
+	@include md {
+		margin-bottom: 80px;
+	}
+	&-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	&-image {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+		@include md {
+			margin-bottom: 0;
+		}
+		img {
+			object-fit: contain;
+		}
+	}
+	.row {
+		flex-direction: column-reverse;
+		@include md {
+			flex-direction: row;
+		}
+	}
+}

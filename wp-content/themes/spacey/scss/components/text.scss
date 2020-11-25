@@ -1,0 +1,101 @@
+/* mixins
+-------------------------------------------------------------------*/
+// Copy
+@mixin largeHeading($color : $purpleHeading) {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    color: $color;
+    line-height: 1.1;
+    font-weight: 300;
+    font-size: 40px;
+
+    @include lg {
+        font-size: 50px;
+    }
+}
+
+@mixin mediumHeading($color : $purpleFont) {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $color;
+    font-size: 26px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+@mixin smallHeading($color : $purpleFont) {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $color;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@mixin bodyCopy($color : $blackFont) {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: $color;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+@mixin badge() {
+    font-size: 10px;
+    background: $blueFont;
+    color: $white;
+    padding: 7px 10px 5px;
+    border-radius: 15px;
+    display: inline-block;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1;
+}
+
+body {
+    @include bodyCopy;
+}
+h1, .fs1 {
+    @include largeHeading;
+}
+h2, .fs2 {
+    @include mediumHeading;
+}
+h3, .fs3, .small-heading-container {
+    @include smallHeading;
+}
+p, li, span, .body_copy {
+    @include bodyCopy;
+}
+a {
+    color: $teal;
+    text-decoration: underline;
+    &:hover {
+        color: darken($teal, 10%);
+    }
+}
+span.badge {
+    @include badge;
+}
+
+.message {
+    padding: 10px;
+    background-color: rgba($greyFormBG, 0.6);
+    &_saved {
+        background-color: rgba($green, 0.5);
+    }
+    &_error {
+        background-color: rgba($orange, 0.5);
+    }
+}
+
+.small-caption {
+    display: inline-block;
+    font-family: 'Avenir', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: $greyFormBorder;
+    margin-bottom: 10px;
+}

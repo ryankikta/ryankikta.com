@@ -1,0 +1,45 @@
+@import '../variables.scss';
+
+.icon-tabs {
+	margin: 80px 0;
+	&-row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	&-target {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		text-decoration: none;
+		width: 90px;
+		margin: 0 15px 30px;
+		&.icon-tabs-active {
+			.icon-tabs-target-arrow {
+				visibility: visible;
+			}
+		}
+		&:hover {
+			text-decoration: none;
+		}
+		&-icon {
+			margin-bottom: 10px;
+		}
+		&-label {
+			display: flex;
+			flex-grow: 1;
+			margin-bottom: 15px;
+		}
+		&-arrow {
+			visibility: hidden;
+		}
+	}
+	&-content {
+		display: none;
+		&.icon-tabs-active {
+			display: block;
+		}
+	}
+}

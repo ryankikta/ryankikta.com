@@ -1,0 +1,298 @@
+/* spacers
+-------------------------------------------------------------------*/
+.pb-10 { padding-bottom: 10px; }
+.pb-15 { padding-bottom: 15px; }
+.pb-20 { padding-bottom: 20px; }
+.pb-30 { padding-bottom: 30px; }
+.pb-40 { padding-bottom: 40px; }
+.pb-50 { padding-bottom: 50px; }
+.pb-60 { padding-bottom: 40px; }
+.pb-80 { padding-bottom: 50px; }
+.pb-100 { padding-bottom: 50px; }
+
+.pt-10 { padding-top: 10px; }
+.pt-15 { padding-top: 15px; }
+.pt-20 { padding-top: 20px; }
+.pt-30 { padding-top: 30px; }
+.pt-40 { padding-top: 40px; }
+.pt-50 { padding-top: 40px; }
+.pt-60 { padding-top: 40px; }
+.pt-80 { padding-top: 50px; }
+.pt-100 { padding-top: 50px; }
+
+.py-10 { padding-top: 10px; padding-bottom: 10px; }
+.py-15 { padding-top: 15px; padding-bottom: 15px; }
+.py-20 { padding-top: 20px; padding-bottom: 20px; }
+.py-30 { padding-top: 30px; padding-bottom: 30px; }
+.py-40 { padding-top: 40px; padding-bottom: 40px; }
+.py-50 { padding-top: 40px; padding-bottom: 40px; }
+.py-60 { padding-top: 40px; padding-bottom: 40px; }
+.py-80 { padding-top: 50px; padding-bottom: 50px; }
+.py-100 { padding-top: 50px; padding-bottom: 50px; }
+
+.mb-10 { margin-bottom: 10px; }
+.mb-15 { margin-bottom: 15px; }
+.mb-20 { margin-bottom: 20px; }
+.mb-30 { margin-bottom: 30px; }
+.mb-40 { margin-bottom: 40px; }
+.mb-50 { margin-bottom: 40px; }
+.mb-60 { margin-bottom: 40px; }
+.mb-80 { margin-bottom: 50px; }
+.mb-100 { margin-bottom: 50px; }
+
+.mt-10 { margin-top: 10px; }
+.mt-15 { margin-top: 15px; }
+.mt-20 { margin-top: 20px; }
+.mt-30 { margin-top: 30px; }
+.mt-40 { margin-top: 40px; }
+.mt-50 { margin-top: 40px; }
+.mt-60 { margin-top: 40px; }
+.mt-80 { margin-top: 50px; }
+.mt-100 { margin-top: 50px; }
+
+.my-10 { margin-top: 10px; margin-bottom: 10px; }
+.my-15 { margin-top: 15px; margin-bottom: 15px; }
+.my-20 { margin-top: 20px; margin-bottom: 20px; }
+.my-30 { margin-top: 30px; margin-bottom: 30px; }
+.my-40 { margin-top: 40px; margin-bottom: 40px; }
+.my-50 { margin-top: 40px; margin-bottom: 40px; }
+.my-60 { margin-top: 40px; margin-bottom: 40px; }
+.my-80 { margin-top: 50px; margin-bottom: 50px; }
+.my-100 { margin-top: 50px; margin-bottom: 50px; }
+
+@media screen and (min-width: 768px) {
+	.pb-50 { padding-bottom: 50px; }
+	.pb-60 { padding-bottom: 60px; }
+	.pb-80 { padding-bottom: 80px; }
+	.pb-100 { padding-bottom: 100px; }
+
+	.pt-50 { padding-top: 50px; }
+	.pt-60 { padding-top: 60px; }
+	.pt-80 { padding-top: 80px; }
+	.pt-100 { padding-top: 100px; }
+
+	.py-50 { padding-top: 50px; padding-bottom: 50px; }
+	.py-60 { padding-top: 60px; padding-bottom: 60px; }
+	.py-80 { padding-top: 80px; padding-bottom: 80px; }
+	.py-100 { padding-top: 100px; padding-bottom: 100px; }
+
+	.mb-50 { margin-bottom: 50px; }
+	.mb-60 { margin-bottom: 60px; }
+	.mb-80 { margin-bottom: 80px; }
+	.mb-100 { margin-bottom: 100px; }
+
+	.mt-50 { margin-top: 50px; }
+	.mt-60 { margin-top: 60px; }
+	.mt-80 { margin-top: 80px; }
+	.mt-100 { margin-top: 100px; }
+
+	.my-50 { margin-top: 50px; margin-bottom: 50px; }
+	.my-60 { margin-top: 60px; margin-bottom: 60px; }
+	.my-80 { margin-top: 80px; margin-bottom: 80px; }
+	.my-100 { margin-top: 100px; margin-bottom: 100px; }
+}
+
+
+/* mobile nav
+-------------------------------------------------------------------*/
+
+
+@media screen and (min-width: 992px) {
+	.mobile-nav {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.admin-bar .mobile-nav {
+		margin-top: 46px;
+	}
+}
+
+
+/* bootstrap nav overrides
+-------------------------------------------------------------------*/
+button:focus { outline: none; }
+
+/* nav */
+.navbar { padding: 0; }
+button.navbar-toggler {
+	cursor: pointer;
+	border: none;
+	font-size: 1.5rem;
+	padding: 0;
+}
+
+button.navbar-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(70,70,70, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/*.dropdown */
+ul.dropdown-menu {
+	padding: 0;
+	padding-top: 10px;
+	margin: 0;
+	border: none;
+	border-radius: 0;
+	border: 1px solid #f8f8f8;
+	border-top: 0;
+	width: 260px;
+}
+
+ul.dropdown-menu a {
+	display: block !important;
+	padding: 10px;
+	min-width: 200px;
+}
+
+ul.dropdown-menu a:hover {
+	background: rgba(100, 100, 100, .1);
+	text-decoration: none;
+}
+
+/* makes nav work on hover for desktop, click for tablets */
+@media only screen and (min-width:992px) {
+	.dropdown:hover>.dropdown-menu {
+		display: block;
+	}
+}
+.dropdown-toggle::after {
+	display: none;
+}
+
+/* wysiwyg editor frontend
+-------------------------------------------------------------------*/
+.alignright { text-align: right; float: right; margin: 10px 0 0 20px; }
+.alignleft { text-align: left; float: left; margin: 10px 20px 0 0; }
+.aligncenter { text-align: center; margin: 0 auto; display: block; }
+
+blockquote { border-left: 5px solid #ccc; padding-left: 10px; }
+blockquote p { color: #666; font-size: 20px; font-style: italic; }
+
+/* image gallery */
+.gallery { margin-bottom: 10px !important; }
+.gallery .gallery-item img { max-width: 100%; height: auto; margin: 0 auto; border: none !important; padding: 0 10px; }
+.gallery .gallery-item a:hover img,
+.wp-caption a:hover img { opacity: .8; }
+.gallery .gallery-item .gallery-caption { font-size: .9em; margin-top: 2px; }
+@media screen and (max-width: 600px) {
+	.gallery .gallery-item img { padding: 0; }
+	.gallery .gallery-item { float: none !important; clear: both; width: 100% !important; }
+}
+.wp-caption { max-width: 100% !important; text-align: center; }
+.wp-caption img { margin-bottom: 0 !important; }
+
+
+/* wysiwyg admin backend - turn this on in functions.php
+-------------------------------------------------------------------*/
+/*
+body.mce-content-body iframe { width: 100%; min-height: 400px; }
+body.mce-content-body { font-family: Helvetica, Arial; }
+*/
+
+
+/* woocommerce
+-------------------------------------------------------------------*/
+/* button */
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt { background: #000; }
+
+/* button hover */
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover { background: #555; }
+
+/* button disabled */
+.woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt:disabled[disabled], .woocommerce #respond input#submit.alt:disabled[disabled]:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt:disabled[disabled], .woocommerce a.button.alt:disabled[disabled]:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt:disabled[disabled], .woocommerce button.button.alt:disabled[disabled]:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt:disabled[disabled], .woocommerce input.button.alt:disabled[disabled]:hover { background: #000; }
+
+/* cart, checkout, single product */
+.shop_table.cart tbody td { padding: 15px !important; }
+#coupon_code { width: auto; }
+.checkout_coupon input { width: 100% !important; }
+.input-text { height: 36px; }
+.woocommerce-form-login .button { margin-right: 15px !important; }
+.woocommerce .col-1,
+.woocommerce .col-2 { flex: none; max-width: none; padding: 0; }
+.woocommerce input,
+.woocommerce textarea { border-radius: 4px; border: 1px solid #999; padding: 7px; }
+.woocommerce-order-overview { padding: 0; }
+.woocommerce-variation { margin-bottom: 10px; }
+.woocommerce-checkout-payment .place-order input { font-size: 22px; }
+
+
+/* gravity forms
+-------------------------------------------------------------------*/
+.gform_wrapper { margin: 0 !important; }
+.gform_wrapper input,
+.gform_wrapper select,
+.gform_wrapper textarea { border: 1px solid #ccc; }
+.gform_wrapper select { margin: 0 !important; height: 36px; }
+.gform_wrapper label { margin-bottom: 0; }
+.gform_wrapper ul li.gfield { margin: 0 0 20px 0 !important; }
+.gform_wrapper .gform_button { background: #000; padding: 10px 20px; color: #fff; border: none; border-radius: 4px; }
+.gform_wrapper .gform_button:hover { background: #222; }
+.gform_wrapper .field_description_below .gfield_description { padding-top: 5px !important; }
+
+
+/* contact form 7
+-------------------------------------------------------------------*/
+/*
+form.wpcf7-form { max-width: 600px; }
+form.wpcf7-form h3 { font-size: 1em; margin-top: 20px }
+form.wpcf7-form .field { margin-bottom: 10px; }
+form.wpcf7-form li { font-size: 1em; }
+form.wpcf7-form input,
+form.wpcf7-form select,
+form.wpcf7-form textarea { border: 1px solid #ccc; -webkit-border-radius: 4px; border-radius: 4px; padding: 2px 5px; color: #555; background-color: #fff; width: 100%; }
+form.wpcf7-form select { height: 28px; }
+form.wpcf7-form label { color: #555; }
+form.wpcf7-form .label-left label { float: left; display: block; width: 125px; }
+form.wpcf7-form input[type='submit'] { background-color: #000; color: #fff; -webkit-border-radius: 4px; border-radius: 4px; border: none; padding: 10px 20px; margin-top: 10px; width: auto; }
+form.wpcf7-form input[type='submit']:hover { background-color: #333; }
+form.wpcf7-form textarea { height: 80px !important; }
+form.wpcf7-form input[type='checkbox'] { width: 20px; float: left; margin-top: 6px; }
+span.wpcf7-list-item { margin: 0 10px 0 0; }
+*/
+
+/*
+	-------------------
+	contact form 7 html
+	-------------------
+
+<div class="row">
+	<div class="col-sm-6 field">
+		<label>Full Name *</label>
+		[text* fullName]
+	</div><!-- /col -->
+	<div class="col-sm-6 field">
+		<label>Email *</label>
+		[email* email]
+	</div><!-- /col -->
+</div><!-- /row -->
+
+<div class="row">
+	<div class="col-sm-12 field">
+		<label>Message</label>
+		[textarea* Message]
+	</div><!-- /col -->
+</div><!-- /row -->
+
+<div class="row">
+	<div class="col-sm-12 field">
+	  <label>Upload File (5MB Limit)</label>
+	  [file UploadFile limit:5mb]
+	</div>
+</div><!-- /row -->
+
+<div class="row">
+	<div class="col-sm-12 field">
+		  [submit "Send"]
+	</div><!-- /col -->
+</div><!-- /row -->
+*/
+
+
+/*
+	You may need this for wp-config...
+	// remove <p> and <br> from contact 7 forms
+	// http://stackoverflow.com/questions/32539905/contact-form-7-auto-added-p-tags
+	define( 'WPCF7_AUTOP', false );
+*/

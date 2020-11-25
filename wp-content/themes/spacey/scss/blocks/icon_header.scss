@@ -1,0 +1,24 @@
+@import '../variables.scss';
+
+// for wp editor 
+.editor-styles-wrapper .acf-block-preview {
+	.home_services_intro_graphic + .container-fluid .text-center {
+		position: absolute;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		top: 50%;
+		h2 {
+			color: $white;
+		}
+	}
+	.text-center {
+	 	width: 100%;
+	}
+	.home_services_intro_graphic {
+		z-index: 1;
+	}
+	.container-fluid {
+		z-index: 2;
+	}
+
+}

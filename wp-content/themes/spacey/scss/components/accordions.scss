@@ -1,0 +1,58 @@
+.accordion {
+    margin-bottom: 30px;
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+    &-target {
+        @include mediumHeading;
+        font-size: 16px;
+        background: $greyFormBG;
+        padding: 20px 15px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        transition: background 0.3s;
+        @include lg {
+            font-size: 26px;
+        }
+        &:hover {
+            color: darken($purpleFont, 5%);
+            text-decoration: none;
+            background: darken($greyFormBG, 5%);
+        }
+        &-arrow {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            margin-bottom: 0;
+            transform: rotate(-90deg);
+            transition: transform 0.3s;
+            height: 12px;
+            width: 36px;
+            min-width: 36px;
+            @include lg {
+                height: auto;
+            }
+            path {
+                stroke: $greyFormBorder;
+            }
+        }
+        &.accordion-active {
+            background: darken($greyFormBG, 5%);
+            .accordion-target-arrow {
+                transform: rotate(0deg);
+            }
+            & ~ .accordion-content {
+                max-height: 1000px;
+                transition: max-height 0.3s;
+            }
+        }
+    }
+    &-content {
+        max-height: 0px;
+        transition: max-height 0.3s;
+        overflow: hidden;
+        padding: 0 15px;
+    }
+}

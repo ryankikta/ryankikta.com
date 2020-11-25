@@ -1,0 +1,246 @@
+# Translation of Plugins - TreePress - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - TreePress - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-06 19:20:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - TreePress - Development (trunk)\n"
+
+#: admin/class-treepress-admin.php:1791
+msgid "Donate"
+msgstr "Donar"
+
+#: admin/class-treepress-admin.php:1746
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/class-treepress-admin.php:1745
+msgid "Born"
+msgstr "Nacimiento"
+
+#: admin/class-treepress-admin.php:1744
+msgid "ID"
+msgstr "ID"
+
+#: admin/class-treepress-admin.php:1201
+msgid "Private Notes"
+msgstr "Notas privadas"
+
+#: admin/class-treepress-admin.php:1193
+msgid "Member info"
+msgstr "Info de miembro"
+
+#: admin/class-treepress-admin.php:1153
+msgid "No family group found."
+msgstr "Ningun grupo familiar encontrado"
+
+#: admin/class-treepress-admin.php:1152
+msgid "Choose from the most used family group"
+msgstr "Escoge del grupo familiar mas usado"
+
+#: admin/class-treepress-admin.php:1151
+msgid "Add or remove family group"
+msgstr ""
+
+#: admin/class-treepress-admin.php:1150
+msgid "Separate family group with commas"
+msgstr "Separa grupo familiar con comas"
+
+#: admin/class-treepress-admin.php:1149
+msgid "New Group Name"
+msgstr "Nuevo nombre de grupo"
+
+#: admin/class-treepress-admin.php:1148
+msgid "Add New Group"
+msgstr ""
+
+#: admin/class-treepress-admin.php:1147
+msgid "Update Family Group"
+msgstr "Actualizar grupo familiar"
+
+#: admin/class-treepress-admin.php:1146
+msgid "Edit Family Group"
+msgstr "Editar grupo familiar"
+
+#: admin/class-treepress-admin.php:1143
+msgid "All Family Groups"
+msgstr "Todos los grupos familiares"
+
+#: admin/class-treepress-admin.php:1142
+msgid "Popular Family Groups"
+msgstr ""
+
+#: admin/class-treepress-admin.php:1141
+msgid "Search Family Groups"
+msgstr "Buscar grupos familiares"
+
+#: admin/class-treepress-admin.php:1140
+msgctxt "taxonomy singular name"
+msgid "Family Group"
+msgstr ""
+
+#: admin/class-treepress-admin.php:1139
+msgctxt "taxonomy general name"
+msgid "Family Groups"
+msgstr ""
+
+#: admin/class-treepress-admin.php:1122
+msgid "Description."
+msgstr ""
+
+#: admin/class-treepress-admin.php:1117
+msgid "No members found in Trash."
+msgstr "Ningun miembro encontrado en la papelera"
+
+#: admin/class-treepress-admin.php:1116
+msgid "No members found."
+msgstr "Ningun miembro encontrado"
+
+#: admin/class-treepress-admin.php:1115
+msgid "Parent Members:"
+msgstr ""
+
+#: admin/class-treepress-admin.php:1114
+msgid "Search Members"
+msgstr "Buscar miembros"
+
+#: admin/class-treepress-admin.php:1113
+msgid "All Members"
+msgstr "Todos los miembros"
+
+#: admin/class-treepress-admin.php:1112
+msgid "View Member"
+msgstr "Ver miembro"
+
+#: admin/class-treepress-admin.php:1111
+msgid "Edit Member"
+msgstr "Editar miembro"
+
+#: admin/class-treepress-admin.php:1110
+msgid "New Member"
+msgstr "Nuevo miembro"
+
+#: admin/class-treepress-admin.php:1109
+msgid "Add New Member"
+msgstr ""
+
+#: admin/class-treepress-admin.php:1108
+msgctxt "member"
+msgid "Add New"
+msgstr ""
+
+#: admin/class-treepress-admin.php:1107
+msgctxt "add new on admin bar"
+msgid "Member"
+msgstr ""
+
+#: admin/class-treepress-admin.php:1106
+msgctxt "admin menu"
+msgid "Members"
+msgstr ""
+
+#: admin/class-treepress-admin.php:1105
+msgctxt "post type singular name"
+msgid "Member"
+msgstr ""
+
+#: admin/class-treepress-admin.php:1104
+msgctxt "post type general name"
+msgid "Members"
+msgstr ""
+
+#: admin/class-treepress-admin.php:1093
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: admin/class-treepress-admin.php:728
+msgid "You are not allowed to create more than one family tree on free version. "
+msgstr ""
+
+#: admin/class-treepress-admin.php:694 admin/class-treepress-admin.php:729
+msgid "Upgrade Now!"
+msgstr ""
+
+#: admin/class-treepress-admin.php:693
+msgid "Awesome Premium Features"
+msgstr "Increibles caracteristicas premium"
+
+#: admin/class-treepress-admin.php:662 admin/class-treepress-admin.php:663
+msgid "Account Settings"
+msgstr ""
+
+#: admin/class-treepress-admin.php:654 admin/class-treepress-admin.php:655
+msgid "Options"
+msgstr "Opciones"
+
+#: admin/class-treepress-admin.php:647 admin/class-treepress-admin.php:648
+#: admin/class-treepress-admin.php:1154
+msgid "Family Groups"
+msgstr "Grupos familiares"
+
+#: admin/class-treepress-admin.php:640 admin/class-treepress-admin.php:641
+msgid "Add New"
+msgstr ""
+
+#: admin/class-treepress-admin.php:596 admin/class-treepress-admin.php:604
+msgid "Family members link"
+msgstr ""
+
+#: admin/class-treepress-admin.php:581 admin/class-treepress-admin.php:589
+msgid "Family tree link"
+msgstr ""
+
+#: admin/class-treepress-admin.php:567
+msgid "<p>Family Members <a href=\""
+msgstr ""
+
+#: admin/class-treepress-admin.php:557
+msgid "<p>Family Tree <a href=\""
+msgstr ""
+
+#: admin/class-treepress-admin.php:548
+msgid "<p>Imported successfully<p>"
+msgstr ""
+
+#: admin/class-treepress-admin.php:397
+msgid "Exists! Try different family name"
+msgstr ""
+
+#: admin/class-treepress-admin.php:390
+msgid "File required"
+msgstr ""
+
+#: admin/class-treepress-admin.php:377 admin/class-treepress-admin.php:382
+#: admin/class-treepress-admin.php:409
+msgid "Family name required"
+msgstr ""
+
+#: admin/class-treepress-admin.php:154 admin/class-treepress-admin.php:365
+msgid "You are not authorized to do this."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.blackandwhitedigital.net/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Black and White Digital Ltd"
+msgstr ""
+
+#. Description of the plugin
+msgid "Easily display a family tree and family genealogical information in WordPress"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.treepress.net/"
+msgstr ""
+
+#. Plugin Name of the plugin
+#: admin/class-treepress-admin.php:630 admin/class-treepress-admin.php:631
+msgid "TreePress"
+msgstr ""

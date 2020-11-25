@@ -1,0 +1,21 @@
+@import '../variables.scss';
+
+.ordered-list-with-image {
+    margin: 80px 0;
+    @include lg {
+        margin: 160px 0;
+    }
+    .blob-container-left, .blob-container-right {
+        display: flex;
+        justify-content: center;
+        @include lg {
+            min-height: 500px;
+        }
+        @include xl {
+            min-height: 700px;
+        }
+        .img-fluid {
+            object-fit: contain;
+        }
+    }
+}

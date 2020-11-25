@@ -1,0 +1,778 @@
+# Translation of Plugins - TreePress &#8211; Easy Family Trees &amp; Ancestor Profiles - Stable (latest release) in Chinese (Hong Kong)
+# This file is distributed under the same license as the Plugins - TreePress &#8211; Easy Family Trees &amp; Ancestor Profiles - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-14 13:55+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Language: zh_HK\n"
+"Project-Id-Version: Plugins - TreePress &#8211; Easy Family Trees &amp; Ancestor Profiles - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: admin/class-treepress-admin.php:1968
+msgid "Donate"
+msgstr "捐赠"
+
+#: admin/class-treepress-admin.php:1923
+msgid "Name"
+msgstr "姓名"
+
+#: admin/class-treepress-admin.php:1922
+msgid "Born"
+msgstr "出生"
+
+#: admin/class-treepress-admin.php:1921
+msgid "ID"
+msgstr "身分證"
+
+#: admin/class-treepress-admin.php:1914
+msgid "Enter name here"
+msgstr "在此輸入名字"
+
+#: admin/class-treepress-admin.php:1658
+msgid "Upgrade to the Premium version here"
+msgstr "在此處升級到高級版"
+
+#: admin/class-treepress-admin.php:1657
+msgid "Want more fields for facts on this family member? "
+msgstr "想了解更多有關此家庭成員的事實的字段嗎？"
+
+#: admin/class-treepress-admin.php:1629
+msgid "Spouse:"
+msgstr "伴侶:"
+
+#: admin/class-treepress-admin.php:1608
+msgid "Father:"
+msgstr "爸爸:"
+
+#: admin/class-treepress-admin.php:1587
+msgid "Mother:"
+msgstr "母亲:"
+
+#: admin/class-treepress-admin.php:1582
+msgid "Died :"
+msgstr "死亡:"
+
+#: admin/class-treepress-admin.php:1577
+msgid "Born :"
+msgstr "生来:"
+
+#: admin/class-treepress-admin.php:1552
+msgid "Gender:"
+msgstr "性別:"
+
+#: admin/class-treepress-admin.php:1544
+msgid "ID:"
+msgstr "身分證:"
+
+#: admin/class-treepress-admin.php:1538
+msgid "General Info"
+msgstr "一般信息"
+
+#: admin/class-treepress-admin.php:1339
+msgid "Notes:"
+msgstr "筆記"
+
+#: admin/class-treepress-admin.php:1324
+msgid "Private Notes"
+msgstr "私人笔记"
+
+#: admin/class-treepress-admin.php:1316
+msgid "Member info"
+msgstr "会员信息"
+
+#: admin/class-treepress-admin.php:1276
+msgid "No family group found."
+msgstr "没有家庭组"
+
+#: admin/class-treepress-admin.php:1275
+msgid "Choose from the most used family group"
+msgstr "从最常用的家庭组中选择"
+
+#: admin/class-treepress-admin.php:1274
+msgid "Add or remove family group"
+msgstr "添加或删除家庭组"
+
+#: admin/class-treepress-admin.php:1273
+msgid "Separate family group with commas"
+msgstr "用逗号分隔家庭组"
+
+#: admin/class-treepress-admin.php:1272
+msgid "New Group Name"
+msgstr "新组名"
+
+#: admin/class-treepress-admin.php:1271
+msgid "Add New Group"
+msgstr "添加新组"
+
+#: admin/class-treepress-admin.php:1270
+msgid "Update Family Group"
+msgstr "更新的家庭组"
+
+#: admin/class-treepress-admin.php:1269
+msgid "Edit Family Group"
+msgstr "修改家庭组"
+
+#: admin/class-treepress-admin.php:1266
+msgid "All Family Groups"
+msgstr "所有家庭组 "
+
+#: admin/class-treepress-admin.php:1265
+msgid "Popular Family Groups"
+msgstr "受欢迎的家庭组 "
+
+#: admin/class-treepress-admin.php:1264
+msgid "Search Family Groups"
+msgstr "搜索的家庭组"
+
+#: admin/class-treepress-admin.php:1263
+msgctxt "taxonomy singular name"
+msgid "Family Group"
+msgstr "家庭组"
+
+#: admin/class-treepress-admin.php:1262
+msgctxt "taxonomy general name"
+msgid "Family Groups"
+msgstr "家庭组"
+
+#: admin/class-treepress-admin.php:1245
+msgid "Description."
+msgstr "描述"
+
+#: admin/class-treepress-admin.php:1240
+msgid "No members found in Trash."
+msgstr "在垃圾箱中找不到会员"
+
+#: admin/class-treepress-admin.php:1239
+msgid "No members found."
+msgstr "找不到会员"
+
+#: admin/class-treepress-admin.php:1238
+msgid "Parent Members:"
+msgstr "父母会员"
+
+#: admin/class-treepress-admin.php:1237
+msgid "Search Members"
+msgstr "搜索会员"
+
+#: admin/class-treepress-admin.php:1236
+msgid "All Members"
+msgstr "所有的会员 "
+
+#: admin/class-treepress-admin.php:1235
+msgid "View Member"
+msgstr "視圖的会员 "
+
+#: admin/class-treepress-admin.php:1234
+msgid "Edit Member"
+msgstr "编辑会员"
+
+#: admin/class-treepress-admin.php:1233
+msgid "New Member"
+msgstr "新的会员"
+
+#: admin/class-treepress-admin.php:1232
+msgid "Add New Member"
+msgstr "加新的会员"
+
+#: admin/class-treepress-admin.php:1231
+msgctxt "member"
+msgid "Add New"
+msgstr "新加"
+
+#: admin/class-treepress-admin.php:1230
+msgctxt "add new on admin bar"
+msgid "Member"
+msgstr "会员"
+
+#: admin/class-treepress-admin.php:1229
+msgctxt "admin menu"
+msgid "Members"
+msgstr "会员"
+
+#: admin/class-treepress-admin.php:1228
+msgctxt "post type singular name"
+msgid "Member"
+msgstr "会员"
+
+#: admin/class-treepress-admin.php:1227
+msgctxt "post type general name"
+msgid "Members"
+msgstr "会员"
+
+#: admin/class-treepress-admin.php:1216
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: admin/class-treepress-admin.php:1196
+msgid "Show powered-by link"
+msgstr "顯示由鏈接提供支持"
+
+#: admin/class-treepress-admin.php:1191
+msgid "Wordpress plugin site"
+msgstr "Wordpress插件網站"
+
+#: admin/class-treepress-admin.php:1191
+msgid "Give us a good rating at the "
+msgstr "給我們一個很好的評價"
+
+#: admin/class-treepress-admin.php:1190
+msgid "from some other location of your site (that would help us feed our children)"
+msgstr "從您網站的其他位置(這將幫助我們餵養我們的孩子)"
+
+#: admin/class-treepress-admin.php:1190
+msgid " include a link to"
+msgstr "包括一個鏈接"
+
+#: admin/class-treepress-admin.php:1189
+msgid "and let us know about your family tree website (that would inspire us),"
+msgstr "讓我們知道您的家庭樹網站（這將激勵我們),"
+
+#: admin/class-treepress-admin.php:1189
+msgid "email"
+msgstr "電子郵件"
+
+#: admin/class-treepress-admin.php:1189
+msgid " send us an"
+msgstr "發給我們一個"
+
+#: admin/class-treepress-admin.php:1187
+msgid ""
+"\n"
+"\t\t\t\t\tIf you don't want to link to us from the bottom of the family tree then please consider these other options"
+msgstr ""
+"\n"
+"  \t\t\t\t          如果您不想從家庭樹的底部鏈接到我們, 請考慮這些其他選項"
+
+#: admin/class-treepress-admin.php:1187
+msgid "Appreciation makes us happy."
+msgstr "欣賞讓我們開心"
+
+#: admin/class-treepress-admin.php:1186
+msgid "If you use this plugin then we would be very grateful for some appreciation. "
+msgstr "如果你使用這個插件，那麼我們將非常感謝一些讚賞"
+
+#: admin/class-treepress-admin.php:1182
+msgid "Credit link"
+msgstr "信用鏈接"
+
+#: admin/class-treepress-admin.php:1168
+msgid "* This parameter is useful if spouses are displayed vertically."
+msgstr "如果配偶垂直顯示，此參數很有用"
+
+#: admin/class-treepress-admin.php:1163
+msgid "Height of generations (pixels)"
+msgstr "世代高度（像素）"
+
+#: admin/class-treepress-admin.php:1155
+msgid "Node minimum width (pixels)"
+msgstr "節點最小寬度（像素）"
+
+#: admin/class-treepress-admin.php:1147
+msgid "Node corner radius (pixels)"
+msgstr "節點角半徑（像素）"
+
+#: admin/class-treepress-admin.php:1139
+msgid "Node text colour (#rgb)"
+msgstr "節點文本顏色（#rgb）"
+
+#: admin/class-treepress-admin.php:1131
+msgid "Node opacity (0.0 to 1.0)"
+msgstr "節點不透明度（0.0到1.0）"
+
+#: admin/class-treepress-admin.php:1123
+msgid "Node fill colour (#rgb)"
+msgstr "節點填充顏色（#rgb)"
+
+#: admin/class-treepress-admin.php:1115
+msgid "Node outline colour (#rgb)"
+msgstr "節點輪廓顏色（#rgb）"
+
+#: admin/class-treepress-admin.php:1107
+msgid "Background colour (#rgb)"
+msgstr "背景顏色（#rgb）"
+
+#: admin/class-treepress-admin.php:1102
+msgid "TreePress styling"
+msgstr "TreePress 造型"
+
+#: admin/class-treepress-admin.php:1092
+msgid "Enable tree nav link"
+msgstr "啟用樹導航鏈接"
+
+#: admin/class-treepress-admin.php:1082
+msgid "Enable single page link"
+msgstr "啟用單頁鏈接"
+
+#: admin/class-treepress-admin.php:1074
+msgid "Enable toolbar"
+msgstr "啟用工具欄"
+
+#: admin/class-treepress-admin.php:1069
+msgid "Each node in the family tree can have a toolbar which can show a number of additional options. Here you can define how the toolbar should work."
+msgstr "系列樹中的每個節點都可以有一個工具欄，可以顯示許多其他選項。 在這裡，您可以定義工具欄的工作方式。"
+
+#: admin/class-treepress-admin.php:1066
+msgid "Node navigation toolbar"
+msgstr "節點導航工具欄"
+
+#: admin/class-treepress-admin.php:1047
+msgid "Refocus on click"
+msgstr "重點關注點擊"
+
+#: admin/class-treepress-admin.php:1039
+msgid "Diagonal connections"
+msgstr "對角線連接"
+
+#: admin/class-treepress-admin.php:1031
+msgid "Show gender"
+msgstr "顯示性別"
+
+#: admin/class-treepress-admin.php:1023
+msgid "Display spouses vertically"
+msgstr "垂直顯示配偶"
+
+#: admin/class-treepress-admin.php:1015
+msgid "Show only one spouse"
+msgstr "只顯示一個配偶"
+
+#: admin/class-treepress-admin.php:1007
+msgid "Show spouse"
+msgstr "顯示配偶"
+
+#: admin/class-treepress-admin.php:999
+msgid "Conceal living dates for those alive"
+msgstr "隱藏活著的人的生活日期"
+
+#: admin/class-treepress-admin.php:990
+msgid "Death Date Prefix"
+msgstr "死亡日期前綴"
+
+#: admin/class-treepress-admin.php:981
+msgid "Birth Date Prefix"
+msgstr "出生日期"
+
+#: admin/class-treepress-admin.php:972
+msgid "Only show year"
+msgstr "只顯示年份"
+
+#: admin/class-treepress-admin.php:964
+msgid "Show living dates"
+msgstr "顯示生活日期"
+
+#: admin/class-treepress-admin.php:955
+msgid "Only show first name"
+msgstr "只顯示第一名字"
+
+#: admin/class-treepress-admin.php:947
+msgid "Wrap names"
+msgstr "換行名"
+
+#: admin/class-treepress-admin.php:942
+msgid "Treepress options"
+msgstr "Treepress 選項"
+
+#: admin/class-treepress-admin.php:925
+msgid "You can find the member ID on the All Members page."
+msgstr "您可以在“所有成員”頁面上找到該成員身份證"
+
+#: admin/class-treepress-admin.php:922
+msgid "You can find the family_ID on the Families page - when added, the code '{family_id}' will look something like '42'.  "
+msgstr "您可以在“家庭”頁面上找到家庭身份證  - 添加後，代碼“{family id}”將顯示為“42”。"
+
+#: admin/class-treepress-admin.php:919
+msgid "Finding IDs for your Shortcodes"
+msgstr "查找身份證的短代碼"
+
+#: admin/class-treepress-admin.php:915
+msgid "You can control which family tree the [tree icon image] icon links to by adding a page or post link in the individual Family Tree page."
+msgstr "您可以通過在單個“族家樹”頁面中添加頁面或帖子鏈接來控制[樹圖標圖像]圖標鏈接到的族家樹"
+
+#: admin/class-treepress-admin.php:912
+msgid "To create a list of all family members, use the shortcode format"
+msgstr "要創建所有家庭成員的列表，請使用短代碼格式"
+
+#: admin/class-treepress-admin.php:909
+msgid "Managing Your Family List Display"
+msgstr "管理您的家庭列表顯示"
+
+#: admin/class-treepress-admin.php:905
+msgid "If you do not have full birth dates for every family member or simply want to create a tree from a specific person 'root' within a larger family, use this shortcode.   "
+msgstr "如果您沒有每個家庭成員的完整出生日期，或者只是想在更大的家庭中創建特定人“根”的樹，請使用此短代碼。"
+
+#: admin/class-treepress-admin.php:902
+msgid "Shortcode format 2 = "
+msgstr "短代碼格式2 ="
+
+#: admin/class-treepress-admin.php:898
+msgid "If every member of your tree has a full date of birth this shortcode will display the whole family starting with the oldest member. "
+msgstr "如果樹的每個成員都有一個完整的出生日期，這個短代碼將顯示從最老的成員開始的整個家庭。"
+
+#: admin/class-treepress-admin.php:895
+msgid "Shortcode format 1 = "
+msgstr "短代碼格式1 ="
+
+#: admin/class-treepress-admin.php:891
+msgid "TreePress uses shortcodes to display family trees in pages of posts.  There are two formats.  Which one you use depends on your data and what you want to achieve:"
+msgstr "TreePress使用短代碼在帖子頁面中顯示家譜。 有兩種格式。 您使用哪一個取決於您的數據以及您想要實現的目標"
+
+#: admin/class-treepress-admin.php:887
+msgid "Managing Your Tree Display"
+msgstr "管理樹形顯示"
+
+#: admin/class-treepress-admin.php:875
+msgid "Credit"
+msgstr "信用"
+
+#: admin/class-treepress-admin.php:863
+msgid "Display Your Information"
+msgstr "顯示您的信息"
+
+#: admin/class-treepress-admin.php:845 admin/class-treepress-admin.php:868
+msgid "TreePress Options"
+msgstr "TreePress 選項"
+
+#: admin/class-treepress-admin.php:759
+msgid "You are not allowed to create more than one family tree on free version. "
+msgstr "您不能在免费版本上创建多个家族树"
+
+#: admin/class-treepress-admin.php:725 admin/class-treepress-admin.php:760
+msgid "Upgrade Now!"
+msgstr "现在升级"
+
+#: admin/class-treepress-admin.php:724
+msgid "Awesome Premium Features"
+msgstr "真棒的高级功能"
+
+#: admin/class-treepress-admin.php:709
+msgid "If you would like to make a small donation to help us further develop the plugin, please check out our PayPal link here:"
+msgstr "如果您想進行小額捐款以幫助我們進一步開發插件，請在此處查看我們的PayPal鏈接："
+
+#: admin/class-treepress-admin.php:705
+msgid "Help us Improve TreePress"
+msgstr "幫助我們改進TreePress"
+
+#: admin/class-treepress-admin.php:702
+msgid "You can find a comprehensive support guide here."
+msgstr "您可以在此處找到全面的支持指南"
+
+#: admin/class-treepress-admin.php:699
+msgid "Thank you for using TreePress."
+msgstr "感謝您使用TreePress"
+
+#: admin/class-treepress-admin.php:683 admin/class-treepress-admin.php:684
+#: admin/class-treepress-admin.php:696
+msgid "Account Settings"
+msgstr "账户设置"
+
+#: admin/class-treepress-admin.php:675 admin/class-treepress-admin.php:676
+msgid "Options"
+msgstr "选项"
+
+#: admin/class-treepress-admin.php:668 admin/class-treepress-admin.php:669
+#: admin/class-treepress-admin.php:1277
+msgid "Family Groups"
+msgstr "家庭小组"
+
+#: admin/class-treepress-admin.php:661 admin/class-treepress-admin.php:662
+msgid "Add New"
+msgstr "加新"
+
+#: admin/class-treepress-admin.php:617 admin/class-treepress-admin.php:625
+msgid "Family members link"
+msgstr "家庭成员"
+
+#: admin/class-treepress-admin.php:602 admin/class-treepress-admin.php:610
+msgid "Family tree link"
+msgstr "家族树"
+
+#: admin/class-treepress-admin.php:585
+msgid "Family Members"
+msgstr "家庭成員"
+
+#: admin/class-treepress-admin.php:575 admin/class-treepress-admin.php:587
+msgid " View Page"
+msgstr "查看頁面"
+
+#: admin/class-treepress-admin.php:575
+msgid "Family Tree"
+msgstr "族家樹"
+
+#: admin/class-treepress-admin.php:566
+msgid "Imported successfully"
+msgstr "導入成功"
+
+#: admin/class-treepress-admin.php:415
+msgid "Exists! Try different family name"
+msgstr "存在！ 尝试不同的姓氏"
+
+#: admin/class-treepress-admin.php:408
+msgid "File required"
+msgstr "文件要求"
+
+#: admin/class-treepress-admin.php:395 admin/class-treepress-admin.php:400
+#: admin/class-treepress-admin.php:427
+msgid "Family name required"
+msgstr "需要家庭名称"
+
+#: admin/class-treepress-admin.php:368
+msgid "Import"
+msgstr "输入"
+
+#: admin/class-treepress-admin.php:358
+msgid "Select file (.ged)"
+msgstr "選擇文件（.ged）"
+
+#: admin/class-treepress-admin.php:347
+msgid "Family Name"
+msgstr "家族的姓"
+
+#: admin/class-treepress-admin.php:333
+msgid "If your tree data does contain people without a full birth date, this will mean you need to use a slightly different shortcode to display a tree - see the 'Shortcodes' tab in the Options page for a full explanation."
+msgstr "如果您的樹數據確實包含沒有完整出生日期的人，這意味著您需要使用稍微不同的短代碼來顯示樹 - 請參閱“選項”頁面中的“短代碼”選項卡以獲取完整說明。"
+
+#: admin/class-treepress-admin.php:330
+msgid "Please note that TreePress requires exact dates so if your family tree data exports with approximate date options (such as 'Before', 'After', 'Between' etc) these dates will not import.  Dates must contain day, month and year (although the format does not matter yyyy-mm-dd or dd-mm-yyyy will import).  You cannot import just a year or month-year."
+msgstr "請注意, TreePress需要確切日期，因此如果您的家族樹數據導出具有大致日期選項（例如“之前”，“之後”，“之間”等），則這些日期將不會導入。 日期必須包含日，月和年（儘管格式無關緊要yyyy-mm-dd或dd-mm-yyyy將導入）。 您不能僅導入一年或一年。"
+
+#: admin/class-treepress-admin.php:327
+msgid "A Note on Dates:"
+msgstr "關於日期的說明："
+
+#: admin/class-treepress-admin.php:322
+msgid "Here you can import a Gedcom (.ged) file which is the standard format for importing and exporting family tree data."
+msgstr "在這裡，您可以導入Gedcom（.ged）文件，該文件是導入和導出族樹數據的標準格式。"
+
+#: admin/class-treepress-admin.php:315
+msgid "TreePress Import"
+msgstr "TreePress 輸入"
+
+#: admin/class-treepress-admin.php:158 admin/class-treepress-admin.php:383
+msgid "You are not authorized to do this."
+msgstr "您无权执行此操作"
+
+#: admin/class-treepress-admin.php:145
+msgid "Export"
+msgstr "输出"
+
+#: admin/class-treepress-admin.php:127
+msgid "Select Family:"
+msgstr "选择家庭"
+
+#: includes/class-treepress-node.php:430 includes/class-treepress-node.php:436
+msgid "View the family of"
+msgstr "查看家庭"
+
+#: includes/class-treepress-node.php:425
+msgid "View information about"
+msgstr "查看有關的信息"
+
+#: includes/class-treepress-node.php:384
+msgid "More Facts"
+msgstr "更多的事實"
+
+#: includes/class-treepress-node.php:375
+msgid "Shared Facts"
+msgstr "共享的事實"
+
+#: includes/class-treepress-node.php:365
+msgid "Individual Facts"
+msgstr "個人的事實"
+
+#: includes/class-treepress-node.php:338 admin/class-treepress-admin.php:1530
+msgid "Sealed to Spouse (LDS)"
+msgstr "密封到配偶"
+
+#: includes/class-treepress-node.php:333 admin/class-treepress-admin.php:1526
+msgid "Divorce"
+msgstr "離婚"
+
+#: includes/class-treepress-node.php:328 admin/class-treepress-admin.php:1522
+msgid "Banns"
+msgstr "預告"
+
+#: includes/class-treepress-node.php:320 admin/class-treepress-admin.php:1516
+msgid "Title"
+msgstr "標題"
+
+#: includes/class-treepress-node.php:315 admin/class-treepress-admin.php:1511
+msgid "Social Security Number"
+msgstr "社會安全號碼"
+
+#: includes/class-treepress-node.php:310 admin/class-treepress-admin.php:1506
+msgid "Sealed to Parents (LDS)"
+msgstr "密封給父母"
+
+#: includes/class-treepress-node.php:305 admin/class-treepress-admin.php:1501
+msgid "Religion"
+msgstr "宗教"
+
+#: includes/class-treepress-node.php:300 admin/class-treepress-admin.php:1496
+msgid "Occupation"
+msgstr "佔用"
+
+#: includes/class-treepress-node.php:295 admin/class-treepress-admin.php:1491
+msgid "Nationality"
+msgstr "國籍"
+
+#: includes/class-treepress-node.php:290 admin/class-treepress-admin.php:1486
+msgid "Mission (LDS)"
+msgstr "任務"
+
+#: includes/class-treepress-node.php:285 admin/class-treepress-admin.php:1481
+msgid "Military Service"
+msgstr "軍事服務"
+
+#: includes/class-treepress-node.php:280 admin/class-treepress-admin.php:1476
+msgid "Military Serial Number"
+msgstr "軍事序列號"
+
+#: includes/class-treepress-node.php:275 admin/class-treepress-admin.php:1471
+msgid "Medical Condition"
+msgstr "醫療條件"
+
+#: includes/class-treepress-node.php:270 admin/class-treepress-admin.php:1466
+msgid "Known as"
+msgstr "被稱為"
+
+#: includes/class-treepress-node.php:265 admin/class-treepress-admin.php:1461
+msgid "Immigration"
+msgstr "移民"
+
+#: includes/class-treepress-node.php:260 admin/class-treepress-admin.php:1456
+msgid "Funeral"
+msgstr "葬禮"
+
+#: includes/class-treepress-node.php:255 admin/class-treepress-admin.php:1451
+msgid "Endowment (LDS)"
+msgstr "天賦"
+
+#: includes/class-treepress-node.php:250 admin/class-treepress-admin.php:1446
+msgid "Employment"
+msgstr "僱用"
+
+#: includes/class-treepress-node.php:245 admin/class-treepress-admin.php:1441
+msgid "Emigration"
+msgstr "移民"
+
+#: includes/class-treepress-node.php:241 admin/class-treepress-admin.php:1436
+msgid "Divorced"
+msgstr "離婚"
+
+#: includes/class-treepress-node.php:236 admin/class-treepress-admin.php:1431
+msgid "Cremation"
+msgstr "火葬"
+
+#: includes/class-treepress-node.php:231 admin/class-treepress-admin.php:1426
+msgid "Confirmation (LDS)"
+msgstr "確認"
+
+#: includes/class-treepress-node.php:226 admin/class-treepress-admin.php:1421
+msgid "Confirmation"
+msgstr "确认"
+
+#: includes/class-treepress-node.php:221 admin/class-treepress-admin.php:1416
+msgid "Circumcision"
+msgstr "割禮"
+
+#: includes/class-treepress-node.php:216 admin/class-treepress-admin.php:1411
+msgid "Burial"
+msgstr "葬禮"
+
+#: includes/class-treepress-node.php:211 admin/class-treepress-admin.php:1406
+msgid "Bat Mitzvah"
+msgstr "蝙蝠成人禮"
+
+#: includes/class-treepress-node.php:206 admin/class-treepress-admin.php:1401
+msgid "Bar Mitzvah"
+msgstr "酒吧成人禮"
+
+#: includes/class-treepress-node.php:201 admin/class-treepress-admin.php:1396
+msgid "Baptism"
+msgstr "洗禮"
+
+#: includes/class-treepress-node.php:196 admin/class-treepress-admin.php:1391
+msgid "Adoption"
+msgstr "採用"
+
+#: includes/class-treepress-node.php:191 admin/class-treepress-admin.php:1386
+msgid "Address"
+msgstr "地址"
+
+#: includes/class-treepress-node.php:171
+msgid "Siblings: "
+msgstr "兄弟姐妹"
+
+#: includes/class-treepress-node.php:155
+msgid "Children: "
+msgstr "孩子"
+
+#: includes/class-treepress-node.php:148
+msgid "Spouse: "
+msgstr "伴侶："
+
+#: includes/class-treepress-node.php:136
+msgid "Mother: "
+msgstr "母親"
+
+#: includes/class-treepress-node.php:133 includes/class-treepress-node.php:140
+msgid "Unspecified"
+msgstr "不明"
+
+#: includes/class-treepress-node.php:129
+msgid "Father: "
+msgstr "父親:"
+
+#: includes/class-treepress-node.php:123 includes/class-treepress-node.php:467
+msgid "Died:"
+msgstr "死:"
+
+#: includes/class-treepress-node.php:121 includes/class-treepress-node.php:465
+msgid "Born:"
+msgstr "出生:"
+
+#: includes/class-treepress-node.php:115 includes/class-treepress-node.php:117
+msgid "View tree"
+msgstr "查看树"
+
+#: includes/class-treepress-node.php:101
+msgid "Gender not specified"
+msgstr "性别未指定"
+
+#: includes/class-treepress-node.php:99 admin/class-treepress-admin.php:1572
+msgid "Female"
+msgstr "女性"
+
+#: includes/class-treepress-node.php:97 admin/class-treepress-admin.php:1565
+msgid "Male"
+msgstr "男性"
+
+#: includes/class-treepress-options.php:99
+msgid "You need to configure the TreePress plugin and set the \\\"family tree link\\\" parameter in the administrator panel.\\n\\nThis parameter will tell the family tree plugin which page is used to display the main family tree. I.e, the page where you have put the [family-tree] shortcode.\\n\\n\");"
+msgstr "您需要配置TreePress插件並設置\\\"family tree link\\\" 管理員面板中的參數.此參數將告訴族樹插件哪個頁面用於顯示主族樹。即,您放置[family-tree]短代碼的頁面。\\ n \\ n“);"
+
+#. Author URI of the plugin
+msgid "https://www.blackandwhitedigital.net/"
+msgstr "https://www.blackandwhitedigital.net/"
+
+#. Author of the plugin
+msgid "Black and White Digital Ltd"
+msgstr "黑和白数码有限公司"
+
+#. Description of the plugin
+msgid "Easily display a family tree and family genealogical information in WordPress"
+msgstr "轻松显示的家族树和家庭谱系信息在 WordPress"
+
+#. Plugin URI of the plugin
+msgid "https://www.treepress.net/"
+msgstr "https://www.treepress.net/"
+
+#. Plugin Name of the plugin
+#: admin/class-treepress-admin.php:651 admin/class-treepress-admin.php:652
+msgid "TreePress"
+msgstr "TreePress"

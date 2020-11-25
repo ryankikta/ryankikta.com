@@ -1,0 +1,143 @@
+/* mixins
+-------------------------------------------------------------------*/
+
+
+/* styles
+-------------------------------------------------------------------*/
+// regular bootstrap tabs
+.nav-tabs {
+    border-bottom: 0;
+    .nav-link {
+        border: 2px solid $greyFormBG;
+        border-color: $greyFormBG !important;
+        border-bottom: 0;
+        text-decoration: none;
+        padding: 5px 10px;
+
+        @include sm {
+            padding: 10px 20px;
+            margin-right: 20px;
+        }
+
+        &:hover {
+            background: rgba($greyFormBG, 0.4);
+            color: $purpleFont;
+            text-decoration: none;
+        }
+    }
+    .nav-link.active {
+        background: $greyFormBG !important;
+        color: $purpleFont;
+
+        .fs3 {
+            color: $purpleFont;
+        }
+    }
+}
+
+.tab {
+    &_content_grey {
+        background: $greyFormBG;
+        padding: 25px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+        .paypal_deposit {
+            border-right: 1px solid darken($greyFormBG, 10%);
+        }
+    }
+}
+
+// tabs with icon nav
+.my_brand {
+    .tab {
+        &_trigger {
+            border: 0;
+            background-color: transparent;
+            flex-grow: 0;
+            flex-shrink: 0;
+            width: calc(100% / 9);
+            @extend .fs3;
+            padding: 10px;
+            line-height: 1;
+            position: relative;
+
+            @include xl {
+                padding: 10px 15px;
+            }
+
+            &_icon {
+                margin-bottom: 10px;
+            }
+
+            &.active:after {
+                display: block;
+                position: absolute;
+                width: 36px;
+                height: 17px;
+                background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='36' height='17' viewBox='0 0 36 17'%3E%3Cpath style='fill:none;stroke:%23DEDEDE;stroke-width:4;stroke-linecap:round;' d='M2,2l15.7,12.3L33.1,2'/%3E%3C/svg%3E");
+                content: '';
+                left: calc(50% - 18px);
+                bottom: -20px;
+            }
+        }
+        &_trigger_mobile {
+            position: relative;
+
+            > .col-12 {
+                overflow: scroll;
+                @include lg {
+                    overflow: visible;
+                }
+            }
+
+            &:after {
+                display: block;
+                background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+                right: 0;
+                top: 0;
+                width: 25px;
+                position: absolute;
+                height: 100%;
+                content: '';
+            }
+        }
+        &_trigger_wrapper {
+            width: 1000px;
+            margin: 0 auto 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+
+
+            @include lg {
+                width: 100%;
+                margin: 0 auto 40px;
+            }
+            @include xl {
+                width: 970px;
+            }
+        }
+
+        &_content {
+            display: none;
+            padding: 40px 0;
+
+            &.active {
+                display: block;
+            }
+
+            .input_outline input,
+            .input_outline textarea {
+                width: 100%;
+                max-width: 462px;
+
+                @include lg {
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+}

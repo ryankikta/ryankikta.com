@@ -1,0 +1,256 @@
+# Translation of Plugins - TreePress - Development Readme (trunk) in Greek
+# This file is distributed under the same license as the Plugins - TreePress - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - TreePress - Development Readme (trunk)\n"
+
+#. Found in description list item.
+msgid "Include any field data in the family tree display"
+msgstr ""
+
+#. Found in description list item.
+msgid "Style your family tree to suit your site"
+msgstr ""
+
+#. Screenshot description.
+msgid "Export data (Premium version)"
+msgstr ""
+
+#. Screenshot description.
+msgid "Import data (Premium version)"
+msgstr ""
+
+#. Screenshot description.
+msgid "Family Groups allow you to control multiple trees (Premium version)"
+msgstr ""
+
+#. Screenshot description.
+msgid "Options Tab 3 - Control the colours and appearance of the tree"
+msgstr ""
+
+#. Screenshot description.
+msgid "Options Tab 2 - Control the information displayed"
+msgstr ""
+
+#. Screenshot description.
+msgid "Options Tab 1 - Shortcodes"
+msgstr ""
+
+#. Screenshot description.
+msgid "Add Family Member page"
+msgstr ""
+
+#. Screenshot description.
+msgid "Sample Ancestor profile"
+msgstr ""
+
+#. Screenshot description.
+msgid "Sample family page"
+msgstr ""
+
+#. Screenshot description.
+msgid "Front end view - zoomed in to show detail"
+msgstr ""
+
+#. Screenshot description.
+msgid "Front end view - zoomed out to show whole tree"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First Release"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! You can earn 20% on sales of our Premium version by linking to our website or WordPress page - check out the Affiliation link in the plugin sidebar after installing."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Make sure the free version is disabled or removed to avoid this error message."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, with the Pro version"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes."
+msgstr ""
+
+#. Found in faq header.
+msgid "Do you have an affiliate program?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I get an error 'Cannot redeclare...etc' when adding the Premium version.  How can I stop this?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I import/export Gedcom?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does TreePress support WordPress multisite installation?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "If you are unable to use any of the methods due to internet connectivity and file permission issues, then you can use this method-"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "If your server is not connected to the Internet, then you can use this method-"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to Plugins -&gt; Installed"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Log in to your WordPress dashboard."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the folder to wp-content/plugins/"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Launch your favourite FTP client. Such as FileZilla, FireFTP, CyberDuck etc. If you are a more advanced user, then you can use SSH too."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Unzip the file."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click 'Choose File', select the plugin file and click install."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Login to your site’s admin panel and navigate to Plugins -&gt; Add New -&gt; Upload."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download the plugin by clicking on the blue 'Download' button above. A ZIP file will be downloaded."
+msgstr ""
+
+#. Found in installation header.
+msgid "Install Using FTP"
+msgstr ""
+
+#. Found in installation header.
+msgid "Manual Install From WordPress Dashboard"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin includes -"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "A new, fully supported, plugin for family history enthusiasts and genealogists enabling you to display a family tree and family informaton on your website."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Easily display your family tree on your blog</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=A896PF8TLT654&amp;source=wordpresspluginpage\">Donate to support plugin development</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.treepress.net/shop/\">Pro Version</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.treepress.net\">Project Site</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.treepress.net/docs/\">Documentation</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add your own fields to the family member page to track any information you wish"
+msgstr ""
+
+#. Found in description list item.
+msgid "Multiple additional fields for recording different facts"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add photos to tree view"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display an unlimited number of generations in a single tree "
+msgstr ""
+
+#. Found in description list item.
+msgid "Create multiple trees – ideal for separate families or to record alternative possible genealogies"
+msgstr ""
+
+#. Found in description list item.
+msgid "Import and export Gedcom format files"
+msgstr ""
+
+#. Found in description list item.
+msgid "Zoom in/out of larger trees &amp; drag tree on screen for better viewing"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display a list of all family members in the family listing page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display each family member’s information on an individual page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display a family tree with links to further information"
+msgstr ""
+
+#. Found in description list item.
+msgid "Specify any person as the tree ‘root’ with shortcode"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add unlimited family members, including data such as gender, DOB, DOD, image"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display a family tree with up to 200 family members in WordPress"
+msgstr ""
+
+#. Found in description header.
+msgid "Links"
+msgstr ""
+
+#. Found in description header.
+msgid "TreePress Premium"
+msgstr ""
+
+#. Found in description header.
+msgid "TreePress Features"
+msgstr ""
+
+#. Short description.
+msgid "TreePress is a simple solution for creating and displaying family trees on WordPress."
+msgstr ""
+
+#. Plugin name.
+msgid "TreePress"
+msgstr ""

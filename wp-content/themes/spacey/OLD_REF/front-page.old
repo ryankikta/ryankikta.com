@@ -1,0 +1,472 @@
+<?php get_header(); ?>
+
+<div class="home_hero">
+	<img class="home_hero_graphic" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/home_hero.svg">
+	<img class="home_hero_phone" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/home_hero_phone.png">
+	<div class="home_hero_content text-white-container">
+		<h1>Create an atmosphere that works for you</h1>
+		<p>The sky’s the limit with your creativity and our expertise. We provide a wide range of eCommerce resources to ensure a successful launch and a unique atmosphere that will make your dreams come true.</p>
+		<a href="/membership-levels" class="btn-primary">Get Started</a>
+	</div>
+</div>
+
+<?php // the_content(); ?>
+
+<section class="home_how">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 text-center mb-40">
+				<h3>How it works</h3>
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="36" height="17" viewBox="0 0 35.1 16.8"><path style="fill:none;stroke:#DEDEDE;stroke-width:4;stroke-linecap:round;" d="M2,2l15.7,12.3L33.1,2"/></svg>
+			</div>
+		</div>
+		<div class="row pt-40">
+			<div class="col-lg-6 home_how_list">
+				<div class="row mb-20">
+					<div class="col-md-2 mb-2">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61">
+							<g transform="translate(0)" style="opacity:0.5;">
+								<circle style="fill:#EEEC38;" cx="30.5" cy="30.5" r="30.5"/>
+							</g>
+							<g transform="translate(6.396 6.396)">
+								<ellipse style="fill:#EEEC38;" cx="24.1" cy="24.1" rx="24.1" ry="24.1"/>
+							</g>
+							<text transform="matrix(1 0 0 1 23.312 40.26)" style="font-size:29px;fill:#2D1159;font-family: 'Fira Sans', sans-serif;font-weight:500;">1</text>
+						</svg>
+
+					</div>
+					<div class="col-md-10">
+						<h2>Build Your Atmosphere</h2>
+						<p>Set the tone of your eCommerce shop! Discover what styles and strategies are right for your products. We will provide a wide range of quality print solutions to meet your specific needs. </p>
+					</div>
+				</div>
+				<div class="row mb-20">
+					<div class="col-md-2 mb-2">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61">
+							<g transform="translate(0)" style="opacity:0.5;">
+								<circle style="fill:#91E375;" cx="30.5" cy="30.5" r="30.5"/>
+							</g>
+							<g transform="translate(6.396 6.396)">
+								<ellipse style="fill:#91E375;" cx="24.1" cy="24.1" rx="24.1" ry="24.1"/>
+							</g>
+							<text transform="matrix(1 0 0 1 23.312 40.26)" style="font-size:29px;fill:#2D1159;font-family: 'Fira Sans', sans-serif;font-weight:500;">2</text>
+						</svg>
+					</div>
+					<div class="col-md-10">
+						<h2>Design Your Merchandise</h2>
+						<p>Make your products shine with unique artwork to match your brand atmosphere. Our experienced staff are on stand by to assist you with any graphic design needs you may have. </p>
+					</div>
+				</div>
+				<div class="row mb-20">
+					<div class="col-md-2 mb-2">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61">
+							<g transform="translate(0)" style="opacity:0.5;">
+								<circle style="fill:#19CBC5;" cx="30.5" cy="30.5" r="30.5"/>
+							</g>
+							<g transform="translate(6.396 6.396)">
+								<ellipse style="fill:#19CBC5;" cx="24.1" cy="24.1" rx="24.1" ry="24.1"/>
+							</g>
+							<text transform="matrix(1 0 0 1 23.312 40.26)" style="font-size:29px;fill:#2D1159;font-family: 'Fira Sans', sans-serif;font-weight:500;">3</text>
+						</svg>
+					</div>
+					<div class="col-md-10">
+						<h2>Put Your Brand To Work</h2>
+						<p>Upload custom products to your online store using one of our eCommerce marketplace integrations and put your brand to work for you. Choose from Shopify, Etsy, Storenvy, and more. </p>
+					</div>
+				</div>
+				<div class="row mb-20">
+					<div class="col-md-2 mb-2">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61">
+							<g transform="translate(0)" style="opacity:0.5;">
+								<circle style="fill:#10A0DE;" cx="30.5" cy="30.5" r="30.5"/>
+							</g>
+							<g transform="translate(6.396 6.396)">
+								<ellipse style="fill:#10A0DE;" cx="24.1" cy="24.1" rx="24.1" ry="24.1"/>
+							</g>
+							<text transform="matrix(1 0 0 1 22.312 40.26)" style="font-size:29px;fill:#2D1159;font-family: 'Fira Sans', sans-serif;font-weight:500;">4</text>
+						</svg>
+					</div>
+					<div class="col-md-10">
+						<h2>Fulfill Your Dreams</h2>
+						<p>We give your products everything they need for your eCommerce dreams to come true; continued support, business development, quality materials, and fulfillment solutions.</p>
+					</div>
+				</div>
+			</div><!-- /col -->
+			<img class="home_how_graphic" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/home_hat_bg.png">
+			<img class="home_how_hat" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/home_hat.png">
+		</div><!-- /row -->
+	</div><!-- /container -->
+</section>
+
+<section class="home_products">
+	<div class="home_products_intro graphic_bg py-80">
+		<img class="home_products_graphic" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/home_products_bg.svg">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="mx-auto col-sm-10 col-md-8 col-xl-6 text-center text-white-container">
+					<h2 class="fs1">A galaxy of products</h2>
+                                        <?php atlas(); ?>
+					<h3>Design your products</h3>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="36" height="17" viewBox="0 0 35.1 16.8"><path style="fill:none;stroke:#DEDEDE;stroke-width:4;stroke-linecap:round;" d="M2,2l15.7,12.3L33.1,2"/></svg>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row pb-40">
+			<div class="col-10 col-sm-6 col-lg-4 text-center mx-auto mb-20">
+				<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/product_phone.png">
+				<a href="accessories" class="btn-primary">Accessories</a>
+			</div>
+			<div class="col-10 col-sm-6 col-lg-4 text-center mx-auto mb-20">
+				<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/product_bag.png">
+				<a href="bags" class="btn-primary">Bags</a>
+			</div>
+			<div class="col-10 col-sm-6 col-lg-4 text-center mx-auto mb-20">
+				<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/product_hat.png">
+				<a href="hats" class="btn-primary">Hats</a>
+			</div>
+
+			<div class="col-10 col-sm-6 col-lg-4 text-center mx-auto mb-20">
+				<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/product_sweatshirt.png">
+				<a href="sweatsthirts" class="btn-primary">Sweatshirts</a>
+			</div>
+			<div class="col-10 col-sm-6 col-lg-4 text-center mx-auto mb-20">
+				<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/product_tshirt.png">
+				<a href="t-shirts" class="btn-primary">T-Shirts</a>
+			</div>
+			<div class="col-10 col-sm-6 col-lg-4 text-center mx-auto mb-20">
+				<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/product_tanktop.png">
+				<a href="tanktops" class="btn-primary">Tanktops</a>
+			</div>
+			<div class="col-12 text-center pt-20">
+				<a class="btn-link" href="/t-shirts">Shop all products</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="home_services">
+	<div class="home_services_intro mt-40">
+		<img class="home_services_intro_graphic" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/home_services_intro.svg">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="mx-auto col-md-8 col-xl-6 text-center text-white-container">
+					<h2 class="fs1">Explore our services</h2>
+                                        <?php atlas(); ?>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="36" height="17" viewBox="0 0 35.1 16.8"><path style="fill:none;stroke:#DEDEDE;stroke-width:4;stroke-linecap:round;" d="M2,2l15.7,12.3L33.1,2"/></svg>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row pt-40">
+			<div class="col-sm-6 col-lg-4 mb-40">
+				<div class="row">
+					<div class="col-3">
+						<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/services_setup.svg">
+					</div>
+					<div class="col-9">
+						<h3 class="fs2">Setup</h3>
+						<ul>
+							<li><a class="fs3" href="/integrations/">Ecommerce Integration</a></li>
+							<li><a class="fs3" href="/getting-started-with-print-aura/">Store Setup</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-lg-4 mb-40">
+				<div class="row">
+					<div class="col-3">
+						<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/services_print.svg">
+					</div>
+					<div class="col-9">
+						<h3 class="fs2">Print</h3>
+						<ul>
+							<li><a class="fs3" href="/dtg-printing/">Print-On-Demand</a></li>
+							<li><a class="fs3" href="/embroidery/">Embroidery</a></li>
+							<li><a class="fs3" href="/mugs/">Sublimation</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-4 mb-40">
+				<div class="row">
+					<div class="col-3">
+						<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/services_grow.svg">
+					</div>
+					<div class="col-9">
+						<h3 class="fs2">Grow</h3>
+						<ul>
+							<li><a class="fs3" href="/brand-development/">Business Development</a></li>
+							<li><a class="fs3" href="/warehouse-storage/">Warehouse Storage</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-lg-4 mb-40">
+				<div class="row">
+					<div class="col-3">
+						<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/services_design.svg">
+					</div>
+					<div class="col-9">
+						<h3 class="fs2">Design</h3>
+						<ul>
+							<li><a class="fs3" href="/graphic-design/">Graphic Design</a></li>
+							<li><a class="fs3" href="/web-design/">Web Design</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-4 mb-40">
+				<div class="row">
+					<div class="col-3">
+						<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/services_ship.svg">
+					</div>
+					<div class="col-9">
+						<h3 class="fs2">Ship</h3>
+						<ul>
+							<li><a class="fs3" href="/shipping/">Product Shipping</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-4 mb-40">
+				<div class="row">
+					<div class="col-3">
+						<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/services_support.svg">
+					</div>
+					<div class="col-9">
+						<h3 class="fs2">Support</h3>
+						<ul>
+							<li><a class="fs3" href="/blog">Product Knowledge</a></li>
+							<li><a class="fs3" href="/fulfillment-requests/">Fulfillment Requests</a></li>
+							<li><a class="fs3" href="/integrations/">Ecommerce Store</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="home_atmosphere py-40">
+	<img class="home_atmosphere_left" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/home_integrate_left.svg">
+	<img class="home_atmosphere_right" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/home_integrate_right.svg">
+	<div class="home_atmosphere_intro py-40">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="ml-auto col-md-8 text-right">
+					<h2 class="fs1">Integrate your atmosphere</h2>
+                                        <?php atlas(); ?>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row py-40 justify-content-between">
+			<div class="col-10 col-md-4 mb-30 home_atmosphere_card">
+				<a href="/shopify-app">
+					<img class="img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/integration_shopify.png">
+					<span class="fs3">Shopify</span>
+				</a>
+			</div>
+			<div class="col-10 col-md-4 mb-30 home_atmosphere_card">
+				<a href="/etsy-app">
+					<img class="img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/integration_etsy.png">
+					<span class="fs3">Etsy</span>
+				</a>
+			</div>
+			<div class="col-10 col-md-4 mb-30 home_atmosphere_card">
+				<a href="/storenvy-app">
+					<img class="img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/integration_storenvy.png">
+					<span class="fs3">Storenvy</span>
+				</a>
+			</div>
+
+			<div class="col-10 col-md-4 mb-30 home_atmosphere_card">
+				<a href="/opencart-app">
+					<img class="img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/integration_opencart.png">
+					<span class="fs3">Opencart</span>
+				</a>
+			</div>
+			<div class="col-10 col-md-4 mb-30 home_atmosphere_card">
+				<a href="/woocommerce-app">
+					<img class="img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/integration_woocommerce.png">
+					<span class="fs3">Woocommerce</span>
+				</a>
+			</div>
+			<div class="col-10 col-md-4 mb-30 home_atmosphere_card">
+				<a href="/bigcommerce-app">
+					<img class="img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/integration_bigcommerce.png">
+					<span class="fs3">Bigcommerce</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="home_why">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-8 col-lg-6">
+				<h2 class="fs1">Why use us?</h2>
+                                <?php atlas(); ?>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-lg-3">
+				<ul class="home_why_list">
+					<li>Huge product variety</li>
+					<li>No minimum order</li>
+					<li>Large daily capacity</li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-lg-3">
+				<ul class="home_why_list">
+					<li>US & global shipping</li>
+					<li>Amazing customer support</li>
+					<li>Ryan Kikta guarantee</li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-lg-3">
+				<ul class="home_why_list">
+					<li>High-quality printing</li>
+					<li>Fast turnarounds</li>
+					<li>Longevity</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="home_testimonials py-40">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col text-center py-40">
+				<h2>What our customers say</h2>
+			</div>
+		</div>
+	</div>
+	<div class="text-white-container py-40 graphic_bg">
+		<img class="home_testimonials_graphic" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/home_testimonial_bg.svg">
+		<div class="container-fluid">
+			<div class="row d-none d-lg-flex">
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-3">
+							<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/testimonial_icon_green.svg">
+						</div>
+						<div class="col-9">
+							<h3>An Awesome Addition To Our Business!</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<p class="mb-0">We are very satisfied. Customer service is responsive, and feed back from our customers is very good. They are great about getting orders printed and shipped very quickly. Ryan Kikta has been an awesome addition to our business. Highly recommended!<br><br>~Jill S.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-3">
+							<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/testimonial_icon_teal.svg">
+						</div>
+						<div class="col-9">
+							<h3>The BEST T-shirt Printing Service!</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<p class="mb-0">Ryan Kikta is seriously the BEST t-shirt printing service I’ve ever come across. All I have to do is punch in my customers information and Ryan Kikta does the rest (Printing and Shipping). It’s a very easy system! Not only is their service great, their customer support is amazing…<br><br>~Leka I.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-3">
+							<img class="mb-20 img-fluid" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/testimonial_icon_blue.svg">
+						</div>
+						<div class="col-9">
+							<h3>Excited To Have Found Ryan Kikta!</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<p class="mb-0">We are just starting up our biz and have ordered a couple of our designed tees. We loved them! We are so pleased and excited to have found RyanKikta. Exceptional quality and service!<br><br>~Jessica T.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="home_testimonials_slider">
+				<div class="home_testimonials_slide">
+					<div class="row">
+						<div class="col-12">
+							<img class="mb-20" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/testimonial_icon_green.svg">
+						</div>
+						<div class="col-12">
+							<h3>An Awesome Addition To Our Business!</h3>
+						</div>
+						<div class="col-12">
+							<p class="mb-0">We are very satisfied. Customer service is responsive, and feed back from our customers is very good. They are great about getting orders printed and shipped very quickly. Ryan Kikta has been an awesome addition to our business. Highly recommended!<br><br>~Jill S.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="home_testimonials_slide">
+					<div class="row">
+						<div class="col-12">
+							<img class="mb-20" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/testimonial_icon_teal.svg">
+						</div>
+						<div class="col-12">
+							<h3>The BEST T-shirt Printing Service!</h3>
+						</div>
+						<div class="col-12">
+							<p class="mb-0">Ryan Kikta is seriously the BEST t-shirt printing service I’ve ever come across. All I have to do is punch in my customers information and Ryan Kikta does the rest (Printing and Shipping). It’s a very easy system! Not only is their service great, their customer support is amazing…<br><br>~Leka I.</p>
+						</div>
+					</div>
+				</div>
+				<div class="home_testimonials_slide">
+					<div class="row">
+						<div class="col-12">
+							<img class="mb-20" src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/testimonial_icon_blue.svg">
+						</div>
+						<div class="col-12">
+							<h3>Excited To Have Found Ryan Kikta!</h3>
+						</div>
+						<div class="col-12">
+							<p class="mb-0">We are just starting up our biz and have ordered a couple of our designed tees. We loved them! We are so pleased and excited to have found RyanKikta. Exceptional quality and service!<br><br>~Jessica T.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container-fluid py-40">
+		<div class="row align-items-center justify-content-between">
+			<div class="col-md-6 col-lg-5 mb-40">
+				<h2 class="fs1">Dare to dream?</h2>
+				<h3 class="fs2">Sign up to get started</h3>
+                                <?php atlas(); ?>
+				<form>
+					<div class="input_outline">
+						<input type="email" placeholder="johndoe@gmail.com">
+					</div>
+					<input class="btn-primary" type="submit" value="Sign Up">
+				</form>
+			</div><!-- /col -->
+			<div class="col-md-6 mb-40">
+				<img src="<?php echo CLOUD_URL_Assets; ?>/uploads/solutions/home_get_started.svg">
+			</div>
+		</div><!-- /row -->
+	</div><!-- /container -->
+</section>
+
+<?php get_footer(); ?>

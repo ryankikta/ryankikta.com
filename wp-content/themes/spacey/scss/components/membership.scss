@@ -1,0 +1,389 @@
+/* Membership Levels
+-------------------------------------------------------------------*/
+
+#membershipHeroCopy, #signUpHeroCopy {margin-top: -2em;}
+#signUpHeroCopy {margin-bottom: 5em;}
+
+.membership-sidebar {
+    background-color: $greyFormBG;
+    border-radius: 30px;
+    max-width: 450px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    ul li::before {
+        content: "\2022";
+        color: $teal;
+        font-weight: bold;
+        font-size: 1rem;
+        display: inline-block;
+        width: 1em;
+        margin: 0, 0, 4px, 0;
+    }
+    @include lg {
+        display: block !important;
+    }
+}
+
+// toggle this stuff
+
+.sign-up-forms {
+    max-width: 485px;
+    margin: auto;
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"] {
+        width: 100%;
+    }
+    .input_dropdown select {
+        width: 100%;
+        @include sm {width: 240px;}
+    }
+}
+
+.checkbox-round {
+    width: 1em;
+    height: 1em;
+    // margin-right: 3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: $blueFont;
+}
+
+// end toggle
+
+.border-section {
+    border-top: 1px $greyFormBG solid;
+    border-bottom: 1px $greyFormBG solid;
+}
+
+.step-complete {
+    fill: $blueFont !important;
+    color: $blueFont !important;
+    circle {
+        fill: $blueFont !important;
+        stroke: none;
+    }
+}
+
+// Profile stuff
+
+.pmpro_member_profile_edit-field {
+    label:not(.small_label) {
+        @include smallHeading;
+        display: block;
+        padding-left: 36px;
+        margin-bottom: 5px;
+        line-height: 1;
+    }
+    input:not([type=button]), textarea {
+        @include inputOutline;
+        margin-bottom: 30px;
+    }
+    textarea {
+        height: 150px;
+        width: 100%;
+    }
+}
+fieldset .div_text {
+    width: 100% !important;
+    input:not([type=checkbox]):not([type=button]) {
+        font-size: 20px !important;
+        font-family: 'Fira Sans', sans-serif !important;
+        font-weight: 300;
+        padding: 13px 48px !important;
+        border-radius: 30px !important;
+        color: $blackFont !important;
+        height: 56px;
+        box-shadow: none;
+        line-height: 1;
+        width: 100% !important;
+        border: 1px solid $greyFormBorder !important;
+        background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='2' height='33' viewBox='0 0 2 33' xml:space='preserve'%3E%3Cline style='fill:none;stroke:%23707070;' x1='1' y1='0' x2='1' y2='33'/%3E%3C/svg%3E") !important;
+        background-repeat: no-repeat !important;
+        background-position: 36px 14px !important;
+    }
+}
+
+// PMP Login and Membership
+
+body #wpmem_login {
+    fieldset {
+        max-width: 462px;
+        margin: auto;
+    }
+
+    legend {
+        display: none;
+    }
+
+    .div_text,
+    .button_div {
+        width: 100%;
+        text-align: center;
+    }
+
+    label {
+        @include smallHeading;
+        display: block;
+        // padding-left: 36px;
+        margin: 20px 0 10px 0;
+        padding-left: 10%;
+        line-height: 1;
+        text-align: left;
+        max-width: 462px;
+
+        &[for="rememberme"] {
+            padding-left: 2em;
+            max-width: none;
+        }
+    }
+
+    input[type=text],
+    input[type=password] {
+        @include inputOutline;
+        width: 100%;
+        max-width: 462px;
+        background-position: 36px 10px;
+    }
+
+    .button_div {
+        label {
+            text-align: center;
+            margin-bottom: 15px;
+            margin-top: -15px;
+        }
+
+        input[type=checkbox] {
+            position: relative;
+            top: 22px;
+            right: 15%;
+            @include sm {
+                top: 6px;
+                right: 50px;
+            }
+            @include md {
+                position: relative;
+                bottom: -12px;
+                left: -50px;
+            }
+
+        }
+    }
+
+    input[type=submit].buttons {
+        @extend .btn-primary;
+        width: 100%;
+        max-width: 462px;
+
+        @include lg {
+            width: auto;
+        }
+    }
+
+    .link-text {
+        width: 100%;
+        text-align: center;
+
+        &-forgot {
+            margin-top: 1em;
+        }
+    }
+
+    label[for=rememberme] {
+        pointer: clicker;
+    }
+}
+
+form.pmpro_form .pmpro_member_profile_edit-fields div {margin: 0 !important;} //margin fix
+
+#wpmem_login_form {
+
+    input[type=submit],
+    label[for=rememberme] {
+        cursor: pointer;
+    }
+}
+
+#wpmem_reg {
+    margin: auto;
+    label {
+        @include smallHeading;
+        display: block;
+        padding-left: 36px;
+        margin-bottom: 5px;
+        line-height: 1;
+    }
+}
+
+.pmpro_submit, .button_div {
+    hr { display: none; }
+    input {
+        &:first-of-type {@extend .btn-primary;}
+        @extend .btn-secondary;
+        display: block;
+        @include lg {
+            width: 250px !important;
+        }
+    }
+}
+.pmpro_submit {
+    display: block;
+    @include lg {
+        display: flex;
+    }
+}
+.pmpro_btn.pmpro_btn-cancel {
+    @extend .btn-secondary;
+    margin-top: 1em !important;
+    // width: 100% !important;
+    @include md {
+        // width: 250px !important;
+        margin-top: 0 !important;
+    }
+}
+
+#wpmem_profile_form .button_div {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#wpmem_profile_form legend {
+    @include mediumHeading;
+    margin-bottom: 2em !important;
+}
+
+#wpmem_pwdchange_form fieldset{
+    margin: initial !important;
+    margin-bottom: 2em !important;
+}
+
+body #wpmem_login .div_text, body #wpmem_login .button_div input:not[type=checkbox]{
+    width: initial;
+    text-align: initial;
+}
+
+//All the inputs
+form.pmpro_form .input,
+form.pmpro_form textarea,
+form.pmpro_form select,
+#loginform input[type=text],
+#loginform input[type=password],
+#wpmem_login fieldset input:not([type=checkbox]):not([type="submit"]),
+#wpmem_reg fieldset input:not([type=checkbox]):not([type="submit"]) {
+    width: 100% !important;
+    max-width: 100% !important;
+    @include lg {
+        max-width: 462px !important;
+    }
+}
+
+//All the buttons
+.btn-primary,
+body #wpmem_login input.buttons[type=submit],
+#wpmem_login .button_div,
+#wpmem_reg .button_div,
+.pmpro_submit input,
+.button_div input,
+.pmpro_submit input:first-of-type,
+.button_div input:first-of-type,
+.pmpro-member-profile-edit .row .col-lg-12 ul li a
+.pmpro_btn.pmpro_btn-cancel,
+.pmpro_btn.pmpro_btn-cancel:link,
+.pmpro_btn.pmpro_btn-cancel:hover,
+
+.pmpro_btn.pmpro_btn-cancel
+.entry-content a.pmpro_btn.pmpro_btn-cancel:hover {
+    // width: 100% !important;
+    min-width: 250px !important;
+    @include lg {
+        // width: 250px !important;
+    }
+}
+// #wpmem_ {
+//     &login, &reg {
+//         fieldset input:not([type="checkbox"]):not([type="submit"]) { width: 100% !important; }
+//         fieldset input[type=submit] {
+//             width: 100% !important;
+//             @include lg {width: auto !important;}
+//         }
+//     }
+// }
+// .pmpro_member_profile_edit_wrap {
+//     input { width: 100% !important; }
+// }
+
+.pmpro_message {
+    @extend .message;
+    @extend .message_saved;
+    @extend .fs3;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+// .pmpro-member-profile-edit {
+//     justify-content: center;
+    
+//     .basic-content .container-fluid {
+//         display: flex;
+//         justify-content: center;
+//     }
+// }
+
+.edit-profile {
+    margin-top: 1em;
+    .button_div {
+        text-align: left !important;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        padding: initial;
+        justify-content: center;
+        @include lg {justify-content: start;}
+        li {
+            &:not(:last-of-type){
+                margin-right: 1em;
+                ::after {
+                    content: "|";
+                    margin-left: 1em;
+                    color: $blackFont;
+                }
+            }
+        }
+    }
+    #wpmem_pwdchange_form {
+        fieldset .div_text input { width: 100% !important; }
+    }
+    #wpmem_login fieldset {
+        max-width: 100% !important;
+        .div_text input {
+            max-width: 100% !important;
+
+        }
+        @include lg {
+            max-width: 462px !important;
+        }
+        
+        .button_div input {
+            max-width: 100% !important;
+            @include lg {
+                // max-width: 250px !important;
+            }
+        }
+    }
+}
+

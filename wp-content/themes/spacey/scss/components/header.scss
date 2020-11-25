@@ -1,0 +1,255 @@
+/* mixins
+-------------------------------------------------------------------*/
+
+
+/* styles
+-------------------------------------------------------------------*/
+.header_top {
+    background-color: $purpleHeading;
+    padding: 10px 0;
+    
+    &_copy {
+        color: $white;
+        margin: 0;
+        // this needs to be a different font
+        font-weight: 700;
+    }
+}
+
+.header_block {
+    margin-top: -40px;
+}
+
+header.main {
+    border-bottom: 1px solid $greyFormBG;
+    .flex-nav {
+        padding: 5px 0;
+        @include lg {
+            padding: 20px 0;
+        }
+    }
+    .logo {
+        padding-top: 12px;
+        padding-right: 40px;
+
+        @include lg {
+            padding-top: 20px;
+        }
+        
+        svg {
+            width: 120px;
+            height: auto;
+            @include sm {
+                width: 177px;
+            }
+            @include lg {
+                max-width: 16vw;
+            }
+            @include xl {
+                width: 277px;
+            }
+        }
+
+        a {
+            display: block;
+        }
+    }
+
+    nav.navbar {
+        flex-grow: 1;
+
+        .navbar-collapse {
+            @include lg {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        }
+
+        .menu-item a {
+            @include smallHeading;
+            padding: 10px 10px 10px 10px;
+            text-decoration: none;
+
+            @include xl {
+                padding: 10px 40px 10px 20px;
+            }
+        }
+    }
+
+    .nav_account {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        &_item {
+            text-align: center;
+            flex-shrink: 0;
+            padding: 10px;
+            cursor: pointer;
+
+            @include xl {
+                padding: 15px;
+            }
+
+            &_icon {
+                width: 36px;
+                height: 36px;
+                display: block;
+                margin: 0 auto;
+            }
+
+            &_link {
+                @include smallHeading;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.nav_search {
+    &_icon {
+        margin-bottom: -3px;
+        margin-right: 5px;
+        margin-left: -5px;
+    }
+    &_btn {
+        @include buttonBase();
+        min-width: 0;
+        background-color: $greyFormBG;
+        border-radius: 35px;
+        padding-left: 45px;
+        padding-right: 45px;
+        cursor: pointer;
+
+        &:hover {
+            background: darken($greyFormBG, 5%);
+        }
+    }
+}
+.mobile-nav {
+    background-color: $white;
+    width: 100%;
+    right: -100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 100%;
+    display: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    a.mobile-close {
+        color: $purpleHeading;
+        font-size: 40px;
+        line-height: 1.4;
+        text-align: right;
+        display: block;
+        padding: 0 23px;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: none;
+            opacity: .6;
+            text-decoration: none;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        a {
+            padding: 5px 10px;
+            display: block;
+            border-bottom: 1px solid rgba(255, 255, 255, .3);
+            @extend .fs2;
+            text-decoration: none;
+
+            &:hover {
+                background-color: rgba(255, 255, 255, .1);
+                text-decoration: none;
+            }
+        }
+    }
+
+    ul.menu {
+        padding: 20px 0 0;
+        clear: both;
+
+        > li > a {
+            position: relative;
+            padding: 10px 0;
+            &:after {
+                position: absolute;
+                right: 5px;
+                top: -3px;
+                content: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='13' height='8' viewBox='0 0 13 8'%3E%3Cpath style='fill:none;stroke:%23361181;stroke-width:2.5;stroke-miterlimit:10;' d='M11.3,0.9L6.1,5.8L0.9,0.9'%3E%3C/path%3E%3C/svg%3E");
+            }
+        }
+    }
+
+    ul.sub-menu { 
+        padding: 0;
+        display: none;
+
+        a { 
+            padding: 5px 10px 5px 20px; 
+            @extend .fs3;
+        }
+    }
+
+    .nav_account {
+        background: $greyFormBG;
+    }
+    .nav_account_item {
+        padding: 15px 10px;
+        a { 
+            text-decoration: none;
+        }
+        &_icon {
+            max-width: 40px;
+            height: 40px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .mobile_nav_graphic {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .position-relative {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        overflow: hidden;
+    }
+
+    .btn-primary, .nav_search_btn {
+        display: block;
+        width: 260px;
+        margin: 20px auto;
+
+    }
+}
+.user_logged_out {
+    .nav_account_logged_in {
+        display: none !important;
+    }
+    .nav_account_logged_out {
+        display: flex !important;
+    }
+}
+
+.user_logged_in, .logged-in {
+    .nav_account_logged_in {
+        display: flex !important;
+    }
+    .nav_account_logged_out {
+        display: none !important;
+    }
+}
+
+

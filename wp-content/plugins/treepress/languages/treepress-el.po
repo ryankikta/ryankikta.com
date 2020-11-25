@@ -1,0 +1,780 @@
+# Translation of Plugins - TreePress &#8211; Easy Family Trees &amp; Ancestor Profiles - Stable (latest release) in Greek
+# This file is distributed under the same license as the Plugins - TreePress &#8211; Easy Family Trees &amp; Ancestor Profiles - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-14 13:51+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - TreePress &#8211; Easy Family Trees &amp; Ancestor Profiles - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: admin/class-treepress-admin.php:1968
+msgid "Donate"
+msgstr "Δωρίστε"
+
+#: admin/class-treepress-admin.php:1923
+msgid "Name"
+msgstr "Όνομα"
+
+#: admin/class-treepress-admin.php:1922
+msgid "Born"
+msgstr "Ημερομηνία γέννησης"
+
+#: admin/class-treepress-admin.php:1921
+msgid "ID"
+msgstr "ID"
+
+#: admin/class-treepress-admin.php:1914
+msgid "Enter name here"
+msgstr "εισάγετε το όνομα εδώ"
+
+#: admin/class-treepress-admin.php:1658
+msgid "Upgrade to the Premium version here"
+msgstr "αναβαθμίστε εδώ την έκδοση Premium"
+
+#: admin/class-treepress-admin.php:1657
+msgid "Want more fields for facts on this family member? "
+msgstr "θέλετε περισσότερα πεδία για γεγονότα σε αυτό το μέλος της οικογένειας"
+
+#: admin/class-treepress-admin.php:1629
+msgid "Spouse:"
+msgstr "σύζυγος"
+
+#: admin/class-treepress-admin.php:1608
+msgid "Father:"
+msgstr "πατέρας"
+
+#: admin/class-treepress-admin.php:1587
+msgid "Mother:"
+msgstr "μητέρα"
+
+#: admin/class-treepress-admin.php:1582
+msgid "Died :"
+msgstr "πέθανε"
+
+#: admin/class-treepress-admin.php:1577
+msgid "Born :"
+msgstr "γεννήθηκε"
+
+#: admin/class-treepress-admin.php:1552
+msgid "Gender:"
+msgstr "φύλο"
+
+#: admin/class-treepress-admin.php:1544
+msgid "ID:"
+msgstr "ταυτότητα"
+
+#: admin/class-treepress-admin.php:1538
+msgid "General Info"
+msgstr "γενικές πληροφορίες"
+
+#: admin/class-treepress-admin.php:1339
+msgid "Notes:"
+msgstr "σημειώσεις:"
+
+#: admin/class-treepress-admin.php:1324
+msgid "Private Notes"
+msgstr "Προσωπικές σημειώσεις"
+
+#: admin/class-treepress-admin.php:1316
+msgid "Member info"
+msgstr "Πληροφορίες μέλους"
+
+#: admin/class-treepress-admin.php:1276
+msgid "No family group found."
+msgstr "Δε βρέθηκε οικογενειακή ομάδα."
+
+#: admin/class-treepress-admin.php:1275
+msgid "Choose from the most used family group"
+msgstr "Επιλέξτε από την πιο συνηθισμένη οικογένεια"
+
+#: admin/class-treepress-admin.php:1274
+msgid "Add or remove family group"
+msgstr "Προσθέστε ή αφαιρέστε την ομάδα οικογένειας"
+
+#: admin/class-treepress-admin.php:1273
+msgid "Separate family group with commas"
+msgstr "Ξεχώρισε οικογενειακή ομάδα με κόμματα"
+
+#: admin/class-treepress-admin.php:1272
+msgid "New Group Name"
+msgstr "Όνομα νέας ομάδας "
+
+#: admin/class-treepress-admin.php:1271
+msgid "Add New Group"
+msgstr "Προσθήκη νέας ομάδας"
+
+#: admin/class-treepress-admin.php:1270
+msgid "Update Family Group"
+msgstr "Εκσυγχρόνιση οικογενειακής ομάδας"
+
+#: admin/class-treepress-admin.php:1269
+msgid "Edit Family Group"
+msgstr "Επεξεργασία οικογενειακής ομάδας"
+
+#: admin/class-treepress-admin.php:1266
+msgid "All Family Groups"
+msgstr "Όλες οι οικογενειακές ομάδες"
+
+#: admin/class-treepress-admin.php:1265
+msgid "Popular Family Groups"
+msgstr "Δημοφιλείς οικογενειακές ομάδες"
+
+#: admin/class-treepress-admin.php:1264
+msgid "Search Family Groups"
+msgstr "Αναζήτηση Οικογενειακών Ομάδων"
+
+#: admin/class-treepress-admin.php:1263
+msgctxt "taxonomy singular name"
+msgid "Family Group"
+msgstr "Oικογενειακή ομάδα"
+
+#: admin/class-treepress-admin.php:1262
+msgctxt "taxonomy general name"
+msgid "Family Groups"
+msgstr "Oικογενειακές ομάδες"
+
+#: admin/class-treepress-admin.php:1245
+msgid "Description."
+msgstr "Περιγραφή."
+
+#: admin/class-treepress-admin.php:1240
+msgid "No members found in Trash."
+msgstr "Δεν βρέθηκαν μέλη στο κάδο"
+
+#: admin/class-treepress-admin.php:1239
+msgid "No members found."
+msgstr "Δε βρέθηκαν μέλη."
+
+#: admin/class-treepress-admin.php:1238
+msgid "Parent Members:"
+msgstr "Μέλη γονέων:"
+
+#: admin/class-treepress-admin.php:1237
+msgid "Search Members"
+msgstr "Αναζήτηση μελών"
+
+#: admin/class-treepress-admin.php:1236
+msgid "All Members"
+msgstr "Όλα τα μέλη"
+
+#: admin/class-treepress-admin.php:1235
+msgid "View Member"
+msgstr "Προβολή μέλους"
+
+#: admin/class-treepress-admin.php:1234
+msgid "Edit Member"
+msgstr "Eπεξεργασία μέλους"
+
+#: admin/class-treepress-admin.php:1233
+msgid "New Member"
+msgstr "Νέο μέλος"
+
+#: admin/class-treepress-admin.php:1232
+msgid "Add New Member"
+msgstr "Προσθήκη νέου μέλους"
+
+#: admin/class-treepress-admin.php:1231
+msgctxt "member"
+msgid "Add New"
+msgstr "προσθέστε νέο μέλος"
+
+#: admin/class-treepress-admin.php:1230
+msgctxt "add new on admin bar"
+msgid "Member"
+msgstr "Μέλος"
+
+#: admin/class-treepress-admin.php:1229
+msgctxt "admin menu"
+msgid "Members"
+msgstr "Μέλη"
+
+#: admin/class-treepress-admin.php:1228
+msgctxt "post type singular name"
+msgid "Member"
+msgstr "Μέλος"
+
+#: admin/class-treepress-admin.php:1227
+msgctxt "post type general name"
+msgid "Members"
+msgstr "Μέλη"
+
+#: admin/class-treepress-admin.php:1216
+msgid "Save Changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: admin/class-treepress-admin.php:1196
+msgid "Show powered-by link"
+msgstr "προβάλλετε τη σύνδεσή σας μέσω τροφοδοσίας"
+
+#: admin/class-treepress-admin.php:1191
+msgid "Wordpress plugin site"
+msgstr "πρόσθετος ιστότοπος WordPress"
+
+#: admin/class-treepress-admin.php:1191
+msgid "Give us a good rating at the "
+msgstr "δώστε μας μια καλή βαθμολογία στο"
+
+#: admin/class-treepress-admin.php:1190
+msgid "from some other location of your site (that would help us feed our children)"
+msgstr "από κάποια άλλη τοποθεσία του ιστότοπού σας(που θα μας βοηθούσε να ταΐσουμε τα παιδιά μας)"
+
+#: admin/class-treepress-admin.php:1190
+msgid " include a link to"
+msgstr "περιλαμβάνει σύνδεσμο προς"
+
+#: admin/class-treepress-admin.php:1189
+msgid "and let us know about your family tree website (that would inspire us),"
+msgstr "και ενημερώστε μας για την ιστοσελίδα του οικογενειακου σας δέντρου (θα μας εμπνεύσει)"
+
+#: admin/class-treepress-admin.php:1189
+msgid "email"
+msgstr "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ"
+
+#: admin/class-treepress-admin.php:1189
+msgid " send us an"
+msgstr "στείλτε μας ένα"
+
+#: admin/class-treepress-admin.php:1187
+msgid ""
+"\n"
+"\t\t\t\t\tIf you don't want to link to us from the bottom of the family tree then please consider these other options"
+msgstr ""
+"\n"
+"Εάν δεν θέλετε να συνδεθήτε σε εμάς από το κάτω μέρος του οικογενειακού δέντρου, παρακαλούμε να λάβετε υπόψη σας αυτές τις άλλες επιλογές"
+
+#: admin/class-treepress-admin.php:1187
+msgid "Appreciation makes us happy."
+msgstr "Η εκτίμηση μας κάνει ευτυχισμένους."
+
+#: admin/class-treepress-admin.php:1186
+msgid "If you use this plugin then we would be very grateful for some appreciation. "
+msgstr "Εάν χρησιμοποιείτε αυτό το plugin τότε θα είμαστε πολύ ευγνώμονες για την εκτίμηση σας"
+
+#: admin/class-treepress-admin.php:1182
+msgid "Credit link"
+msgstr "πιστωτική σύνδεση"
+
+#: admin/class-treepress-admin.php:1168
+msgid "* This parameter is useful if spouses are displayed vertically."
+msgstr "* Αυτή η παράμετρος είναι χρήσιμη εάν οι σύζυγοι εμφανίζονται κάθετα"
+
+#: admin/class-treepress-admin.php:1163
+msgid "Height of generations (pixels)"
+msgstr "ύψος γενεών (εικονοστοιχεία)"
+
+#: admin/class-treepress-admin.php:1155
+msgid "Node minimum width (pixels)"
+msgstr "ελάχιστο πλάτος κόμβου (εικονοστοιχεία) "
+
+#: admin/class-treepress-admin.php:1147
+msgid "Node corner radius (pixels)"
+msgstr "Ακτίνα γωνίας κόμβου (εικονοστοιχεία)"
+
+#: admin/class-treepress-admin.php:1139
+msgid "Node text colour (#rgb)"
+msgstr "Χρώμα κειμένου κόμβου (#rgb)"
+
+#: admin/class-treepress-admin.php:1131
+msgid "Node opacity (0.0 to 1.0)"
+msgstr "Αδιαφάνεια κόμβου (0.0 έως 1.0)"
+
+#: admin/class-treepress-admin.php:1123
+msgid "Node fill colour (#rgb)"
+msgstr "Χρώμα πληρώσεως κόμβου (#rgb)"
+
+#: admin/class-treepress-admin.php:1115
+msgid "Node outline colour (#rgb)"
+msgstr "Χρώμα περιγράμματος κόμβου (#rgb)"
+
+#: admin/class-treepress-admin.php:1107
+msgid "Background colour (#rgb)"
+msgstr "Xρώμα φόντου (#rgb)"
+
+#: admin/class-treepress-admin.php:1102
+msgid "TreePress styling"
+msgstr "στυλ TreePress "
+
+#: admin/class-treepress-admin.php:1092
+msgid "Enable tree nav link"
+msgstr "Ενεργοποιήστε τη σύνδεση δορυφόρων"
+
+#: admin/class-treepress-admin.php:1082
+msgid "Enable single page link"
+msgstr "Ενεργοποιήστε σύνδεση μιας σελίδας"
+
+#: admin/class-treepress-admin.php:1074
+msgid "Enable toolbar"
+msgstr "Ενεργοποιήστε τη γραμμή εργαλείων"
+
+#: admin/class-treepress-admin.php:1069
+msgid "Each node in the family tree can have a toolbar which can show a number of additional options. Here you can define how the toolbar should work."
+msgstr "Ο κάθε κόμβος στο οικογενειακό δέντρο μπορεί να έχει μια γραμμή εργαλείων, η οποία μπορεί να εμφανίσει μια σειρά πρόσθετων επιλογών. Εδώ μπορείτε να ορίσετε πώς θα πρέπει να λειτουργήσει η γραμμή εργαλείων."
+
+#: admin/class-treepress-admin.php:1066
+msgid "Node navigation toolbar"
+msgstr "Γραμμή εργαλείων πλοήγησης κόμβων"
+
+#: admin/class-treepress-admin.php:1047
+msgid "Refocus on click"
+msgstr "Επαναπροσδιορισμός κλικ"
+
+#: admin/class-treepress-admin.php:1039
+msgid "Diagonal connections"
+msgstr "Διαγώνιες συνδέσεις"
+
+#: admin/class-treepress-admin.php:1031
+msgid "Show gender"
+msgstr "Εμφάνιση φύλου"
+
+#: admin/class-treepress-admin.php:1023
+msgid "Display spouses vertically"
+msgstr "Εμφάνιση συζύγους κάθετα"
+
+#: admin/class-treepress-admin.php:1015
+msgid "Show only one spouse"
+msgstr "Εμφάνιση μόνο ενός/μίας συζύγου"
+
+#: admin/class-treepress-admin.php:1007
+msgid "Show spouse"
+msgstr "Εμφάνιση συζύγου"
+
+#: admin/class-treepress-admin.php:999
+msgid "Conceal living dates for those alive"
+msgstr "Κρύψτε τις ημερομηνίες διαβίωσης για τους ζωντανούς"
+
+#: admin/class-treepress-admin.php:990
+msgid "Death Date Prefix"
+msgstr "πρόθεμα ημερομηνίας θανάτου"
+
+#: admin/class-treepress-admin.php:981
+msgid "Birth Date Prefix"
+msgstr "Πρόθεμα ημερομηνίας γέννησης"
+
+#: admin/class-treepress-admin.php:972
+msgid "Only show year"
+msgstr "Εμφάνιση έτους μόνο"
+
+#: admin/class-treepress-admin.php:964
+msgid "Show living dates"
+msgstr "Εμφάνιση ημερομηνιών διαβίωσης"
+
+#: admin/class-treepress-admin.php:955
+msgid "Only show first name"
+msgstr "Εμφάνιση ονόματος μόνο"
+
+#: admin/class-treepress-admin.php:947
+msgid "Wrap names"
+msgstr "Τυλίξε ονόματα"
+
+#: admin/class-treepress-admin.php:942
+msgid "Treepress options"
+msgstr "επιλογές TreePress"
+
+#: admin/class-treepress-admin.php:925
+msgid "You can find the member ID on the All Members page."
+msgstr "Μπορείτε να βρείτε τη ταυτότητα μέλους στη σελίδα Όλα τα μέλη"
+
+#: admin/class-treepress-admin.php:922
+msgid "You can find the family_ID on the Families page - when added, the code '{family_id}' will look something like '42'.  "
+msgstr ""
+"Μπορείτε να βρείτε τη ταυτότητα οικογένειας στη σελίδα \"Οικογένειες\" - \n"
+"όταν προστεθεί, ο κώδικας '{ταυτότητα οικογένειας}' θα μοιάζει με '42'."
+
+#: admin/class-treepress-admin.php:919
+msgid "Finding IDs for your Shortcodes"
+msgstr "Εύρεση ταυτοτήτων για τα Shortcode σας"
+
+#: admin/class-treepress-admin.php:915
+msgid "You can control which family tree the [tree icon image] icon links to by adding a page or post link in the individual Family Tree page."
+msgstr "Μπορείτε να ελέγξετε ποιο οικογενειακό δέντρο [εικονίδιο δέντρου] συνδέεται με το εικονίδιο προσθέτοντας μια σελίδα ή μια ανάρτηση συνδέσμου στη σελίδα μεμονωμένου οικογενειακού δέντρου"
+
+#: admin/class-treepress-admin.php:912
+msgid "To create a list of all family members, use the shortcode format"
+msgstr "Για να δημιουργήσετε μια λίστα με όλα τα μέλη της οικογένειας, χρησιμοποιήστε τη μορφή shortcode"
+
+#: admin/class-treepress-admin.php:909
+msgid "Managing Your Family List Display"
+msgstr "Διαχείριση της προβολής της λίστας των οικογενειών σας"
+
+#: admin/class-treepress-admin.php:905
+msgid "If you do not have full birth dates for every family member or simply want to create a tree from a specific person 'root' within a larger family, use this shortcode.   "
+msgstr "Εάν δεν έχετε πλήρη ημερομηνία γέννησης για κάθε μέλος της οικογένειας ή απλά θέλετε να δημιουργήσετε ένα δέντρο από μια «ρίζα» ενός συγκεκριμένου ατόμου μέσα σε μια μεγαλύτερη οικογένεια, χρησιμοποιήστε αυτό το shortcode."
+
+#: admin/class-treepress-admin.php:902
+msgid "Shortcode format 2 = "
+msgstr "Μορφή Shortcode 2 ="
+
+#: admin/class-treepress-admin.php:898
+msgid "If every member of your tree has a full date of birth this shortcode will display the whole family starting with the oldest member. "
+msgstr "Αν κάθε μέλος του δέντρου σας έχει μια πλήρη ημερομηνία γέννησης, αυτός ο κωδικός θα εμφανίσει ολόκληρη την οικογένεια ξεκινώντας από το παλαιότερο μέλος."
+
+#: admin/class-treepress-admin.php:895
+msgid "Shortcode format 1 = "
+msgstr "Μορφή Shorcode 2 ="
+
+#: admin/class-treepress-admin.php:891
+msgid "TreePress uses shortcodes to display family trees in pages of posts.  There are two formats.  Which one you use depends on your data and what you want to achieve:"
+msgstr "Το Treepress χρησιμοποιεί τα shortcodes για την εμφάνιση οικογενειακών δέντρων σε σελίδες με αναρτήσεις. Υπάρχουν δύο μορφές. Ποιο από αυτά εξαρτάται από τα δεδομένα σας και τι θέλετε να επιτύχετε"
+
+#: admin/class-treepress-admin.php:887
+msgid "Managing Your Tree Display"
+msgstr "Διαχείριση προβολής του δεντρου σας"
+
+#: admin/class-treepress-admin.php:875
+msgid "Credit"
+msgstr "πίστωση"
+
+#: admin/class-treepress-admin.php:863
+msgid "Display Your Information"
+msgstr "Εμφάνιση των πληροφοριών σας"
+
+#: admin/class-treepress-admin.php:845 admin/class-treepress-admin.php:868
+msgid "TreePress Options"
+msgstr "επιλογές Treepress"
+
+#: admin/class-treepress-admin.php:759
+msgid "You are not allowed to create more than one family tree on free version. "
+msgstr "Δεν επιτρέπεται να δημιουργήσετε περισσότερο από ένα οικογενειακο δέντρο στη δωρεάν έκδοση"
+
+#: admin/class-treepress-admin.php:725 admin/class-treepress-admin.php:760
+msgid "Upgrade Now!"
+msgstr "Αναβαθμίστε τώρα!"
+
+#: admin/class-treepress-admin.php:724
+msgid "Awesome Premium Features"
+msgstr "Φανταστικά χαρακτηριστικά Premium"
+
+#: admin/class-treepress-admin.php:709
+msgid "If you would like to make a small donation to help us further develop the plugin, please check out our PayPal link here:"
+msgstr "Εάν θέλετε να κάνετε μια μικρή δωρεά για να μας βοηθήσετε να αναπτύξουμε περαιτέρω το plugin, παρακαλούμε δείτε το σύνδεσμο PayPal εδώ:"
+
+#: admin/class-treepress-admin.php:705
+msgid "Help us Improve TreePress"
+msgstr "Βοηθήστε μας να βελτιώσουμε το Treepress"
+
+#: admin/class-treepress-admin.php:702
+msgid "You can find a comprehensive support guide here."
+msgstr "Μπορείτε να βρείτε έναν πλήρη οδηγό υποστήριξης εδώ."
+
+#: admin/class-treepress-admin.php:699
+msgid "Thank you for using TreePress."
+msgstr "Σας ευχαριστούμε που χρησιμοποιήσατε το TreePress."
+
+#: admin/class-treepress-admin.php:683 admin/class-treepress-admin.php:684
+#: admin/class-treepress-admin.php:696
+msgid "Account Settings"
+msgstr "Ρυθμίσεις λογαριασμού"
+
+#: admin/class-treepress-admin.php:675 admin/class-treepress-admin.php:676
+msgid "Options"
+msgstr "Επιλογές"
+
+#: admin/class-treepress-admin.php:668 admin/class-treepress-admin.php:669
+#: admin/class-treepress-admin.php:1277
+msgid "Family Groups"
+msgstr "Οικογενειακές ομάδες"
+
+#: admin/class-treepress-admin.php:661 admin/class-treepress-admin.php:662
+msgid "Add New"
+msgstr "Προσθήκη Νέου"
+
+#: admin/class-treepress-admin.php:617 admin/class-treepress-admin.php:625
+msgid "Family members link"
+msgstr "Σύνδεσμος μελών της οικογένειας"
+
+#: admin/class-treepress-admin.php:602 admin/class-treepress-admin.php:610
+msgid "Family tree link"
+msgstr "Σύνδεσμος μελών της οικογένειας"
+
+#: admin/class-treepress-admin.php:585
+msgid "Family Members"
+msgstr "Μέλη οικογένειας"
+
+#: admin/class-treepress-admin.php:575 admin/class-treepress-admin.php:587
+msgid " View Page"
+msgstr "Προβολή σελίδας"
+
+#: admin/class-treepress-admin.php:575
+msgid "Family Tree"
+msgstr "Οικογενειακό δέντρο"
+
+#: admin/class-treepress-admin.php:566
+msgid "Imported successfully"
+msgstr "Εισήχθησαν με επιτυχία"
+
+#: admin/class-treepress-admin.php:415
+msgid "Exists! Try different family name"
+msgstr "Υπάρχει! Δοκιμάστε διαφορετικό όνομα"
+
+#: admin/class-treepress-admin.php:408
+msgid "File required"
+msgstr "Απαιτείται αρχείο"
+
+#: admin/class-treepress-admin.php:395 admin/class-treepress-admin.php:400
+#: admin/class-treepress-admin.php:427
+msgid "Family name required"
+msgstr "Απαιτείται το όνομα οικογένειας "
+
+#: admin/class-treepress-admin.php:368
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: admin/class-treepress-admin.php:358
+msgid "Select file (.ged)"
+msgstr "Επιλογή αρχείου (.ged)"
+
+#: admin/class-treepress-admin.php:347
+msgid "Family Name"
+msgstr "όνομα οικογένειας"
+
+#: admin/class-treepress-admin.php:333
+msgid "If your tree data does contain people without a full birth date, this will mean you need to use a slightly different shortcode to display a tree - see the 'Shortcodes' tab in the Options page for a full explanation."
+msgstr "Αν τα δεδομένα δέντρων σας περιέχουν άτομα χωρίς πλήρη ημερομηνία γέννησης, αυτό σημαίνει ότι πρέπει να χρησιμοποιήσετε ένα ελαφρώς διαφορετικό shortcode για να εμφανίσετε ένα δέντρο - ανατρέξτε στην καρτέλα 'Shortcodes' στη σελίδα Options για πλήρη επεξήγηση."
+
+#: admin/class-treepress-admin.php:330
+msgid "Please note that TreePress requires exact dates so if your family tree data exports with approximate date options (such as 'Before', 'After', 'Between' etc) these dates will not import.  Dates must contain day, month and year (although the format does not matter yyyy-mm-dd or dd-mm-yyyy will import).  You cannot import just a year or month-year."
+msgstr "Λάβετε υπόψη ότι το TreePress απαιτεί ακριβείς ημερομηνίες, έτσι ώστε τα δεδομένα των οικογενειακών δέντρων σας εξάγονται με προσεγγιστικές επιλογές ημερομηνίας (όπως \"Πριν\", \"Μετά\", \"Μεταξύ\" κ.λπ.). Οι ημερομηνίες πρέπει να περιέχουν ημέρα, μήνα και έτος (αν και η μορφή δεν έχει σημασία yyyy-mm-dd ή dd-mm-yyyy θα εισάγει). Δεν μπορείτε να εισαγάγετε μόνο ένα έτος ή ένα μήνα."
+
+#: admin/class-treepress-admin.php:327
+msgid "A Note on Dates:"
+msgstr "Μια σημείωση για τις ημερομηνίες:"
+
+#: admin/class-treepress-admin.php:322
+msgid "Here you can import a Gedcom (.ged) file which is the standard format for importing and exporting family tree data."
+msgstr "Εδώ μπορείτε να εισαγάγετε ένα αρχείο Gedcom (.ged) που είναι το τυπικό φορμά για την εισαγωγή και εξαγωγή δεδομένων οικογενειακών δέντρων"
+
+#: admin/class-treepress-admin.php:315
+msgid "TreePress Import"
+msgstr "Εισαγωγή TreePress"
+
+#: admin/class-treepress-admin.php:158 admin/class-treepress-admin.php:383
+msgid "You are not authorized to do this."
+msgstr "Δεν είστε εξουσιοδοτημένοι να το κάνετε αυτό"
+
+#: admin/class-treepress-admin.php:145
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: admin/class-treepress-admin.php:127
+msgid "Select Family:"
+msgstr "Επιλέξτε οικογένεια:"
+
+#: includes/class-treepress-node.php:430 includes/class-treepress-node.php:436
+msgid "View the family of"
+msgstr "δείτε την οικογένεια του/της"
+
+#: includes/class-treepress-node.php:425
+msgid "View information about"
+msgstr "δείτε σχετικές πληροφορίες "
+
+#: includes/class-treepress-node.php:384
+msgid "More Facts"
+msgstr "περισσότερα γεγονότα"
+
+#: includes/class-treepress-node.php:375
+msgid "Shared Facts"
+msgstr "κοινά γεγονότα"
+
+#: includes/class-treepress-node.php:365
+msgid "Individual Facts"
+msgstr "ατομικά γεγονότα"
+
+#: includes/class-treepress-node.php:338 admin/class-treepress-admin.php:1530
+msgid "Sealed to Spouse (LDS)"
+msgstr "σφραγισμένο στη/ο σύζυγο"
+
+#: includes/class-treepress-node.php:333 admin/class-treepress-admin.php:1526
+msgid "Divorce"
+msgstr "διαζύγιο"
+
+#: includes/class-treepress-node.php:328 admin/class-treepress-admin.php:1522
+msgid "Banns"
+msgstr "αγγελτήριο γάμων"
+
+#: includes/class-treepress-node.php:320 admin/class-treepress-admin.php:1516
+msgid "Title"
+msgstr "τίτλος"
+
+#: includes/class-treepress-node.php:315 admin/class-treepress-admin.php:1511
+msgid "Social Security Number"
+msgstr "αριθμός κοινωνικής ασφάλισης"
+
+#: includes/class-treepress-node.php:310 admin/class-treepress-admin.php:1506
+msgid "Sealed to Parents (LDS)"
+msgstr "σφραγισμένο στους γονείς"
+
+#: includes/class-treepress-node.php:305 admin/class-treepress-admin.php:1501
+msgid "Religion"
+msgstr "θρησκεία"
+
+#: includes/class-treepress-node.php:300 admin/class-treepress-admin.php:1496
+msgid "Occupation"
+msgstr "επάγγελμα"
+
+#: includes/class-treepress-node.php:295 admin/class-treepress-admin.php:1491
+msgid "Nationality"
+msgstr "ιθαγένεια"
+
+#: includes/class-treepress-node.php:290 admin/class-treepress-admin.php:1486
+msgid "Mission (LDS)"
+msgstr "αποστολή"
+
+#: includes/class-treepress-node.php:285 admin/class-treepress-admin.php:1481
+msgid "Military Service"
+msgstr "Στρατιωτική θητεία"
+
+#: includes/class-treepress-node.php:280 admin/class-treepress-admin.php:1476
+msgid "Military Serial Number"
+msgstr "στρατιωτική σειρά"
+
+#: includes/class-treepress-node.php:275 admin/class-treepress-admin.php:1471
+msgid "Medical Condition"
+msgstr "ιατρική κατάσταση"
+
+#: includes/class-treepress-node.php:270 admin/class-treepress-admin.php:1466
+msgid "Known as"
+msgstr "γνωστός/ή ως"
+
+#: includes/class-treepress-node.php:265 admin/class-treepress-admin.php:1461
+msgid "Immigration"
+msgstr "μετανάστευση"
+
+#: includes/class-treepress-node.php:260 admin/class-treepress-admin.php:1456
+msgid "Funeral"
+msgstr "κηδεία"
+
+#: includes/class-treepress-node.php:255 admin/class-treepress-admin.php:1451
+msgid "Endowment (LDS)"
+msgstr "προικοδότηση"
+
+#: includes/class-treepress-node.php:250 admin/class-treepress-admin.php:1446
+msgid "Employment"
+msgstr "εργασία"
+
+#: includes/class-treepress-node.php:245 admin/class-treepress-admin.php:1441
+msgid "Emigration"
+msgstr "μετανάστευση"
+
+#: includes/class-treepress-node.php:241 admin/class-treepress-admin.php:1436
+msgid "Divorced"
+msgstr "διαζευγμένος/η"
+
+#: includes/class-treepress-node.php:236 admin/class-treepress-admin.php:1431
+msgid "Cremation"
+msgstr "αποτέφρωση"
+
+#: includes/class-treepress-node.php:231 admin/class-treepress-admin.php:1426
+msgid "Confirmation (LDS)"
+msgstr "επιβεβαίωση"
+
+#: includes/class-treepress-node.php:226 admin/class-treepress-admin.php:1421
+msgid "Confirmation"
+msgstr "επιβεβαίωση"
+
+#: includes/class-treepress-node.php:221 admin/class-treepress-admin.php:1416
+msgid "Circumcision"
+msgstr "περιτομή"
+
+#: includes/class-treepress-node.php:216 admin/class-treepress-admin.php:1411
+msgid "Burial"
+msgstr "ταφή"
+
+#: includes/class-treepress-node.php:211 admin/class-treepress-admin.php:1406
+msgid "Bat Mitzvah"
+msgstr "Bat Mitzvah"
+
+#: includes/class-treepress-node.php:206 admin/class-treepress-admin.php:1401
+msgid "Bar Mitzvah"
+msgstr "Bat Mitzvah"
+
+#: includes/class-treepress-node.php:201 admin/class-treepress-admin.php:1396
+msgid "Baptism"
+msgstr "Βάπτισμα"
+
+#: includes/class-treepress-node.php:196 admin/class-treepress-admin.php:1391
+msgid "Adoption"
+msgstr "Yιοθεσία"
+
+#: includes/class-treepress-node.php:191 admin/class-treepress-admin.php:1386
+msgid "Address"
+msgstr "διεύθυνση"
+
+#: includes/class-treepress-node.php:171
+msgid "Siblings: "
+msgstr "αδέλφια"
+
+#: includes/class-treepress-node.php:155
+msgid "Children: "
+msgstr "παιδιά"
+
+#: includes/class-treepress-node.php:148
+msgid "Spouse: "
+msgstr "σύζυγος"
+
+#: includes/class-treepress-node.php:136
+msgid "Mother: "
+msgstr "μητέρα"
+
+#: includes/class-treepress-node.php:133 includes/class-treepress-node.php:140
+msgid "Unspecified"
+msgstr "απροσδιόριστο"
+
+#: includes/class-treepress-node.php:129
+msgid "Father: "
+msgstr "πατέρας"
+
+#: includes/class-treepress-node.php:123 includes/class-treepress-node.php:467
+msgid "Died:"
+msgstr "πέθανε"
+
+#: includes/class-treepress-node.php:121 includes/class-treepress-node.php:465
+msgid "Born:"
+msgstr "γεννήθηκε"
+
+#: includes/class-treepress-node.php:115 includes/class-treepress-node.php:117
+msgid "View tree"
+msgstr "προβολή δέντρου"
+
+#: includes/class-treepress-node.php:101
+msgid "Gender not specified"
+msgstr "ακαθόριστο φύλο"
+
+#: includes/class-treepress-node.php:99 admin/class-treepress-admin.php:1572
+msgid "Female"
+msgstr "θηλυκό"
+
+#: includes/class-treepress-node.php:97 admin/class-treepress-admin.php:1565
+msgid "Male"
+msgstr "αρσενικό"
+
+#: includes/class-treepress-options.php:99
+msgid "You need to configure the TreePress plugin and set the \\\"family tree link\\\" parameter in the administrator panel.\\n\\nThis parameter will tell the family tree plugin which page is used to display the main family tree. I.e, the page where you have put the [family-tree] shortcode.\\n\\n\");"
+msgstr "Πρέπει να ρυθμίσετε τις παραμέτρους του plugin TreePress και να ορίσετε τον \\ \"σύνδεσμο οικογενειακού δέντρου'' \\ παραμέτρου στον πίνακα διαχειριστή.\\n\\nΑυτή η παράμετρος θα ενημερώσει το plugin οικογενειακού δέντρου, πια σελίδα χρησιμοποιείται για την εμφάνιση του κύριου οικογενειακού δέντρου. Δηλαδή, στη σελίδα όπου βάζετε το shortcode [οικογένεια-δέντρο].\\n\\n\"); "
+
+#. Author URI of the plugin
+msgid "https://www.blackandwhitedigital.net/"
+msgstr "https://www.blackandwhitedigital.net/"
+
+#. Author of the plugin
+msgid "Black and White Digital Ltd"
+msgstr "Black and White Digital Ltd"
+
+#. Description of the plugin
+msgid "Easily display a family tree and family genealogical information in WordPress"
+msgstr "Εμφανίστε εύκολα ένα οικογενειακό δέντρο και οικογενειακές γενεαλογικές πληροφορίες στο WordPress"
+
+#. Plugin URI of the plugin
+msgid "https://www.treepress.net/"
+msgstr "https://www.treepress.net/"
+
+#. Plugin Name of the plugin
+#: admin/class-treepress-admin.php:651 admin/class-treepress-admin.php:652
+msgid "TreePress"
+msgstr "TreePress"

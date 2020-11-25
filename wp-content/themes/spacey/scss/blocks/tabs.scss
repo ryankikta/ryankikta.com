@@ -1,0 +1,16 @@
+@import '../variables.scss';
+
+.tabs-block {
+	margin: 80px 0;
+	.tab-content {
+		width: 100%;
+	}
+}
+.tab-pane {
+	iframe {
+		max-width: 100%;
+	}
+	img {
+		max-width: 100%;
+	}
+}

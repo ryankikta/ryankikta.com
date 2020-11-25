@@ -1,0 +1,303 @@
+/* mixins
+-------------------------------------------------------------------*/
+@mixin inputBase {
+    font-size: 20px !important;
+    font-family: 'Fira Sans', sans-serif !important;
+    font-weight: 300;
+    padding: 13px 48px;
+    border-radius: 30px;
+    color: $blackFont;
+    height: 56px;
+    box-shadow: none;
+    line-height: 1;
+    width: auto;
+    // min-width: 400px;
+
+    ::placeholder {
+        color: #BBBDBF;
+    }
+}
+
+@mixin inputOutline {
+    @include inputBase;
+    border: 1px solid $greyFormBorder;
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='2' height='33' viewBox='0 0 2 33' xml:space='preserve'%3E%3Cline style='fill:none;stroke:%23707070;' x1='1' y1='0' x2='1' y2='33'/%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat;
+    background-position: 36px 14px;
+}
+
+@mixin inputGrey {
+    @include inputBase;
+    background: $greyFormBG;
+    border: 0;
+    font-size: 16px !important;
+    font-weight: 500;
+    color: $purpleFont;
+}
+@mixin inputWhite {
+    @include inputGrey();
+    background-color: $white;
+}
+
+/* styles
+-------------------------------------------------------------------*/
+.input_outline {
+    label:not(.small_label) {
+        @include smallHeading;
+        display: block;
+        padding-left: 36px;
+        margin-bottom: 5px;
+        line-height: 1;
+    }
+
+    input:not([type=button]), textarea {
+        @include inputOutline;
+        margin-bottom: 30px;
+    }
+    textarea {
+        height: 150px;
+        width: 100%;
+    }
+}
+.input_flex {
+    .small-caption {
+        margin-top: -15px;
+    }
+    input:not([type=button]) {
+        width: 100%;
+    }
+
+    label:not(.small_label) {
+        padding-left: 36px;
+        margin-right: 1em;
+        @include sm {
+            padding-left: 0;
+            padding-top: 10px;
+        }
+    }
+
+}
+body form#wp-stripe-payment-form .wp-stripe-card, 
+body form#wp-stripe-authorize-form .wp-stripe-card {
+    @extend .input_outline;
+}
+
+.input_dropdown {
+    label:not(.small_label) {
+        @include smallHeading;
+        display: block;
+        padding-left: 36px;
+        line-height: 1;
+        @include sm {
+            padding-left: 0;
+        }
+    }
+    select {
+        margin-top: 5px;
+    }
+}
+
+.input_white {
+    @include inputWhite;
+
+    &_auto {
+        width: auto;
+        min-width: 0;
+        padding: 13px 30px;
+    }
+
+    &_paypal {
+        width: 90px;
+        padding: 13px 20px;
+    }
+}
+
+.input_grey {
+    @include inputGrey();
+}
+body form#wp-stripe-authorize-form select,
+select:not([multiple]) {
+    border: 0;
+    background-color: $greyFormBG;
+    @include inputBase();
+    @extend .fs3;
+    font-weight: 500;
+    color: $purpleFont;
+    font-size: 16px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.tab_content_grey select {
+    background-image: none !important;
+    background-color: $white !important;
+}
+body form#wp-stripe-authorize-form select {
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+}
+
+select[multiple] {
+    border: 0;
+    background-color: $greyFormBG;
+    @include inputBase();
+    @extend .fs3;
+    font-weight: 500;
+    color: $purpleFont;
+    font-size: 16px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    max-width: 100%;
+    margin-bottom: 30px;
+    height: auto !important;
+}
+
+// .input_radio, .input_checkbox {
+//     &_wrapper {
+//         margin-bottom: 10px;
+//         &_inline {
+//             display: inline-block;
+//             margin-bottom: 25px;
+
+//             label {
+//                 margin-right: 15px;
+//                 display: inline-block;
+//             }
+//         }
+//         label {
+//             @include smallHeading;
+//             margin-left: 5px;
+//         }
+//     }
+// }
+label {
+    @include smallHeading;
+    display: block;
+}
+.input_radio, .input_checkbox {
+    &_wrapper {
+        margin-bottom: 10px;
+        &_inline {
+            display: inline-block;
+            margin-right: 15px;
+            margin-bottom: 25px;
+        }
+        label {
+            @include smallHeading;
+            margin-left: 5px;
+            display: inline;
+            margin-right: 15px;
+        }
+    }
+    &.add-shop {
+        display: flex;
+        align-items: baseline;
+        label{margin-right: 1em;}
+    }
+}
+.input_checkbox, .input_radio {
+    label {
+        display: inline;
+    }
+}
+label.small_label {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: $greyFormBorder;
+}
+
+.product_filter {
+    label {
+        display: block;
+        @extend .fs3;
+    }
+}
+
+// Stripe
+body #wp-stripe-wrap {
+    padding: 0;
+
+    form#wp-stripe-authorize-form .stripe-row {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
+
+#rmpmForm {
+    .wpcf7-form-control{
+        @include inputOutline;
+    }
+    > p {
+        @extend label;
+    }
+}
+
+.manual-orders {
+    input, select {
+        width: 100% !important;
+        @include md {
+            max-width: 426px;
+        }
+    }
+    .input_outline {
+        p {padding-left: 36px;}
+    }
+}
+
+.search_bar {
+    @include inputGrey;
+    // color: $purpleFont;
+    width: 100%;
+    margin: 0 0 2em 0;
+    @include md {margin: 0;}
+    @include lg {
+        width: 80%;
+    }
+}
+
+.product_selectors {
+    select {
+        width: 95%;
+        @include md {
+            width: 30% !important;
+            // margin-right: 2em;
+            margin-top: 3em;
+            // margin-left: 2em;
+        }
+    }
+}
+
+.file_upload {
+    width: 100% !important;
+    @include md {
+        width: auto !important;
+    }
+}
+
+// dropzone stuff
+
+.dropzone {
+    max-width: 600px;
+    font-size: 24px;
+    border: 2px dashed rgba(0, 0, 0, 0.3);
+}
+
+.dz-error-message {
+    @extend .message;
+    @extend .message_error;
+    text-align: center;
+    margin: 20px 0;
+}
+
+//Help Form
+
+.zammad-form {
+    .form-group:not(:last-of-type) {
+        @extend .input_outline;
+        @extend .input_flex;
+        label{color: #fff !important;}
+    }
+}

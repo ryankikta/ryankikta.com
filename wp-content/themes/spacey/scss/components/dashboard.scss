@@ -1,0 +1,307 @@
+/* mixins
+-------------------------------------------------------------------*/
+
+
+/* styles
+-------------------------------------------------------------------*/
+
+.dashboard_content {
+    position: relative;
+
+    h1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 20px;
+        svg {
+            margin-right: 10px;
+            width: 80px;
+            height: 80px;
+
+            @include md {
+                margin-right: 20px;
+                width: 120px;
+                height: 120px;
+            }
+        }
+    }
+}
+.dashboard_graphic {
+    position: absolute;
+    &_home {
+        display: none;
+        @include lg {
+            z-index: -1;
+            display: block;
+            top: 50px;
+            width: 40vw;
+            right: -5.1vw;
+        }
+        @include xl {
+            //top: 160px;
+            width: 38vw;
+        }
+    }
+    &_default {
+        display: none;
+        @include lg {
+            z-index: -1;
+            display: block;
+            top: 0;
+            width: 32vw;
+            right: -5.1vw;
+        }
+        @include xl {
+            width: 36vw;
+        }
+    }
+}
+.dashboard_quicklinks {
+    max-width: 680px; 
+
+    &_list, &_list_item {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    &_list_item {
+        margin-bottom: 30px;
+
+        a {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+                color: $purpleFont;
+            }
+        }
+        &_icon {
+            width: 70px;
+            height: 70px;
+            margin-right: 20px;
+            flex-shrink: 0;
+            @include lg {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+    &_arrow {
+        flex-grow: 0;
+        margin-left: auto;
+    }
+        
+}
+
+.dashboard_content #wp-stripe-types {
+    background: url('../images/card_types.png');
+    width: 260px;
+    height: 77px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+// Add products
+$previewWidth : 200px;
+$previewWidthMobile : 150px;
+.add_products {
+    &_branding_form {
+        .d-flex {
+            margin-bottom: 20px;
+            justify-content: space-between;
+            align-items: center;
+
+            label, input, select {
+                width: 50%;
+            }
+            label {
+                //@extend .body_copy;
+                //text-transform: none;
+                font-size: 16px;
+            }
+            input, select {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &_preview_container {
+        max-width: $previewWidthMobile;
+        margin: 0 auto 20px;
+
+        @include sm {
+            max-width: $previewWidth;
+        }
+
+        .btn-primary {
+            min-width: 0;
+            width: $previewWidthMobile;
+            max-width: 100%;
+
+            @include sm {
+                width: $previewWidth;
+            }
+        }
+    }
+    &_preview_image {
+        width: $previewWidthMobile;
+        height: $previewWidthMobile;
+        display: block;
+        object-fit: cover;
+        background-color: #dedede;
+        margin: 0 auto 20px;
+        border: 2px solid $blueFont;
+        border-radius: 30px;
+        max-width: 100%;
+
+        @include sm {
+            width: $previewWidth;
+            height: $previewWidth;
+        }
+    }
+}
+
+#images_modal, #color_images_modal {
+    .modal-content {
+        height: 90vh;
+    }
+}
+.ax-uploader {
+    .ax-legend {
+        display: none;
+    }
+}
+
+.dashboard_atmosphere {
+    padding-top: 0 !important;
+    padding-bottom: 0;
+}
+
+.shop_settings {
+    .input_group {
+        display: block;
+        @include md {display: flex;}
+        align-items: baseline;
+        justify-content: space-between;
+        margin: 2em 0;
+        input::placeholder, 
+        select {
+            text-transform: initial;
+            color: $purpleHeading;
+        }
+        input,
+        select {
+            width: 100%;
+            @include md {width: 300px;}
+            padding: 13px 48px !important;
+        }
+        label {
+            padding-left: 47px;
+            @include md {padding-left: 0;}
+            font-family: 'Avenir', sans-serif;
+            font-size: 14px;
+            color: $blackFont;
+            text-transform: initial;
+            white-space: nowrap;
+        }
+    }
+}
+
+//Manage products
+
+.product_wrapper, .image_wrapper {
+    padding: 1em;
+    border: 5px solid $greyFormBG;
+    border-radius: 15px;
+    h5 {
+        color: $blue;
+        text-transform: uppercase;
+        margin-top: -1em;
+    }
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    .btn {
+        margin: auto;
+    }
+    
+    .far {
+        color: $greyFormBorder;
+    }
+}
+
+.image_wrapper {
+    @include md {
+        min-height: 100%;
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            h4 {
+                word-break: break-all;
+            }
+        }
+    }
+
+}
+
+.multi_shop {
+    legend {
+        font-size: 18px;
+        font-family: 'Fira Sans', sans-serif;
+    }
+}
+
+//Store Integration
+.store-integrations {
+    img {
+        width: 100%;
+        transition: all 0.2s;
+        &:hover {
+            transform: scale(1.2) rotate(6deg);
+            transition: all 0.2s;
+        }
+    }
+    .store-img {
+        @include md {top: -14px;}
+        img {
+            &:hover {
+                transform: scale(1.2) rotate(-12deg);
+                transition: all 0.2s;
+            }
+        }
+    }
+    .input_outline input, .input_dropdown select{
+        width: 100%;
+        @include md {width: auto;}
+    }
+}
+
+.pagination {
+    display: flex;
+    background-image: url(https://storage.googleapis.com/pa-assets/uploads/solutions/design_tool_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+    a {
+        color: #fff !important;
+        margin-right: 2em;
+        padding-top: 2%;
+        text-decoration: none;
+        &:first-of-type,
+        &:last-of-type{
+            font-weight: 700; 
+            text-decoration: underline;
+        }
+    }
+}

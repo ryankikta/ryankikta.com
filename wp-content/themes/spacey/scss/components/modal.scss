@@ -1,0 +1,103 @@
+.modal {
+    padding: 0 10px;
+    &-dialog {
+        // top: 50%;
+        // transform: translateY(-50%) !important;
+        margin: 10px auto;
+        max-width: initial;
+    }
+    &.gsib_b {
+        display: none;
+        @include sm {
+            display: initial;
+        }
+    }
+}
+.gsc-control-cse {padding: 0 !important;}
+.gsc-search-box {
+    tr {
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+        @include lg {display: block !important;}
+        .gsc-input {
+            padding: 0 !important;
+            width: 100%;
+        }
+        .gsc-input-box {
+            width: 100% !important;
+        }
+        .gsc-search-button {
+            width: 100%;
+            margin-top: 1em;
+            @include lg {
+                width: 250px;
+                margin-top: 0;
+            }
+        }
+        .gsst_b {display: none;}
+    }
+}
+
+.modal-header {
+    a.modal-close {
+        color: $purpleHeading;
+        font-size: 40px;
+        line-height: 1.4;
+        text-align: right;
+        display: block;
+        padding: 0 23px;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: none;
+            opacity: .6;
+            text-decoration: none;
+        }
+    }
+}
+
+.gsc-input-box {
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    padding: 13px 48px !important;
+    border-radius: 30px !important;
+    color: $blackFont;
+    border: 1px solid $greyFormBorder !important;
+    // background: initial !important;
+    background: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='2' height='33' viewBox='0 0 2 33' xml:space='preserve'%3E%3Cline style='fill:none;stroke:%23707070;' x1='1' y1='0' x2='1' y2='33'/%3E%3C/svg%3E") no-repeat 36px 14px !important;
+    // background-repeat: no-repeat !important;
+    // background-position: 36px 14px;
+
+    ::placeholder {
+        color: #BBBDBF;
+    }
+}
+
+button.gsc-search-button, button.gsc-search-button-v2 {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #361181;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    padding: 16px 20px;
+    min-width: 250px;
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    transition: all 0.2s;
+    background: #0B42D8;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    & svg {
+        fill: #fff;
+    }
+}
+
+table.gsc-search-box td {width: 100%;}

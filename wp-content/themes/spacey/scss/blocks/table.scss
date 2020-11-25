@@ -1,0 +1,8 @@
+@import '../variables.scss';
+
+.table-block {
+	margin: 60px 0;
+	@include lg {
+		margin: 80px 0;
+	}
+}

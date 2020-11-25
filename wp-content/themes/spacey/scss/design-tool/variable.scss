@@ -1,0 +1,93 @@
+/*
+ Table Of Contents
+ 
+ 1). Font-family
+ 2). Font-size
+ 3). Font-color
+ 4). font-weight
+ 5). Background-color
+ 6). Gredient
+ 6). Border-color
+ 7). Alignment
+ ===============================================*/
+
+/*
+ 1). Font-family
+ -------------------------*/
+$primary-fontfamily:'mullerbolduploaded_file';
+$regular-fontfamily:'mullerregularuploaded_file';
+$light-font-family:'mullerlightuploaded_file';
+$medium-font-family:'mullermediumuploaded_file';
+$secondary-fontfamily:'Noto Serif', serif;
+
+
+/*
+ 2). Font-color
+ -------------------------*/
+$white-color:#ffffff;
+$black-color:#000000;
+$grey-color:#575e68;
+$link-color:#2a2e30;
+$form-color: #a3aab2;
+$blue-color:#1b96fe;
+$green-color:#28b980;
+$light-grey-color:#6c6c6c;
+$transparent-color:transparent;
+/*
+ 3). Font-size
+ -------------------------*/
+$base-font:12px;
+
+/*
+ 4). Font-weight
+ -------------------------*/
+$font-weight-light:300;
+$font-weight-regular:400;
+$font-weight-medium:500;
+$font-weight-semibold:600;
+$font-weight-bold:700;
+
+/*
+ 3). Background color
+ -------------------------*/
+$blue-bg:#1b96fe;
+$footer-bg:#2a2e30;
+$green-bg:#1dae75;
+$red-bg:#ff0000;
+$error-color:#c5181d;
+$light-background:#e9eef4;
+$extralight-grey:#d2d7db;
+$light-blue-bg:#46c8fe;
+$brown-bg:#898989;
+$purple-bg:#5d59dd;
+$brick-bg:#e54d67;
+$yellow-bg:#e9e940;
+$pink-bg:#fa40d1;
+$dark-brown-bg:#404040;
+$lime-blue-bg:#00f0ff;
+$light-green-bg:#24ff00;
+$dark-purple-bg:#415f9f;
+$dark-brick-bg:#d34937;
+$facebook-bg:#294580;
+$google-bg:#bf200b;
+$grey-bg:#e7e7e7;
+$dark-pink-bg:#e462fc;
+$light-brick-bg:#e56353;
+$light-yellow-bg:#fcd462;
+$extralight-blue-bg:#62c4fc;
+$light-orange-bg:#ff9813;
+$dark-blue-bg:#3245cf;
+$table-color:#f1f4f8;
+/*
+6). Border-color
+ -------------------------*/
+$grey-border:#e7e7e7;
+$dark-grey-border:#a3aab2;
+$light-grren-border:#28b980;
+$light-border:#e9eef4;
+
+/*
+ 1). Alignment
+ -------------------------*/
+$align-center:center;
+$align-left:left;

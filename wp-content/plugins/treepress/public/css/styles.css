@@ -1,0 +1,566 @@
+#familytree {
+  text-align: left;
+  z-index: 10;
+  background: #f3f3f3;
+  border: 0px solid blue;
+}
+#familytree svg {
+    max-width: inherit;
+}
+#borderBox {
+  position: relative;
+  border: 1px solid grey;
+  width: 100%;
+  height: 630px;
+  overflow: hidden;
+  max-width: 100%;
+}
+#dragableElement {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  left: 50%;
+}
+div#dragableElement:focus {
+  outline: 0;
+}
+#focusperson {
+  height: 2em;
+  padding: 0;
+  width: 40%;
+}
+#hoverimage {
+  position: absolute;
+  border: 1px solid gray;
+  background-color: #efefef;
+  z-index: 100;
+
+}
+#tree-container {
+  border: 0px solid green;
+  display: inline-block;
+  text-align: left;
+}
+#toolbar-container {
+  position: relative;
+  z-index: 500;
+}
+.toolbar {
+  border: 0px solid blue;
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  padding: 17px 7px 13px;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.8);
+  margin-left: -2px;
+  width: 50px;
+}
+.toolbar:hover {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.toolbar a {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  float: left;
+  line-height: 20px;
+  margin-right: 5px;
+}
+.toolbar a.toolbar-blogpage {
+  float: right;
+  margin-right: 0px;
+}
+.toolbar a img {
+  padding: 0;
+  margin: 0;
+}
+img.toolbar-treenav {} img.toolbar-blogpage {} #thumbnail-container {
+  position: relative;
+}
+.treepress_thumbnail {
+  border: 0px solid blue;
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 20px;
+  visibility: hidden;
+}
+.treepress_thumbnail img {
+  height: 50px !important;
+  margin-bottom: 0px;
+
+}
+.dynamicDiv {
+  border: solid 1px #c0c0c0;
+  background-color: #e1e1e1;
+  font-size: 8px;
+  font-family: verdana;
+  color: #000;
+  padding: 0px;
+}
+
+.tree2 {
+  white-space: nowrap;
+  position: relative;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.tree2 ul {
+    padding-top: 20px !important;
+    position: relative;
+    padding-left: 0px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    padding-left: 0px !important;
+}
+.tree2 li {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 2px 0 2px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+.tree2 li.fam {
+  padding: 40px 2px 0 2px;
+}
+
+.tree2 li:before,
+.tree2 li:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 1px solid #ccc;
+  width: 50%;
+  height: 20px;
+}
+.tree2 li:after {
+  right: auto;
+  left: 50%;
+  border-left: 1px solid #ccc;
+}
+.tree2 li:only-child:after,
+.tree2 li:only-child:before {
+  display: none;
+}
+
+.tree2 li:only-child {
+  padding-top: 20px;
+}
+.tree2 li.fam:only-child {
+  padding-top: 40px;
+}
+
+.tree2 li:first-child:before,
+.tree2 li:last-child:after {
+  border: 0 none;
+}
+
+.tree2 li:last-child:before {
+  border-right: 1px solid #ccc;
+  border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+}
+.tree2 li:first-child:after {
+  border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+}
+
+.tree2 ul ul:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 1px solid #ccc;
+  width: 0;
+  height: 20px;
+}
+.tree2 .fam > .indi {
+  position: relative;
+}
+
+.tree2 .fam > .indi:before {
+  content: '♡';
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  line-height: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  top: -30px;
+  background: #fff;
+  z-index: 50001;
+}
+.tree2 .fam > .indi:after {
+  content: '';
+  display: block;
+  line-height: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: 0px;
+  top: -10px;
+  background: #ccc;
+  z-index: 5000;
+  height: 11px;
+  width: 1px;
+}
+
+.tree2 .fam:only-child > .indi:after {
+  content: '';
+  display: block;
+  line-height: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: 0px;
+  top: -40px;
+  background: #ccc;
+  z-index: 5000;
+  height: 40px;
+  width: 1px;
+}
+.tree2 .chill:only-child > .indi:after {
+  content: '';
+  display: block;
+  line-height: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: 0px;
+  top: -20px;
+  background: #ccc;
+  z-index: 5000;
+  height: 40px;
+  width: 1px;
+}
+.tree2 .indi-info {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  line-height: 1;
+  vertical-align: top;
+}
+
+.tree2 table {
+  margin-bottom: 0px;
+  border: 0px;
+}
+.tree2 table td {
+  vertical-align: top;
+  padding: 0px;
+  border: 0px;
+  position: relative;
+}
+.tree2 table td img {
+  display: block;
+  margin-bottom: 0px;
+}
+
+.tree3 {
+  white-space: nowrap;
+  position: relative;
+
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.tree2 a,
+.tree3 a {
+  text-decoration: none !important;
+}
+.ttext-cont {
+  text-align: left;
+}
+.tree-style-3 {
+  position: relative;
+}
+.tree3 ul {
+  padding-left: 0px;
+}
+.tree3 li {
+  list-style: none;
+}
+
+.tree3 .fams,
+.tree3 .chills {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 40px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.tree3 .chills {
+    margin-left: 20px;
+}
+
+.tree3 .fams:before,
+.tree3 .chills:before {
+content: "";
+    width: 20px;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: 1px;
+}
+
+.tree3 .chills:before {
+  content: "";
+  width: 20px;
+  border-top: 1px solid #ccc;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  margin-top: 1px;
+}
+
+.tree3 .chill,
+.tree3 .fam {
+  position: relative;
+  list-style: none;
+}
+.tree3 .chill:before,
+.tree3 .fam:before {
+  content: "";
+  height: 100%;
+  border-left: 1px solid #ccc;
+  position: absolute;
+  left: -40px;
+}
+.tree3 .chill:after,
+.tree3 .fam:after {
+  content: "";
+  width: 40px;
+  border-top: 1px solid #ccc;
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  margin-top: 1px;
+}
+.tree3 .chill:first-child:before,
+.tree3 .fam:first-child:before {
+  width: 10px;
+  height: 50%;
+  top: 50%;
+  margin-top: 2px;
+  border-radius: 10px 0 0 0;
+}
+.tree3 .chill:first-child:after,
+.tree3 .fam:first-child:after {
+  height: 10px;
+  border-radius: 10px 0 0 0;
+}
+.tree3 .chill:last-child:before,
+.tree3 .fam:last-child:before {
+  width: 10px;
+  height: 50%;
+  border-radius: 0 0 0 10px;
+}
+.tree3 .chill:last-child:after,
+.tree3 .fam:last-child:after {
+  height: 10px;
+  border-top: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0 0 0 10px;
+margin-top: -9px;
+}
+.tree3 .chill:only-child:before,
+.tree3 .fam:only-child:before {
+  display: none;
+}
+.tree3 .chill:only-child:after,
+.tree3 .fam:only-child:after {
+  width: 40px;
+  height: 0;
+  margin-top: 1px;
+  border-radius: 0;
+}
+
+.tree3 .fam > .indi {
+  position: relative;
+}
+
+.tree3 .fam > .indi:before {
+    content: '♡';
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+     background: #fff;
+    z-index: 50001;
+    left: -30px;
+}
+
+
+.tree3.tree-style-3 .indi {
+  display: block;
+ 
+  line-height: 20px;
+  text-align: center;
+  
+  
+  left: 0;
+  top: 50%;
+  margin-top: -15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.tree3.tree-style-3 .indi > .indi-info {
+ padding: 5px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+
+.tree3.tree-style-3 .indi table {
+  margin-bottom: 0px;
+  border: 0px;
+}
+.tree3.tree-style-3 .indi table td {
+  vertical-align: top;
+  padding: 0px;
+  border: 0px;
+  position: relative;
+}
+.tree3 table td .thumb {
+  margin-right: 5px;
+  overflow: hidden;
+}
+.tree3 table td img {
+  display: block;
+  
+  margin-bottom: 0px;
+}
+.tree2 table td .thumb {
+ margin-right: 5px;
+  overflow: hidden;
+ 
+}
+.tree2 table td img {
+  display: block;
+ 
+}
+.tree3 table td .ttext-cont {
+    width: 200px;
+    white-space: initial;
+    text-align: left;
+    line-height: initial;
+        word-break: break-word;
+}
+
+.tree2 table td,
+.tree3 table td {
+  text-align: center;
+  vertical-align: middle;
+}
+.tree2 table td .toolbar,
+.tree3 table td .toolbar {
+    left: 0 !important;
+    right: 0 !important;
+    visibility: visible !important;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    width: initial;
+    margin: 0;
+    height: 100%;
+}
+
+.tree2 table td .toolbar .toolbar-inner,
+.tree3 table td .toolbar .toolbar-inner {
+  position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    width: initial;
+    margin: 0;
+
+}
+
+.tree2 table td .toolbar a,
+.tree3 table td .toolbar a {
+  display: inline-block;
+  float: none;
+}
+.tree2 table td .toolbar a img,
+.tree3 table td .toolbar a img {
+  height: 13px;
+}
+
+
+@media print {
+  body {
+    width: auto;
+    background: white;
+    color: black;
+    margin: 0;
+  }
+  #wrapper {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  #borderBox {
+    overflow: visible;
+    border: 1px solid black;
+  }
+}
+@media(max-width:768px) {
+  #tree-container {
+    -webkit-transform: none !important;
+            transform: none !important;
+  }
+
+#dragableElement {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  position: initial;
+  top: 0;
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  left: 0%;
+}
+
+  #borderBox {
+    overflow: scroll !important;
+  }
+}

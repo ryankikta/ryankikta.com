@@ -1,0 +1,46 @@
+
+@import 'variables.scss';
+
+.ordered-list {
+    counter-reset: ryankikta-counter;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    & > li {
+        counter-increment: ryankikta-counter;
+        display: flex;
+        margin-bottom: 25px;
+        &::before {
+            content: counter(ryankikta-counter);
+            display: flex;
+            background: $yellow;
+            border: solid 7px lighten(rgba($yellow, 0.5), 50%);
+            border-radius: 100%;
+            color: $blackFont;
+            font-size: 26px;
+            min-height: 60px;
+            min-width: 60px;
+            height: 60px;
+            width: 60px;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+        }
+        &:nth-child(1)::before {
+            background: $yellow;
+            border-color: lighten(rgba($yellow, 0.5), 50%);
+        }
+        &:nth-child(2)::before {
+            background: $green;
+            border-color: lighten(rgba($green, 0.5), 50%);
+        }
+        &:nth-child(3)::before {
+            background: $teal;
+            border-color: lighten(rgba($teal, 0.5), 50%);
+        }
+        &:nth-child(4)::before {
+            background: $blue;
+            border-color: lighten(rgba($blue, 0.5), 50%);
+        }
+    }
+}

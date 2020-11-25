@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&family=Nunito+Sans:wght@300;400;600;700&display=swap");
+
+.video-content-block {
+    margin: 160px 0;
+
+    @media only screen and (min-width: 992px) {
+        margin: 180px 0;
+    }
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.videoWrapper::before {
+    content: '.';
+    color: transparent;
+    position: absolute;
+    top: -19px;
+    width: 100%;
+    background-image: url('https://storage.googleapis.com/pa-assets/uploads/solutions/videogradient.png');
+    background-size: cover;
+}
+
+.videoWrapper::after {
+    content: 'Loading...';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DEDEDE;
+    background-color: #F0F1F1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.videoWrapper iframe {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

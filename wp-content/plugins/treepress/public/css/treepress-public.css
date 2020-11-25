@@ -1,0 +1,77 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ /**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+
+.tree10 ul,
+/*
+*Chart Style 4 for Twenty Twenty Theme
+*/
+.tree10 li.fam {
+margin-top: 0 !important;
+}
+.tree10 ul li
+{
+	margin:0 !important;
+}
+/*
+*End of Chart Style 4 for Twenty Twenty Theme
+*/
+
+/*
+*Chart Style 3 for Twenty Twenty Theme
+*/
+.tree3 ul li
+{
+	margin:0 !important;
+}
+
+/*
+*End of Chart Style 3 for Twenty Twenty Theme
+*/
+
+.tree12 .chill{
+margin: 0;
+}
+/*
+*Chart Style 5 for Twenty Twenty Theme
+*/
+.tree12 .fam
+{
+	margin:0 !important;
+}
+/*
+*End of Chart Style 5 for Twenty Twenty Theme
+*/
+.tree12 ul
+{
+	padding-left: 20 !important;
+}
+.tree14 li,
+.tree14 .chill{
+margin: 0;
+}
+.tree11 ul,
+.tree11 li {
+margin: 0;
+
+}
+/*
+*Chart Style 8 for Twenty Twenty Theme
+*/
+.tree13 .chill,
+.tree13 .fam{
+margin: 0;
+}
+.tree13 li {
+    margin: 0 !important;
+}
+/*
+*Chart Style 8 for Twenty Twenty Theme
+*/

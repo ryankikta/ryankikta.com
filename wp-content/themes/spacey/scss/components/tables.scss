@@ -1,0 +1,361 @@
+/* mixins
+-------------------------------------------------------------------*/
+@mixin tableBase {
+    font-family: 'Avenir', sans-serif;
+    text-transform: uppercase;
+    color: $purpleFont;
+    a {color: $purpleFont;}
+    th {
+        min-width: 88px;
+        font-size: 16px;
+        @include lg {min-width: 100px;}
+    }
+
+    tr {
+        border-bottom: 1px solid $greyGraphic;
+
+        &:first-of-type {
+            height: 5em;
+        }
+    }
+
+    th:not(:first-of-type),
+    td:not(:first-of-type) {
+        padding: 1em 1em;
+        text-align: center;
+    }
+}
+
+/* styles
+-------------------------------------------------------------------*/
+.table_base {
+    @include tableBase;
+    &_wrapper {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+}
+
+.membership_table {
+    width: 90%;
+    @include lg {
+        width: 100%;
+    }
+    @include xl {
+        width: 83.34vw;
+    }
+    @include largest {
+        width: .8334 * $largest;
+    }
+    
+    tr th {
+        &.membership_name, &.membership_price {
+            display: none !important;
+            @include lg {
+                display: table-cell !important;
+            }
+        }
+    }
+
+    tr th.membership_name {
+        background-color: transparent;
+        border-radius: 0;
+        @extend .fs2;
+        padding: 15px;
+    }
+    tr th.membership_price {
+        background-color: transparent;
+        border-radius: 0;
+        @include largeHeading($blackFont);
+        padding: 15px;
+        .membership_price_month {
+            color: #909090;
+            font-size: 12px;
+            text-transform: lowercase;
+            display: block;
+            line-height: 1;
+        }
+    }
+
+    td, th {
+        text-align: center;
+        padding: 5px;
+        width: 40%;
+
+        &:nth-child(3),
+        &:nth-child(4),
+        &:nth-child(5) {
+            display: none;
+            @include lg {
+                display: table-cell !important;
+            }
+        }
+
+        @include lg {
+            width: 20%;
+        }
+    }
+    tr td:first-of-type,
+    tr th:first-of-type {
+        text-align: right;
+        padding-right: 15px;
+    }
+
+    tr th:first-of-type {
+        @include smallHeading;
+        background-color: transparent;
+    }
+    tr th {
+        border-radius: 20px;
+        @include lg {
+            border-radius: 0;
+        }
+    }
+    tr th:nth-child(2) {
+        @include lg {
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+    }
+    tr th:last-of-type {
+        @include lg {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+    }
+
+    th {
+        background-color: rgba($greyGraphic, 0.6);
+        color: $purpleHeading;
+        font-weight: 400;
+    }
+    td {
+        vertical-align: middle;
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4) {
+            @include lg {
+                border-right: 2px solid rgba($greyGraphic, 0.6);
+            }
+        }
+    }
+
+    td svg {
+        fill: #DEDEDE;
+    }
+
+    td:nth-child(2) svg.feature_true {
+        fill: $yellow;
+    }
+    td:nth-child(3) svg.feature_true {
+        fill: $green;
+    }
+    td:nth-child(4) svg.feature_true {
+        fill: $teal;
+    }
+    td:nth-child(5) svg.feature_true {
+        fill: $blue;
+    }
+
+    .btn-primary {
+        min-width: 0;
+        width: 95%;
+        @include md {
+            width: auto;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        @include lg {
+            padding-left: 25px;
+            padding-right: 25px;
+            width: 95%;
+        }
+        
+    }
+
+    &_icons {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        @include lg {
+            padding-left: 20%;
+        }
+        @include xl {
+            padding-left: 0;
+            margin: 0 auto;
+            width: 66.67vw;
+        }
+
+        @include largest {
+            width: .6667 * $largest;
+        }
+        &_button {
+            background-color: transparent;
+            border: 0;
+            outline: 0;
+
+            img {
+                width: 20vw;
+                height: 20vw;
+                @include md {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+
+    &_desc {
+        @include lg {
+            display: none !important;
+        }
+        &_item {
+            display: none;
+            padding-top: 20px;
+
+            &:first-child {
+                display: block;
+            }
+        }
+        &_icon {
+            width: 160px;
+            height: 160px;
+        }
+    }
+}
+
+.stores-table {
+    @include tableBase;
+    th:first-of-type {width: 65%;}
+}
+
+.view_orders_table {
+    @include tableBase;
+    td, th {
+        font-size: 14px;
+    }
+}
+
+.product_options_table {
+    overflow: scroll;
+}
+.color_info {
+    &_table {
+        width: 100%;
+        border-bottom: 1px solid $greyGraphic;
+        margin-bottom: 30px;
+
+        min-width: 920px;
+
+        th {
+            @extend .body_copy;
+            text-transform: none;
+            padding-bottom: 10px;
+        }
+        td {
+            font-weight: bold;
+            padding-bottom: 30px;
+            vertical-align: top;
+            line-height: 30px;
+        }
+        tr {
+            border: 0;
+        }
+
+        input[type=number], input[type=text] {
+            @include inputGrey();
+            border: 0;
+            padding: 15px 25px;
+            width: 120px;
+        }
+
+        &_image {
+            width: 150px;
+
+            .btn-primary, .btn-secondary {
+                width: 150px;
+                min-width: 0;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    &_swatch {
+        width: 30px !important;
+        height: 30px !important;
+        border: 2px solid $blueFont !important;
+        border-radius: 50% !important;
+    }
+
+}
+.image_color img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid $blueFont;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    display: block;
+    max-width: 150px;
+}
+
+.rmpmmg_color_selector {
+    @extend .color_info_swatch;
+    display: block;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+
+    span {
+        display: none !important;
+    }
+
+    &.active:after {
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 10px;
+        content: '';
+        bottom: -15px;
+        left: 3px;
+        background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='36' height='17' viewBox='0 0 36 17'%3E%3Cpath style='fill:none;stroke:%23DEDEDE;stroke-width:4;stroke-linecap:round;' d='M2,2l15.7,12.3L33.1,2'/%3E%3C/svg%3E");
+        background-size: 20px;
+        background-repeat: no-repeat;  
+    }
+}
+
+.manual-orders-table {
+    @include tableBase;
+    width: 100%;
+    td {width: 10%;}
+}
+
+.product_import_table {
+    img {
+        max-height: 200px;
+        width: auto;
+    }
+}
+
+.table_swatches {
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+    a {
+        background-color: yellow;
+        border-radius: 100%;
+        height: 35px;
+        width: 35px;
+        border: solid 5px #F0F1F1;
+        margin: 0 0.5em;
+    }
+}
+
+.size-color-table tr {
+    &:last-child {
+        border: none;
+    }
+}

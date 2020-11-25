@@ -1,0 +1,67 @@
+/* mixins
+-------------------------------------------------------------------*/
+@mixin buttonBase {
+    @include smallHeading;
+    letter-spacing: .5px;
+    padding: 16px 20px;
+    min-width: 250px;
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    transition: all 0.2s;
+    display: block;
+    cursor: pointer;
+    @include sm {
+        display: inline-block;
+    }
+}
+
+@mixin button($background : $blueFont) {
+    @include buttonBase;
+    background: $background;
+    border-radius: 30px;
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+        color: $white;
+        background: lighten($background, 5%);
+    }
+}
+
+.btn-primary {
+    @include button;
+}
+.btn-secondary {
+    @include button($teal);
+}
+
+.btn-link {
+    @include buttonBase;
+    text-decoration: underline;
+    color: $blueFont;
+
+    &:hover {
+        color: darken($blueFont, 5%);;
+    }
+}
+
+// Stripe
+body #wp-stripe-modal-button, 
+body form#wp-stripe-payment-form .stripe-submit-button, 
+body form#wp-stripe-authorize-form .stripe-submit-button {
+    @include button;
+
+    span {
+        background: transparent;
+        padding: 0;
+        border: 0;
+        text-shadow: none;
+        box-shadow: none;
+        @include smallHeading;
+        color: $white;
+        line-height:  1.9;
+        font-weight: 600;
+    }
+}

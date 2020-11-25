@@ -1,0 +1,246 @@
+# Translation of Plugins - TreePress - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - TreePress - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-11 16:27:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - TreePress - Development (trunk)\n"
+
+#: admin/class-treepress-admin.php:1791
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: admin/class-treepress-admin.php:1746
+msgid "Name"
+msgstr "Имя"
+
+#: admin/class-treepress-admin.php:1745
+msgid "Born"
+msgstr "День рождения"
+
+#: admin/class-treepress-admin.php:1744
+msgid "ID"
+msgstr "ID"
+
+#: admin/class-treepress-admin.php:1201
+msgid "Private Notes"
+msgstr "Личные Заметки"
+
+#: admin/class-treepress-admin.php:1193
+msgid "Member info"
+msgstr "Информация о членa"
+
+#: admin/class-treepress-admin.php:1153
+msgid "No family group found."
+msgstr "Семейная группа не найдена."
+
+#: admin/class-treepress-admin.php:1152
+msgid "Choose from the most used family group"
+msgstr "Выбирать из наиболее часто используемых семейных групп"
+
+#: admin/class-treepress-admin.php:1151
+msgid "Add or remove family group"
+msgstr "Добавить или удалить семейную группу"
+
+#: admin/class-treepress-admin.php:1150
+msgid "Separate family group with commas"
+msgstr "Разделите семейных групп с запятыми"
+
+#: admin/class-treepress-admin.php:1149
+msgid "New Group Name"
+msgstr "Имя Новой Группы"
+
+#: admin/class-treepress-admin.php:1148
+msgid "Add New Group"
+msgstr "Добавить Новую Группу"
+
+#: admin/class-treepress-admin.php:1147
+msgid "Update Family Group"
+msgstr "Обновить Семейную Группу"
+
+#: admin/class-treepress-admin.php:1146
+msgid "Edit Family Group"
+msgstr "Редактировать Семейную Группу"
+
+#: admin/class-treepress-admin.php:1143
+msgid "All Family Groups"
+msgstr "Все Семейные Группы"
+
+#: admin/class-treepress-admin.php:1142
+msgid "Popular Family Groups"
+msgstr "Популярные Семейные Группы"
+
+#: admin/class-treepress-admin.php:1141
+msgid "Search Family Groups"
+msgstr "Найти Семейные Группы"
+
+#: admin/class-treepress-admin.php:1140
+msgctxt "taxonomy singular name"
+msgid "Family Group"
+msgstr "Семейная Группа"
+
+#: admin/class-treepress-admin.php:1139
+msgctxt "taxonomy general name"
+msgid "Family Groups"
+msgstr "Семейные Группы"
+
+#: admin/class-treepress-admin.php:1122
+msgid "Description."
+msgstr "Описание."
+
+#: admin/class-treepress-admin.php:1117
+msgid "No members found in Trash."
+msgstr "В корзине нет удаленных семейных групп."
+
+#: admin/class-treepress-admin.php:1116
+msgid "No members found."
+msgstr "Члены семьи не могут быть найдены."
+
+#: admin/class-treepress-admin.php:1115
+msgid "Parent Members:"
+msgstr "Головные семейные группы:"
+
+#: admin/class-treepress-admin.php:1114
+msgid "Search Members"
+msgstr "Искать членов семьи"
+
+#: admin/class-treepress-admin.php:1113
+msgid "All Members"
+msgstr "Все члены семьи"
+
+#: admin/class-treepress-admin.php:1112
+msgid "View Member"
+msgstr "Просмотреть членa семьи"
+
+#: admin/class-treepress-admin.php:1111
+msgid "Edit Member"
+msgstr "Редактировать члена семьи"
+
+#: admin/class-treepress-admin.php:1110
+msgid "New Member"
+msgstr "Новый член семьи"
+
+#: admin/class-treepress-admin.php:1109
+msgid "Add New Member"
+msgstr "Добавить нового члена семьи"
+
+#: admin/class-treepress-admin.php:1108
+msgctxt "member"
+msgid "Add New"
+msgstr "Добавить Новый"
+
+#: admin/class-treepress-admin.php:1107
+msgctxt "add new on admin bar"
+msgid "Member"
+msgstr "Член семьи"
+
+#: admin/class-treepress-admin.php:1106
+msgctxt "admin menu"
+msgid "Members"
+msgstr "Члены семьи"
+
+#: admin/class-treepress-admin.php:1105
+msgctxt "post type singular name"
+msgid "Member"
+msgstr "Член семьи"
+
+#: admin/class-treepress-admin.php:1104
+msgctxt "post type general name"
+msgid "Members"
+msgstr "Члены семьи"
+
+#: admin/class-treepress-admin.php:1093
+msgid "Save Changes"
+msgstr "Cохранить изменение"
+
+#: admin/class-treepress-admin.php:728
+msgid "You are not allowed to create more than one family tree on free version. "
+msgstr "В бесплатной версии вы можете создать только одну генеалогическое древо."
+
+#: admin/class-treepress-admin.php:694 admin/class-treepress-admin.php:729
+msgid "Upgrade Now!"
+msgstr "Обновите сейчас!"
+
+#: admin/class-treepress-admin.php:693
+msgid "Awesome Premium Features"
+msgstr "Потрясающие новые возможности"
+
+#: admin/class-treepress-admin.php:662 admin/class-treepress-admin.php:663
+msgid "Account Settings"
+msgstr "Настройки Учетной Записи"
+
+#: admin/class-treepress-admin.php:654 admin/class-treepress-admin.php:655
+msgid "Options"
+msgstr "Oпции"
+
+#: admin/class-treepress-admin.php:647 admin/class-treepress-admin.php:648
+#: admin/class-treepress-admin.php:1154
+msgid "Family Groups"
+msgstr "Семейные Группы"
+
+#: admin/class-treepress-admin.php:640 admin/class-treepress-admin.php:641
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: admin/class-treepress-admin.php:596 admin/class-treepress-admin.php:604
+msgid "Family members link"
+msgstr "Ссылка члена семьи"
+
+#: admin/class-treepress-admin.php:581 admin/class-treepress-admin.php:589
+msgid "Family tree link"
+msgstr "Ссылка Семейное Древой"
+
+#: admin/class-treepress-admin.php:567
+msgid "<p>Family Members <a href=\""
+msgstr "<p>Члены Семьи <a href=\""
+
+#: admin/class-treepress-admin.php:557
+msgid "<p>Family Tree <a href=\""
+msgstr "<p>Семейное Древо <a href=\""
+
+#: admin/class-treepress-admin.php:548
+msgid "<p>Imported successfully<p>"
+msgstr "<p>Успешно импортирован<p>"
+
+#: admin/class-treepress-admin.php:397
+msgid "Exists! Try different family name"
+msgstr "Семейное имя уже имеется!"
+
+#: admin/class-treepress-admin.php:390
+msgid "File required"
+msgstr "Требуется файл"
+
+#: admin/class-treepress-admin.php:377 admin/class-treepress-admin.php:382
+#: admin/class-treepress-admin.php:409
+msgid "Family name required"
+msgstr "Требуется семейное имя"
+
+#: admin/class-treepress-admin.php:154 admin/class-treepress-admin.php:365
+msgid "You are not authorized to do this."
+msgstr "У вас нет прав на взаимодействие."
+
+#. Author URI of the plugin
+msgid "https://www.blackandwhitedigital.net/"
+msgstr "https://www.blackandwhitedigital.net/"
+
+#. Author of the plugin
+msgid "Black and White Digital Ltd"
+msgstr "Black and White Digital Ltd"
+
+#. Description of the plugin
+msgid "Easily display a family tree and family genealogical information in WordPress"
+msgstr "Без труда отображите генеалогическое древо и генеалогическую информацию семейства в WordPress"
+
+#. Plugin URI of the plugin
+msgid "https://www.treepress.net/"
+msgstr "https://www.treepress.net/"
+
+#. Plugin Name of the plugin
+#: admin/class-treepress-admin.php:630 admin/class-treepress-admin.php:631
+msgid "TreePress"
+msgstr "TreePress"

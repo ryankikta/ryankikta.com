@@ -1,0 +1,67 @@
+/* fonts 
+Fira Sans
+Nunito Sans
+------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+
+/* media queries
+-------------------------------------------------------------------*/
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+$largest: 1920px;
+
+@mixin sm {
+    @media (min-width: #{$sm}) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (min-width: #{$md}) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media (min-width: #{$lg}) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (min-width: #{$xl}) {
+        @content;
+    }
+}
+
+@mixin largest {
+    @media (min-width: #{$largest}) {
+        @content;
+    }
+}
+
+/* colors
+-------------------------------------------------------------------*/
+$white :            #FFFFFF;
+
+$blueFont :         #0B42D8;
+$purpleHeading :    #2D1159;
+$purpleFont :       #361181;
+$blackFont :        #1A2B3B;
+
+
+$greyFormBorder :   #707070;
+$greyFormBG :       #F0F1F1;
+
+// Bullets, arrows, radio button outline
+$greyGraphic :      #DEDEDE;
+
+$yellow :           #EEEC38;
+$green :            #91E375;
+$teal :             #19CBC5;
+$blue :             #10A0DE;
+$orange :           #F79459;

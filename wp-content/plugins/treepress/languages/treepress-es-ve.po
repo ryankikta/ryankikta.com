@@ -1,0 +1,778 @@
+# Translation of Plugins - TreePress &#8211; Easy Family Trees &amp; Ancestor Profiles - Stable (latest release) in Spanish (Venezuela)
+# This file is distributed under the same license as the Plugins - TreePress &#8211; Easy Family Trees &amp; Ancestor Profiles - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-14 13:49+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Language: es_VE\n"
+"Project-Id-Version: Plugins - TreePress &#8211; Easy Family Trees &amp; Ancestor Profiles - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: admin/class-treepress-admin.php:1968
+msgid "Donate"
+msgstr "Donar"
+
+#: admin/class-treepress-admin.php:1923
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/class-treepress-admin.php:1922
+msgid "Born"
+msgstr "Nacimiento"
+
+#: admin/class-treepress-admin.php:1921
+msgid "ID"
+msgstr "ID"
+
+#: admin/class-treepress-admin.php:1914
+msgid "Enter name here"
+msgstr "Escriba el nombre aquí"
+
+#: admin/class-treepress-admin.php:1658
+msgid "Upgrade to the Premium version here"
+msgstr "Actualiza a la versión Premium aquí"
+
+#: admin/class-treepress-admin.php:1657
+msgid "Want more fields for facts on this family member? "
+msgstr "¿Desea más campos para los hechos de este miembro de la familia?"
+
+#: admin/class-treepress-admin.php:1629
+msgid "Spouse:"
+msgstr "Cónyuge:"
+
+#: admin/class-treepress-admin.php:1608
+msgid "Father:"
+msgstr "Padre:"
+
+#: admin/class-treepress-admin.php:1587
+msgid "Mother:"
+msgstr "Madre:"
+
+#: admin/class-treepress-admin.php:1582
+msgid "Died :"
+msgstr "Murió:"
+
+#: admin/class-treepress-admin.php:1577
+msgid "Born :"
+msgstr "Nacido:"
+
+#: admin/class-treepress-admin.php:1552
+msgid "Gender:"
+msgstr "Género:"
+
+#: admin/class-treepress-admin.php:1544
+msgid "ID:"
+msgstr "Id:"
+
+#: admin/class-treepress-admin.php:1538
+msgid "General Info"
+msgstr "General info"
+
+#: admin/class-treepress-admin.php:1339
+msgid "Notes:"
+msgstr "Notas:"
+
+#: admin/class-treepress-admin.php:1324
+msgid "Private Notes"
+msgstr "Notas privadas"
+
+#: admin/class-treepress-admin.php:1316
+msgid "Member info"
+msgstr "Info de miembro"
+
+#: admin/class-treepress-admin.php:1276
+msgid "No family group found."
+msgstr "Ningun grupo familiar encontrado"
+
+#: admin/class-treepress-admin.php:1275
+msgid "Choose from the most used family group"
+msgstr "Escoge del grupo familiar mas usado"
+
+#: admin/class-treepress-admin.php:1274
+msgid "Add or remove family group"
+msgstr "Agrega o remueve grupo familiar"
+
+#: admin/class-treepress-admin.php:1273
+msgid "Separate family group with commas"
+msgstr "Separar grupo familiar con comas"
+
+#: admin/class-treepress-admin.php:1272
+msgid "New Group Name"
+msgstr "Nuevo nombre de grupo"
+
+#: admin/class-treepress-admin.php:1271
+msgid "Add New Group"
+msgstr "Agrega Nuevo grupo"
+
+#: admin/class-treepress-admin.php:1270
+msgid "Update Family Group"
+msgstr "Actualizar grupo familiar"
+
+#: admin/class-treepress-admin.php:1269
+msgid "Edit Family Group"
+msgstr "Editar grupo familiar"
+
+#: admin/class-treepress-admin.php:1266
+msgid "All Family Groups"
+msgstr "Todos los grupos familiares"
+
+#: admin/class-treepress-admin.php:1265
+msgid "Popular Family Groups"
+msgstr "Grupos familiars populares"
+
+#: admin/class-treepress-admin.php:1264
+msgid "Search Family Groups"
+msgstr "Buscar grupos familiares"
+
+#: admin/class-treepress-admin.php:1263
+msgctxt "taxonomy singular name"
+msgid "Family Group"
+msgstr "Grupo familiar"
+
+#: admin/class-treepress-admin.php:1262
+msgctxt "taxonomy general name"
+msgid "Family Groups"
+msgstr "Grupos familiares"
+
+#: admin/class-treepress-admin.php:1245
+msgid "Description."
+msgstr "Descripcion"
+
+#: admin/class-treepress-admin.php:1240
+msgid "No members found in Trash."
+msgstr "Ningun miembro encontrado en la papelera"
+
+#: admin/class-treepress-admin.php:1239
+msgid "No members found."
+msgstr "Ningun miembro encontrado"
+
+#: admin/class-treepress-admin.php:1238
+msgid "Parent Members:"
+msgstr "Miembros Parientes"
+
+#: admin/class-treepress-admin.php:1237
+msgid "Search Members"
+msgstr "Buscar miembros"
+
+#: admin/class-treepress-admin.php:1236
+msgid "All Members"
+msgstr "Todos los miembros"
+
+#: admin/class-treepress-admin.php:1235
+msgid "View Member"
+msgstr "Ver miembro"
+
+#: admin/class-treepress-admin.php:1234
+msgid "Edit Member"
+msgstr "Editar miembro"
+
+#: admin/class-treepress-admin.php:1233
+msgid "New Member"
+msgstr "Nuevo miembro"
+
+#: admin/class-treepress-admin.php:1232
+msgid "Add New Member"
+msgstr "Agregar Nuevo miembro"
+
+#: admin/class-treepress-admin.php:1231
+msgctxt "member"
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+#: admin/class-treepress-admin.php:1230
+msgctxt "add new on admin bar"
+msgid "Member"
+msgstr "Miembro"
+
+#: admin/class-treepress-admin.php:1229
+msgctxt "admin menu"
+msgid "Members"
+msgstr "Miembro"
+
+#: admin/class-treepress-admin.php:1228
+msgctxt "post type singular name"
+msgid "Member"
+msgstr "Miembro"
+
+#: admin/class-treepress-admin.php:1227
+msgctxt "post type general name"
+msgid "Members"
+msgstr "Miembro"
+
+#: admin/class-treepress-admin.php:1216
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: admin/class-treepress-admin.php:1196
+msgid "Show powered-by link"
+msgstr "Show Powered-by Link"
+
+#: admin/class-treepress-admin.php:1191
+msgid "Wordpress plugin site"
+msgstr "Sitio de plugin de WordPress"
+
+#: admin/class-treepress-admin.php:1191
+msgid "Give us a good rating at the "
+msgstr "Danos una buena calificación en el"
+
+#: admin/class-treepress-admin.php:1190
+msgid "from some other location of your site (that would help us feed our children)"
+msgstr "desde algún otro lugar de su sitio (que nos ayudaría a alimentar a nuestros hijos)"
+
+#: admin/class-treepress-admin.php:1190
+msgid " include a link to"
+msgstr "incluir un enlace a"
+
+#: admin/class-treepress-admin.php:1189
+msgid "and let us know about your family tree website (that would inspire us),"
+msgstr "y háganos saber acerca de su sitio web de árbol genealógico (que nos inspiraría),"
+
+#: admin/class-treepress-admin.php:1189
+msgid "email"
+msgstr "Correo electrónico"
+
+#: admin/class-treepress-admin.php:1189
+msgid " send us an"
+msgstr "Envíenos un"
+
+#: admin/class-treepress-admin.php:1187
+msgid ""
+"\n"
+"\t\t\t\t\tIf you don't want to link to us from the bottom of the family tree then please consider these other options"
+msgstr ""
+"\n"
+"If you don't want to link to us from the bottom of the family tree then please consider these other options "
+
+#: admin/class-treepress-admin.php:1187
+msgid "Appreciation makes us happy."
+msgstr "La apreciación nos hace felices."
+
+#: admin/class-treepress-admin.php:1186
+msgid "If you use this plugin then we would be very grateful for some appreciation. "
+msgstr "Si utilizas este plugin entonces estaríamos muy agradecidos por un poco de aprecio."
+
+#: admin/class-treepress-admin.php:1182
+msgid "Credit link"
+msgstr "Enlace de crédito"
+
+#: admin/class-treepress-admin.php:1168
+msgid "* This parameter is useful if spouses are displayed vertically."
+msgstr "* Este parámetro es útil si los cónyuges se muestran verticalmente."
+
+#: admin/class-treepress-admin.php:1163
+msgid "Height of generations (pixels)"
+msgstr "Altura de generaciones (píxeles)"
+
+#: admin/class-treepress-admin.php:1155
+msgid "Node minimum width (pixels)"
+msgstr "Ancho mínimo de nodo (píxeles)"
+
+#: admin/class-treepress-admin.php:1147
+msgid "Node corner radius (pixels)"
+msgstr "Radio de vértice de nodo (píxeles)"
+
+#: admin/class-treepress-admin.php:1139
+msgid "Node text colour (#rgb)"
+msgstr "Color del texto del nodo (#rgb)"
+
+#: admin/class-treepress-admin.php:1131
+msgid "Node opacity (0.0 to 1.0)"
+msgstr "Opacidad del nodo (0,0 a 1,0)"
+
+#: admin/class-treepress-admin.php:1123
+msgid "Node fill colour (#rgb)"
+msgstr "Color de relleno del nodo (#rgb)"
+
+#: admin/class-treepress-admin.php:1115
+msgid "Node outline colour (#rgb)"
+msgstr "Color del contorno del nodo (#rgb)"
+
+#: admin/class-treepress-admin.php:1107
+msgid "Background colour (#rgb)"
+msgstr "Color de fondo (#rgb)"
+
+#: admin/class-treepress-admin.php:1102
+msgid "TreePress styling"
+msgstr "TreePress estilo"
+
+#: admin/class-treepress-admin.php:1092
+msgid "Enable tree nav link"
+msgstr "Habilite el enlace de navegación de árbol"
+
+#: admin/class-treepress-admin.php:1082
+msgid "Enable single page link"
+msgstr "Habilite el enlace de una sola página"
+
+#: admin/class-treepress-admin.php:1074
+msgid "Enable toolbar"
+msgstr "Barra de herramientas habilitar"
+
+#: admin/class-treepress-admin.php:1069
+msgid "Each node in the family tree can have a toolbar which can show a number of additional options. Here you can define how the toolbar should work."
+msgstr "Cada nodo del árbol genealógico puede tener una barra de herramientas que puede mostrar varias opciones adicionales. Aquí puede definir cómo debería funcionar la barra de herramientas."
+
+#: admin/class-treepress-admin.php:1066
+msgid "Node navigation toolbar"
+msgstr "Barra de herramientas de navegación de nodo"
+
+#: admin/class-treepress-admin.php:1047
+msgid "Refocus on click"
+msgstr "Vuelva a centrarse en"
+
+#: admin/class-treepress-admin.php:1039
+msgid "Diagonal connections"
+msgstr "Conexiones diagonales"
+
+#: admin/class-treepress-admin.php:1031
+msgid "Show gender"
+msgstr "Mostrar género"
+
+#: admin/class-treepress-admin.php:1023
+msgid "Display spouses vertically"
+msgstr "Muestre a los cónyuges verticalmente"
+
+#: admin/class-treepress-admin.php:1015
+msgid "Show only one spouse"
+msgstr "Mostrar solo un cónyuge"
+
+#: admin/class-treepress-admin.php:1007
+msgid "Show spouse"
+msgstr "Muestre al cónyuge"
+
+#: admin/class-treepress-admin.php:999
+msgid "Conceal living dates for those alive"
+msgstr "Ocultar las fechas de vida para aquellos vivos"
+
+#: admin/class-treepress-admin.php:990
+msgid "Death Date Prefix"
+msgstr "Prefijo de fecha de muerte"
+
+#: admin/class-treepress-admin.php:981
+msgid "Birth Date Prefix"
+msgstr "Prefijo de fecha de nacimiento"
+
+#: admin/class-treepress-admin.php:972
+msgid "Only show year"
+msgstr "Solo muestra el año"
+
+#: admin/class-treepress-admin.php:964
+msgid "Show living dates"
+msgstr "Mostrar fechas de vida"
+
+#: admin/class-treepress-admin.php:955
+msgid "Only show first name"
+msgstr "Solo muestra el nombre"
+
+#: admin/class-treepress-admin.php:947
+msgid "Wrap names"
+msgstr "Los nombres de ajuste"
+
+#: admin/class-treepress-admin.php:942
+msgid "Treepress options"
+msgstr "Las opciones de treepress"
+
+#: admin/class-treepress-admin.php:925
+msgid "You can find the member ID on the All Members page."
+msgstr "Puede encontrar el ID de miembro en la página todos los miembros."
+
+#: admin/class-treepress-admin.php:922
+msgid "You can find the family_ID on the Families page - when added, the code '{family_id}' will look something like '42'.  "
+msgstr "Puede encontrar el family_ID en la página familias-cuando se agrega, el código ' {family_ID} ' se verá algo como ' 42 '."
+
+#: admin/class-treepress-admin.php:919
+msgid "Finding IDs for your Shortcodes"
+msgstr "Encontrar IDs para sus shortcodes"
+
+#: admin/class-treepress-admin.php:915
+msgid "You can control which family tree the [tree icon image] icon links to by adding a page or post link in the individual Family Tree page."
+msgstr "Puede controlar a qué árbol genealógico se vincula el icono [imagen de icono de árbol] añadiendo una página o un enlace de publicación en la página de árbol genealógico individual."
+
+#: admin/class-treepress-admin.php:912
+msgid "To create a list of all family members, use the shortcode format"
+msgstr "Para crear una lista de todos los miembros de la familia, utilice el formato de shortcode"
+
+#: admin/class-treepress-admin.php:909
+msgid "Managing Your Family List Display"
+msgstr "Gestión de la visualización de la lista familiar"
+
+#: admin/class-treepress-admin.php:905
+msgid "If you do not have full birth dates for every family member or simply want to create a tree from a specific person 'root' within a larger family, use this shortcode.   "
+msgstr "Si usted no tiene fechas de nacimiento completas para cada miembro de la familia o simplemente desea crear un árbol de una persona específica ' raíz ' dentro de una familia más grande, utilice este shortcode."
+
+#: admin/class-treepress-admin.php:902
+msgid "Shortcode format 2 = "
+msgstr "Formato de shortcode 2 ="
+
+#: admin/class-treepress-admin.php:898
+msgid "If every member of your tree has a full date of birth this shortcode will display the whole family starting with the oldest member. "
+msgstr "Si cada miembro de tu árbol tiene una fecha de nacimiento completa, este shortcode mostrará a toda la familia comenzando con el miembro más antiguo."
+
+#: admin/class-treepress-admin.php:895
+msgid "Shortcode format 1 = "
+msgstr "Formato de shortcode 1 ="
+
+#: admin/class-treepress-admin.php:891
+msgid "TreePress uses shortcodes to display family trees in pages of posts.  There are two formats.  Which one you use depends on your data and what you want to achieve:"
+msgstr "TreePress utiliza shortcodes para mostrar árboles genealógico en páginas de publicaciones.  Hay dos formatos.  El que utilices dependerá de tus datos y de lo que quieras conseguir:"
+
+#: admin/class-treepress-admin.php:887
+msgid "Managing Your Tree Display"
+msgstr "Administración de la pantalla de árbol"
+
+#: admin/class-treepress-admin.php:875
+msgid "Credit"
+msgstr "Crédito"
+
+#: admin/class-treepress-admin.php:863
+msgid "Display Your Information"
+msgstr "Mostrar su información"
+
+#: admin/class-treepress-admin.php:845 admin/class-treepress-admin.php:868
+msgid "TreePress Options"
+msgstr "TreePress Options"
+
+#: admin/class-treepress-admin.php:759
+msgid "You are not allowed to create more than one family tree on free version. "
+msgstr "No esta permitido crear mas de un arbol familiar en la version gratuita"
+
+#: admin/class-treepress-admin.php:725 admin/class-treepress-admin.php:760
+msgid "Upgrade Now!"
+msgstr "Actualiza ahora"
+
+#: admin/class-treepress-admin.php:724
+msgid "Awesome Premium Features"
+msgstr "Increibles caracteristicas premium"
+
+#: admin/class-treepress-admin.php:709
+msgid "If you would like to make a small donation to help us further develop the plugin, please check out our PayPal link here:"
+msgstr "Si usted desea hacer una pequeña donación para ayudarnos a desarrollar el plugin, por favor, consulte nuestro enlace de PayPal aquí:"
+
+#: admin/class-treepress-admin.php:705
+msgid "Help us Improve TreePress"
+msgstr "Ayúdanos a mejorar TreePress"
+
+#: admin/class-treepress-admin.php:702
+msgid "You can find a comprehensive support guide here."
+msgstr "Puede encontrar una guía de soporte completa aquí."
+
+#: admin/class-treepress-admin.php:699
+msgid "Thank you for using TreePress."
+msgstr "Gracias por usar TreePress."
+
+#: admin/class-treepress-admin.php:683 admin/class-treepress-admin.php:684
+#: admin/class-treepress-admin.php:696
+msgid "Account Settings"
+msgstr "Ajustes de cuenta"
+
+#: admin/class-treepress-admin.php:675 admin/class-treepress-admin.php:676
+msgid "Options"
+msgstr "Opciones"
+
+#: admin/class-treepress-admin.php:668 admin/class-treepress-admin.php:669
+#: admin/class-treepress-admin.php:1277
+msgid "Family Groups"
+msgstr "Grupos familiares"
+
+#: admin/class-treepress-admin.php:661 admin/class-treepress-admin.php:662
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+#: admin/class-treepress-admin.php:617 admin/class-treepress-admin.php:625
+msgid "Family members link"
+msgstr "vincula miembros familiares"
+
+#: admin/class-treepress-admin.php:602 admin/class-treepress-admin.php:610
+msgid "Family tree link"
+msgstr "vinculo arbol familiar"
+
+#: admin/class-treepress-admin.php:585
+msgid "Family Members"
+msgstr "Familiares"
+
+#: admin/class-treepress-admin.php:575 admin/class-treepress-admin.php:587
+msgid " View Page"
+msgstr "Ver página"
+
+#: admin/class-treepress-admin.php:575
+msgid "Family Tree"
+msgstr "Árbol genealógico"
+
+#: admin/class-treepress-admin.php:566
+msgid "Imported successfully"
+msgstr "Importado correctamente"
+
+#: admin/class-treepress-admin.php:415
+msgid "Exists! Try different family name"
+msgstr "Ya existe! Prueba un nombre familiar diferente"
+
+#: admin/class-treepress-admin.php:408
+msgid "File required"
+msgstr "Archivo requerido"
+
+#: admin/class-treepress-admin.php:395 admin/class-treepress-admin.php:400
+#: admin/class-treepress-admin.php:427
+msgid "Family name required"
+msgstr "Nombre familiar requerido"
+
+#: admin/class-treepress-admin.php:368
+msgid "Import"
+msgstr "Importar"
+
+#: admin/class-treepress-admin.php:358
+msgid "Select file (.ged)"
+msgstr "Seleccionar archivo (. GED)"
+
+#: admin/class-treepress-admin.php:347
+msgid "Family Name"
+msgstr "Nombre de la familia"
+
+#: admin/class-treepress-admin.php:333
+msgid "If your tree data does contain people without a full birth date, this will mean you need to use a slightly different shortcode to display a tree - see the 'Shortcodes' tab in the Options page for a full explanation."
+msgstr "Si sus datos de árbol contienen personas sin una fecha de nacimiento completa, esto significará que necesita usar un shortcode ligeramente diferente para mostrar un árbol-vea la pestaña ' shortcodes ' en la página de opciones para una explicación completa."
+
+#: admin/class-treepress-admin.php:330
+msgid "Please note that TreePress requires exact dates so if your family tree data exports with approximate date options (such as 'Before', 'After', 'Between' etc) these dates will not import.  Dates must contain day, month and year (although the format does not matter yyyy-mm-dd or dd-mm-yyyy will import).  You cannot import just a year or month-year."
+msgstr "Tenga en cuenta que TreePress requiere fechas exactas, por lo que si sus datos de árbol genealógico se exporta con opciones de fecha aproximada (como \"antes\", \"después\", \"entre\" etc.), estas fechas no se importarán.  Las fechas deben contener día, mes y año (aunque el formato no importa aaaa-mm-dd o dd-mm-aaaa se importará).  No puede importar solo un año o mes."
+
+#: admin/class-treepress-admin.php:327
+msgid "A Note on Dates:"
+msgstr "Una nota sobre las fechas:"
+
+#: admin/class-treepress-admin.php:322
+msgid "Here you can import a Gedcom (.ged) file which is the standard format for importing and exporting family tree data."
+msgstr "Aquí puede importar un archivo Gedcom (. GED) que es el formato estándar para importar y exportar datos de árbol genealógico."
+
+#: admin/class-treepress-admin.php:315
+msgid "TreePress Import"
+msgstr "TreePress Import"
+
+#: admin/class-treepress-admin.php:158 admin/class-treepress-admin.php:383
+msgid "You are not authorized to do this."
+msgstr "No estas autorizado para esta accion"
+
+#: admin/class-treepress-admin.php:145
+msgid "Export"
+msgstr "Exportar"
+
+#: admin/class-treepress-admin.php:127
+msgid "Select Family:"
+msgstr "Seleccionar familia:"
+
+#: includes/class-treepress-node.php:430 includes/class-treepress-node.php:436
+msgid "View the family of"
+msgstr "Ver la familia de"
+
+#: includes/class-treepress-node.php:425
+msgid "View information about"
+msgstr "Ver información sobre"
+
+#: includes/class-treepress-node.php:384
+msgid "More Facts"
+msgstr "Más datos"
+
+#: includes/class-treepress-node.php:375
+msgid "Shared Facts"
+msgstr "Datos compartidos"
+
+#: includes/class-treepress-node.php:365
+msgid "Individual Facts"
+msgstr "Hechos individuales"
+
+#: includes/class-treepress-node.php:338 admin/class-treepress-admin.php:1530
+msgid "Sealed to Spouse (LDS)"
+msgstr "Sellado al cónyuge (LDS)"
+
+#: includes/class-treepress-node.php:333 admin/class-treepress-admin.php:1526
+msgid "Divorce"
+msgstr "Divorcio"
+
+#: includes/class-treepress-node.php:328 admin/class-treepress-admin.php:1522
+msgid "Banns"
+msgstr "Amonestaciones"
+
+#: includes/class-treepress-node.php:320 admin/class-treepress-admin.php:1516
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-treepress-node.php:315 admin/class-treepress-admin.php:1511
+msgid "Social Security Number"
+msgstr "Número de seguro social"
+
+#: includes/class-treepress-node.php:310 admin/class-treepress-admin.php:1506
+msgid "Sealed to Parents (LDS)"
+msgstr "Sellado a los padres (LDS)"
+
+#: includes/class-treepress-node.php:305 admin/class-treepress-admin.php:1501
+msgid "Religion"
+msgstr "Religión"
+
+#: includes/class-treepress-node.php:300 admin/class-treepress-admin.php:1496
+msgid "Occupation"
+msgstr "Ocupación"
+
+#: includes/class-treepress-node.php:295 admin/class-treepress-admin.php:1491
+msgid "Nationality"
+msgstr "Nacionalidad"
+
+#: includes/class-treepress-node.php:290 admin/class-treepress-admin.php:1486
+msgid "Mission (LDS)"
+msgstr "Misión (LDS)"
+
+#: includes/class-treepress-node.php:285 admin/class-treepress-admin.php:1481
+msgid "Military Service"
+msgstr "Servicio militar"
+
+#: includes/class-treepress-node.php:280 admin/class-treepress-admin.php:1476
+msgid "Military Serial Number"
+msgstr "Número de serie militar"
+
+#: includes/class-treepress-node.php:275 admin/class-treepress-admin.php:1471
+msgid "Medical Condition"
+msgstr "Dolencia"
+
+#: includes/class-treepress-node.php:270 admin/class-treepress-admin.php:1466
+msgid "Known as"
+msgstr "Conocido como"
+
+#: includes/class-treepress-node.php:265 admin/class-treepress-admin.php:1461
+msgid "Immigration"
+msgstr "Inmigración"
+
+#: includes/class-treepress-node.php:260 admin/class-treepress-admin.php:1456
+msgid "Funeral"
+msgstr "Funeral"
+
+#: includes/class-treepress-node.php:255 admin/class-treepress-admin.php:1451
+msgid "Endowment (LDS)"
+msgstr "Dotación (LDS)"
+
+#: includes/class-treepress-node.php:250 admin/class-treepress-admin.php:1446
+msgid "Employment"
+msgstr "Empleo"
+
+#: includes/class-treepress-node.php:245 admin/class-treepress-admin.php:1441
+msgid "Emigration"
+msgstr "Emigración"
+
+#: includes/class-treepress-node.php:241 admin/class-treepress-admin.php:1436
+msgid "Divorced"
+msgstr "Divorciado"
+
+#: includes/class-treepress-node.php:236 admin/class-treepress-admin.php:1431
+msgid "Cremation"
+msgstr "Cremación"
+
+#: includes/class-treepress-node.php:231 admin/class-treepress-admin.php:1426
+msgid "Confirmation (LDS)"
+msgstr "Confirmación (LDS)"
+
+#: includes/class-treepress-node.php:226 admin/class-treepress-admin.php:1421
+msgid "Confirmation"
+msgstr "Confirmación"
+
+#: includes/class-treepress-node.php:221 admin/class-treepress-admin.php:1416
+msgid "Circumcision"
+msgstr "Circuncisión"
+
+#: includes/class-treepress-node.php:216 admin/class-treepress-admin.php:1411
+msgid "Burial"
+msgstr "Entierro"
+
+#: includes/class-treepress-node.php:211 admin/class-treepress-admin.php:1406
+msgid "Bat Mitzvah"
+msgstr "BAT Mitzvah"
+
+#: includes/class-treepress-node.php:206 admin/class-treepress-admin.php:1401
+msgid "Bar Mitzvah"
+msgstr "Bar mitzvah"
+
+#: includes/class-treepress-node.php:201 admin/class-treepress-admin.php:1396
+msgid "Baptism"
+msgstr "Bautismo"
+
+#: includes/class-treepress-node.php:196 admin/class-treepress-admin.php:1391
+msgid "Adoption"
+msgstr "Adopción"
+
+#: includes/class-treepress-node.php:191 admin/class-treepress-admin.php:1386
+msgid "Address"
+msgstr "Direccion"
+
+#: includes/class-treepress-node.php:171
+msgid "Siblings: "
+msgstr "Hermanos:"
+
+#: includes/class-treepress-node.php:155
+msgid "Children: "
+msgstr "Niños:"
+
+#: includes/class-treepress-node.php:148
+msgid "Spouse: "
+msgstr "Cónyuge:"
+
+#: includes/class-treepress-node.php:136
+msgid "Mother: "
+msgstr "Madre:"
+
+#: includes/class-treepress-node.php:133 includes/class-treepress-node.php:140
+msgid "Unspecified"
+msgstr "Indeterminado"
+
+#: includes/class-treepress-node.php:129
+msgid "Father: "
+msgstr "Padre:"
+
+#: includes/class-treepress-node.php:123 includes/class-treepress-node.php:467
+msgid "Died:"
+msgstr "Murió:"
+
+#: includes/class-treepress-node.php:121 includes/class-treepress-node.php:465
+msgid "Born:"
+msgstr "Nacido:"
+
+#: includes/class-treepress-node.php:115 includes/class-treepress-node.php:117
+msgid "View tree"
+msgstr "Ver árbol"
+
+#: includes/class-treepress-node.php:101
+msgid "Gender not specified"
+msgstr "Género no especificado"
+
+#: includes/class-treepress-node.php:99 admin/class-treepress-admin.php:1572
+msgid "Female"
+msgstr "Mujer"
+
+#: includes/class-treepress-node.php:97 admin/class-treepress-admin.php:1565
+msgid "Male"
+msgstr "masculino"
+
+#: includes/class-treepress-options.php:99
+msgid "You need to configure the TreePress plugin and set the \\\"family tree link\\\" parameter in the administrator panel.\\n\\nThis parameter will tell the family tree plugin which page is used to display the main family tree. I.e, the page where you have put the [family-tree] shortcode.\\n\\n\");"
+msgstr "Es necesario configurar el plugin TreePress y establecer el parámetro \\ \"árbol genealógico\" en el panel del administrador. \\ n \\ Neste parámetro le dirá al complemento de árbol genealógico qué página se utiliza para mostrar el árbol genealógico principal. Es decir, la página en la que ha puesto el shortcode de [Family-Tree]. \\ n \\ n \");"
+
+#. Author URI of the plugin
+msgid "https://www.blackandwhitedigital.net/"
+msgstr "https://www.blackandwhitedigital.net/"
+
+#. Author of the plugin
+msgid "Black and White Digital Ltd"
+msgstr "Black and White digital Ltd"
+
+#. Description of the plugin
+msgid "Easily display a family tree and family genealogical information in WordPress"
+msgstr "Mostrar facilmente informacion de arbol familiar y genealogico en WordPress "
+
+#. Plugin URI of the plugin
+msgid "https://www.treepress.net/"
+msgstr "https://www.treepress.net/"
+
+#. Plugin Name of the plugin
+#: admin/class-treepress-admin.php:651 admin/class-treepress-admin.php:652
+msgid "TreePress"
+msgstr "TreePress"
